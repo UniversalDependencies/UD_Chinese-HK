@@ -979,11 +979,11 @@
 # sent_id = 110
 # text = 弄到哪裏去了？
 1	弄	弄	VERB	_	_	0	root	_	SpaceAfter=No
-2	到	到	ADP	_	_	3	case	_	SpaceAfter=No
+2	到	到	VERB	_	_	3	case	_	SpaceAfter=No
 3	哪裏	哪裏	PRON	_	_	1	obl	_	SpaceAfter=No
 4	去	去	VERB	_	_	1	xcomp	_	SpaceAfter=No
 5	了	了	PART	_	_	1	discourse:sp	_	SpaceAfter=No
-6	？	？	PUNCT	_	_	_	_	_	SpaceAfter=No
+6	？	？	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 111
 # text = 可以怎樣稱呼我？我只知道整條街都稱我「大家姐」，因為我最大，年紀最大。
