@@ -17,7 +17,23 @@ Contact: tswong-c@my.cityu.edu.hk; jsylee@cityu.edu.hk
 
 UD CHINESE-HK
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, using subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.
+
+ORIGIN
+
+#send_id = 1 to 100
+Title: Missing days / 小時光
+Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
+Duration: 30 minutes
+
+#send_id = 101 to 209
+Title: Tempo in Temple / 廟眾樂樂 
+Sporce: https://www.youtube.com/watch?v=8e8Lqd6grTE	
+Duration: 16 minutes
+
+DATA
+
+Since there are only 1871 tokens, only the test set is provided.
 
 BASIC STATISTICS
 
@@ -35,3 +51,9 @@ When determining the POS, one usually considers both the "morphological evidence
 Take an example in English, consider the word "pen" in the sentence "I pen a letter".  Morphological evidence suggests the word "pen" should be tagged as an noun (NN), reflecting its normal usage. Distributional evidence suggests it should be tagged as a verb, since this word is in a typical position of verb in a SVO language.
 
 When these two kinds of evidence contradict one another, the morphological evidence prevails.
+
+REFERENCES
+
+When using this treebank, please cite at least one paper from the following references:
+Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative Syntax on the Cantonese-Mandarin Parallel Dependency Treebank" Proceedings of the Fourth International Conference on Dependency Linguistics, pp. 266−275, Pisa, Italy, September 2017.
+Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying ChEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
