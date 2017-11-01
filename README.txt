@@ -22,13 +22,13 @@ The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-
 ORIGIN
 
 #send_id = 1 to 100
-Title: Missing days / 小時光
+Title: Missing days / 小時光 (first 100 sentences)
 Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
 Duration: 30 minutes
 
 #send_id = 101 to 209
-Title: Tempo in Temple / 廟眾樂樂 
-Sporce: https://www.youtube.com/watch?v=8e8Lqd6grTE	
+Title: Tempo in Temple / 廟眾樂樂 (first 109 sentences)
+Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
 Duration: 16 minutes
 
 DATA
