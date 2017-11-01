@@ -28,7 +28,7 @@
 1	該	_	AUX	_	_	2	aux	_	SpaceAfter=No
 2	取	_	VERB	_	_	6	dislocated	_	SpaceAfter=No
 3	走	_	VERB	_	_	2	compound:vv	_	SpaceAfter=No
-4	的	_	PART	_	_	2	mark:relzr	_	SpaceAfter=No
+4	的	_	PART	_	_	2	mark:rel	_	SpaceAfter=No
 5	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	取	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	走	_	VERB	_	_	6	compound:vv	_	SpaceAfter=No
@@ -38,7 +38,7 @@
 # sent_id = 4
 # text = 餘下的都沒用！
 1	餘下	_	VERB	_	_	4	nsubj	_	SpaceAfter=No
-2	的	_	PART	_	_	1	mark:relzr	_	SpaceAfter=No
+2	的	_	PART	_	_	1	mark:rel	_	SpaceAfter=No
 3	都	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	沒用	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -330,7 +330,7 @@
 # text = 很強的戰鬥力！
 1	很	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	強	_	ADJ	_	_	4	amod	_	SpaceAfter=No
-3	的	_	PART	_	_	2	mark:relzr	_	SpaceAfter=No
+3	的	_	PART	_	_	2	mark:rel	_	SpaceAfter=No
 4	戰鬥力	_	NOUN	_	_	0	root	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
@@ -354,7 +354,7 @@
 1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 2	只	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	記	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	著	_	AUX	_	_	3	aux:aspect	_	SpaceAfter=No
+4	著	_	AUX	_	_	3	aux	_	SpaceAfter=No
 5	益力多	_	PROPN	_	_	3	obj	_	SpaceAfter=No
 6	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -653,7 +653,7 @@
 5	你	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
 6	很	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	喜歡	_	VERB	_	_	9	acl	_	SpaceAfter=No
-8	的	_	PART	_	_	7	mark:relzr	_	SpaceAfter=No
+8	的	_	PART	_	_	7	mark:rel	_	SpaceAfter=No
 9	悟空	_	PROPN	_	_	0	root	_	SpaceAfter=No
 10	嗎	_	PART	_	_	9	discourse:sp	_	SpaceAfter=No
 11	？	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -747,7 +747,7 @@
 # text = 是閃的！
 1	是	_	VERB	_	_	2	cop	_	SpaceAfter=No
 2	閃	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	的	_	PART	_	_	2	mark:relzr	_	SpaceAfter=No
+3	的	_	PART	_	_	2	mark:rel	_	SpaceAfter=No
 4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 90
@@ -812,7 +812,7 @@
 # sent_id = 97
 # text = 過了這麼多年。
 1	過	_	VERB	_	_	0	root	_	SpaceAfter=No
-2	了	_	AUX	_	_	1	aux:aspect	_	SpaceAfter=No
+2	了	_	AUX	_	_	1	aux	_	SpaceAfter=No
 3	這麼	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	多	_	DET	_	_	5	det	_	SpaceAfter=No
 5	年	_	NOUN	_	_	1	obj	_	SpaceAfter=No
@@ -979,11 +979,11 @@
 # sent_id = 110
 # text = 弄到哪裏去了？
 1	弄	弄	VERB	_	_	0	root	_	SpaceAfter=No
-2	到	到	ADP	_	_	3	case	_	SpaceAfter=No
+2	到	到	VERB	_	_	3	case	_	SpaceAfter=No
 3	哪裏	哪裏	PRON	_	_	1	obl	_	SpaceAfter=No
 4	去	去	VERB	_	_	1	xcomp	_	SpaceAfter=No
 5	了	了	PART	_	_	1	discourse:sp	_	SpaceAfter=No
-6	？	？	PUNCT	_	_	_	_	_	SpaceAfter=No
+6	？	？	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 111
 # text = 可以怎樣稱呼我？我只知道整條街都稱我「大家姐」，因為我最大，年紀最大。
@@ -2495,3 +2495,4 @@
 3	15	15	NUM	_	_	4	nummod	_	SpaceAfter=No
 4	分鐘	分鐘	NOUN	_	_	2	obj	_	SpaceAfter=No
 5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
