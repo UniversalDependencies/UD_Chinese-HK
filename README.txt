@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.
 
@@ -33,7 +33,7 @@ POS TAGGING
 
 When determining the POS, one usually considers both the "morphological evidence", i.e., the linguistic form of the word, as well as the "distributional evidence", i.e., its syntactic use in the sentence. Usually, these two kinds of evidence should agree; in some cases, however, the POS of some word is tentatively alterned to fullfil the special purpose of the author.
 
-Take an example in English, consider the word "pen" in the sentence "I pen a letter".  Morphological evidence suggests the word "pen" should be tagged as an noun (NN), reflecting its normal usage. Distributional evidence suggests it should be tagged as a verb, since this word is in a typical position of verb in a SVO language.
+Take an example in English, consider the word "pen" in the sentence "I pen a letter".  Morphological evidence suggests the word "pen" should be tagged as an noun (NN), reflecting its normal usage. Distributional evidence suggests it should be tagged as a verb, since this word is in a typical syntactic position of verb in a SVO language.
 
 When these two kinds of evidence contradict one another, the morphological evidence prevails.
 
@@ -45,7 +45,7 @@ This work was partially supported by a grant from the PROCORE-France/Hong Kong J
 
 When using this treebank, please cite at least one paper from the following references:
 Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative Syntax on the Cantonese-Mandarin Parallel Dependency Treebank" Proceedings of the Fourth International Conference on Dependency Linguistics, pp. 266−275, Pisa, Italy, September 2017.
-Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying ChEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.\
+Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying ChEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
 
 === Machine-readable metadata =================================================
 Documentation status: partial
