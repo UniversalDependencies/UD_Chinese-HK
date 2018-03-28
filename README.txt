@@ -1,33 +1,41 @@
 ﻿# Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
 ORIGIN
 
-#send_id = 1 to 100
-Title: Missing days / 小時光 (first 100 sentences)
+#send_id = 1 to 410
+Title: Missing days / 小時光
 Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
 Duration: 30 minutes
+Fluency: The dialogues are most prepared.
 
-#send_id = 101 to 209
-Title: Tempo in Temple / 廟眾樂樂 (first 109 sentences)
+#send_id = 411 to 547
+Title: Tempo in Temple / 廟眾樂樂
 Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
 Duration: 16 minutes
+Fluency: This is an interview.  Most sentences are not prepared and thus contain a lot of disfluencies.  A lot of reparandums are tagged. 
+
+#send_id = 411 to 547
+Title: What day is today / 今日星期幾
+Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
+Duration: 31 minutes
+Fluency: The dialogues are most prepared.
 
 DATA
 
-Since there are only 1871 tokens, only the test set is provided.
+Since there are only 4792 tokens, only the test set is provided.
 
 BASIC STATISTICS
 
-Tree count:  209
-Word count:  1871
-Token count: 1871
-Dep. relations: 41 of which 10 language specific
-POS tags: 17
-Category=value feature pairs: 0
+Tree count:  650
+Word count:  4792
+Token count: 4792
+Dep. relations: 43 of which 12 language specific
+POS tags: 16
+Category=value feature pairs: 1
 
 POS TAGGING
 
@@ -57,7 +65,7 @@ Genre: subtitle
 Lemmas: not available
 UPOS: manual native
 XPOS: not available
-Features: not available
+Features: manual native
 Relations: manual native
 Contributors: Gerdes, Kim; Lee, John; Leung, Herman; Wong, Tak-sum
 contributing: elsewhere
