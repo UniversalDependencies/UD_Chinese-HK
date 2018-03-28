@@ -1,10 +1,10 @@
 # sent_id = 1
 # text = 你在找些什麼？
-1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	在	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-3	找	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
-5	什麼	_	PRON	_	_	3	obj	_	SpaceAfter=No
+1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=ni3|Gloss=2SG
+2	在	_	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=zai4|Gloss=PROG
+3	找	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhao3|Gloss=find
+4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No|Translit=xie1|Gloss=CLF.PL
+5	什麼	_	PRON	_	_	3	obj	_	SpaceAfter=No|Translit=shen2me|Gloss=what
 6	？	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 2
@@ -647,8 +647,8 @@
 # sent_id = 78
 # text = 這不就是你很喜歡的悟空嗎？
 1	這	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
-2	不	_	ADV	_	_	9	advmod	_	SpaceAfter=No
-3	就	_	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	就	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	9	cop	_	SpaceAfter=No
 5	你	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
 6	很	_	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -660,8 +660,8 @@
 
 # sent_id = 79
 # text = 又不是閃卡！
-1	又	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-2	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+1	又	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	不	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	閃卡	_	NOUN	_	_	0	root	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -766,7 +766,7 @@
 
 # sent_id = 92
 # text = 都是爺爺的錯。
-1	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+1	都	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	爺爺	_	NOUN	_	_	5	nmod	_	SpaceAfter=No
 4	的	_	PART	_	_	3	case	_	SpaceAfter=No
@@ -859,7 +859,7 @@
 
 # sent_id = 102
 # text = 哦。
-1	哦	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	哦	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 103
@@ -881,7 +881,7 @@
 
 # sent_id = 105
 # text = 都是無線電視的錯！
-1	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+1	都	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	無線電視	_	PROPN	_	_	5	nmod	_	SpaceAfter=No
 4	的	_	PART	_	_	3	case	_	SpaceAfter=No
@@ -896,7 +896,7 @@
 4	卡通片	_	NOUN	_	_	3	obj	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	令	_	VERB	_	_	0	root	_	SpaceAfter=No
-7	小朋友們	_	NOUN	_	_	7	obj	_	SpaceAfter=No
+7	小朋友們	_	NOUN	_	_	6	obj	_	SpaceAfter=No
 8	都	_	ADV	_	_	10	advmod	_	SpaceAfter=No
 9	捱夜	_	VERB	_	_	10	advmod	_	SpaceAfter=No
 10	追	_	VERB	_	_	6	xcomp	_	SpaceAfter=No
@@ -905,7 +905,7 @@
 
 # sent_id = 107
 # text = 唉！
-1	唉	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	唉	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 108
@@ -922,7 +922,7 @@
 # sent_id = 109
 # text = 我和哥哥小時候也愛晚上偷偷出廳看金田一。
 1	我	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
-2	和	_	CONJ	_	_	3	cc	_	SpaceAfter=No
+2	和	_	CCONJ	_	_	3	cc	_	SpaceAfter=No
 3	哥哥	_	NOUN	_	_	1	conj	_	SpaceAfter=No
 4	小時候	_	NOUN	_	_	9	obl:tmod	_	SpaceAfter=No
 5	也	_	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -951,13 +951,13 @@
 
 # sent_id = 111
 # text = 但又怕給你們發現。
-1	但	_	CCONJ	_	_	2	cc	_	SpaceAfter=No
-2	又	_	ADV	_	_	2	advmod	_	SpaceAfter=No
-3	怕	_	VERB	_	_	0	root	_	SpaceAfter=No
+1	但	_	CCONJ	_	_	2	advmod	_	SpaceAfter=No
+2	又	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+3	怕	_	AUX	_	_	6	aux	_	SpaceAfter=No
 4	給	_	ADP	_	_	5	case	_	SpaceAfter=No
 5	你們	_	PRON	_	_	6	obl	_	SpaceAfter=No
-6	發現	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
-7	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	發現	_	VERB	_	_	0	root	_	SpaceAfter=No
+7	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 112
 # text = 兩兄妹都這樣。
@@ -1075,9 +1075,9 @@
 
 # sent_id = 126
 # text = 快走！
-1	快	_	ADV	_	_	1	advmod	_	SpaceAfter=No
+1	快	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	走	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 127
 # text = 快去睡！
@@ -1102,11 +1102,11 @@
 # text = 那天開始，我們懂得玩這個遊戲。
 1	那	_	DET	_	_	2	det	_	SpaceAfter=No
 2	天	_	NOUN	_	NounType=Clf	3	obl:tmod	_	SpaceAfter=No
-3	開始	_	VERB	_	_	6	advcl	_	SpaceAfter=No
+3	開始	_	VERB	_	_	7	advcl	_	SpaceAfter=No
 4	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	我們	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-6	懂得	_	VERB	_	_	0	root	_	SpaceAfter=No
-7	玩	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
+6	懂得	_	AUX	_	_	7	aux	_	SpaceAfter=No
+7	玩	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	這	_	DET	_	_	10	det	_	SpaceAfter=No
 9	個	_	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No
 10	遊戲	_	NOUN	_	_	7	obj	_	SpaceAfter=No
@@ -1114,7 +1114,7 @@
 
 # sent_id = 130
 # text = 一般每二十多張白卡便出一張閃卡。
-1	一般	_	NOUN	_	_	7	npadvmod	_	SpaceAfter=No
+1	一般	_	NOUN	_	_	7	advmod	_	SpaceAfter=No
 2	每	_	DET	_	_	5	det	_	SpaceAfter=No
 3	二十多	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	張	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
@@ -1128,10 +1128,10 @@
 
 # sent_id = 131
 # text = 我們開始懂得跟隊。
-1	我們	_	PRON	_	_	1	nsubj	_	SpaceAfter=No
+1	我們	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
 2	開始	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	懂得	_	VERB	_	_	2	xcomp	_	SpaceAfter=No
-4	跟隊	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
+3	懂得	_	AUX	_	_	4	aux	_	SpaceAfter=No
+4	跟隊	_	VERB	_	_	2	xcomp	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 132
@@ -1314,7 +1314,7 @@
 1	他	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 2	剛	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	告訴	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	我	_	PRON	_	_	4	obj	_	SpaceAfter=No
+4	我	_	PRON	_	_	3	obj	_	SpaceAfter=No
 5	的	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 6	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -1499,7 +1499,7 @@
 13	個	_	NOUN	_	NounType=Clf	14	nsubj	_	SpaceAfter=No
 14	喜歡	_	VERB	_	_	9	conj	_	SpaceAfter=No
 15	黎明	_	PROPN	_	_	14	obj	_	SpaceAfter=No
-16	。	_	PUNCT	_	_	0	punct	_	SpaceAfter=No
+16	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 173
 # text = 誰喜歡哪個我都忘了。
@@ -1565,7 +1565,7 @@
 # sent_id = 179
 # text = 什麼眾數、平均數、中位數？
 1	什麼	_	DET	_	_	2	det	_	SpaceAfter=No
-2	眾數	_	NOUN	_	_	0	noun	_	SpaceAfter=No
+2	眾數	_	NOUN	_	_	0	root	_	SpaceAfter=No
 3	、	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	平均數	_	NOUN	_	_	2	conj	_	SpaceAfter=No
 5	、	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -1591,13 +1591,13 @@
 2	高	_	ADJ	_	_	3	amod	_	SpaceAfter=No
 3	頻率	_	NOUN	_	_	0	root	_	SpaceAfter=No
 4	那	_	DET	_	_	5	det	_	SpaceAfter=No
-5	組	_	NOUN	_	NounType=Clf	3	apps	_	SpaceAfter=No
+5	組	_	NOUN	_	NounType=Clf	3	appos	_	SpaceAfter=No
 6	嗎	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 7	？	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 183
 # text = 哦。
-1	哦	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	哦	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 184
@@ -1647,11 +1647,10 @@
 
 # sent_id = 190
 # text = 這個我知道。
-1	這	_	DET	_	_	2	det	_	SpaceAfter=No
-2	個	_	NOUN	_	NounType=Clf	4	obj:periph	_	SpaceAfter=No
-3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
-4	知道	_	VERB	_	_	0	root	_	SpaceAfter=No
-5	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	這個	_	PRON	_	_	3	obj:periph	_	SpaceAfter=No
+2	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
+3	知道	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 191
 # text = 對了，陳奕迅的新碟你聽過了嗎？
@@ -1660,7 +1659,7 @@
 3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	陳奕迅	_	PROPN	_	_	7	nmod	_	SpaceAfter=No
 5	的	_	PART	_	_	4	case	_	SpaceAfter=No
-6	新	_	ADJ	_	_	7	admod	_	SpaceAfter=No
+6	新	_	ADJ	_	_	7	amod	_	SpaceAfter=No
 7	碟	_	NOUN	_	_	9	obj:periph	_	SpaceAfter=No
 8	你	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
 9	聽	_	VERB	_	_	1	parataxis	_	SpaceAfter=No
@@ -1723,7 +1722,7 @@
 2	你	_	PRON	_	_	4	nmod	_	SpaceAfter=No
 3	什麼	_	DET	_	_	4	det	_	SpaceAfter=No
 4	事	_	NOUN	_	_	1	obj	_	SpaceAfter=No
-5	？	_	PUNCT	_	_	0	punct	_	SpaceAfter=No
+5	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 200
 # text = 喂，你幹麼？
@@ -1819,7 +1818,7 @@
 # sent_id = 211
 # text = 是誰打電話來的？
 1	是	_	VERB	_	_	0	root	_	SpaceAfter=No
-2	誰	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
+2	誰	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 3	打	_	VERB	_	_	1	ccomp	_	SpaceAfter=No
 4	電話	_	NOUN	_	_	3	obj	_	SpaceAfter=No
 5	來	_	VERB	_	_	3	compound:dir	_	SpaceAfter=No
@@ -1836,7 +1835,7 @@
 
 # sent_id = 213
 # text = 喂？
-1	喂	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	喂	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 214
@@ -1872,8 +1871,8 @@
 2	覺得	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	陳奕迅	_	PROPN	_	_	8	nsubj	_	SpaceAfter=No
 4	同	_	CCONJ	_	_	5	cc	_	SpaceAfter=No
-5	楊千嬅	_	N	_	_	3	conj	_	SpaceAfter=No
-6	最後	_	PROPN	_	_	8	advmod	_	SpaceAfter=No
+5	楊千嬅	_	PROPN	_	_	3	conj	_	SpaceAfter=No
+6	最後	_	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No
 7	會	_	AUX	_	_	8	aux	_	SpaceAfter=No
 8	一起	_	ADV	_	_	2	ccomp	_	SpaceAfter=No
 9	嗎	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
@@ -1883,7 +1882,7 @@
 # text = 不是蠻合襯嗎？
 1	不	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
-3	蠻	_	ADV	_	_	4	advmd	_	SpaceAfter=No
+3	蠻	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	合襯	_	ADJ	_	_	0	root	_	SpaceAfter=No
 5	嗎	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 6	？	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -1916,7 +1915,7 @@
 13	我們	_	PRON	_	_	15	nsubj	_	SpaceAfter=No
 14	就	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 15	流行	_	VERB	_	_	0	root	_	SpaceAfter=No
-16	歌	_	NOUN	_	_	15	noun	_	SpaceAfter=No
+16	歌	_	NOUN	_	_	15	obj	_	SpaceAfter=No
 17	。	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = 221
@@ -2018,7 +2017,7 @@
 
 # sent_id = 227
 # text = 而且陳奕迅每兩三個月便出一張新唱片。
-1	而且	_	CCONJ	_	_	9	cc	_	SpaceAfter=No
+1	而且	_	CCONJ	_	_	9	advmod	_	SpaceAfter=No
 2	陳奕迅	_	PROPN	_	_	9	nsubj	_	SpaceAfter=No
 3	每	_	DET	_	_	7	det	_	SpaceAfter=No
 4	兩	_	NUM	_	_	7	nummod	_	SpaceAfter=No
@@ -2035,7 +2034,7 @@
 
 # sent_id = 228
 # text = 但在小時候反而有錢能把想要的唱片都全部購入。
-1	但	_	CCONJ	_	_	5	cc	_	SpaceAfter=No
+1	但	_	CCONJ	_	_	5	advmod	_	SpaceAfter=No
 2	在	_	ADP	_	_	3	case	_	SpaceAfter=No
 3	小時候	_	NOUN	_	_	5	obl:tmod	_	SpaceAfter=No
 4	反而	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -2065,7 +2064,7 @@
 
 # sent_id = 230
 # text = 但就是每天也聽個不停。
-1	但	_	CCONJ	_	_	3	cc	_	SpaceAfter=No
+1	但	_	CCONJ	_	_	3	advmod	_	SpaceAfter=No
 2	就	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	是	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	每	_	DET	_	_	5	det	_	SpaceAfter=No
@@ -2118,7 +2117,7 @@
 # sent_id = 235
 # text = 那些唱片又不是我的！
 1	那些	_	DET	_	_	2	det	_	SpaceAfter=No
-2	唱片	_	NOUN	_	_	5	nsusbj	_	SpaceAfter=No
+2	唱片	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 3	又	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	是	_	AUX	_	_	6	cop	_	SpaceAfter=No
@@ -2312,7 +2311,7 @@
 
 # sent_id = 257
 # text = 但是那天，哥哥買回來的竟然不是陳奕迅，而是楊千嬅的唱片。
-1	但是	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+1	但是	_	CCONJ	_	_	12	advmod	_	SpaceAfter=No
 2	那	_	DET	_	_	3	det	_	SpaceAfter=No
 3	天	_	NOUN	_	NounType=Clf	6	obl:tmod	_	SpaceAfter=No
 4	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -2320,8 +2319,8 @@
 6	買	_	VERB	_	_	12	csubj	_	SpaceAfter=No
 7	回來	_	VERB	_	_	6	compound:dir	_	SpaceAfter=No
 8	的	_	PART	_	_	6	mark:rel	_	SpaceAfter=No
-9	竟然	_	ADV	_	_	12	advmod	_	SpaceAfter=No
-10	不	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+9	竟然	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+10	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	陳奕迅	_	PROPN	_	_	0	root	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -2388,7 +2387,7 @@
 7	的	_	PART	_	_	6	case	_	SpaceAfter=No
 8	好	_	ADJ	_	_	9	amod	_	SpaceAfter=No
 9	品味	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
-10	不	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+10	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	陳奕迅	_	PROPN	_	_	5	ccomp	_	SpaceAfter=No
 13	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -2396,7 +2395,7 @@
 # sent_id = 262
 # text = 應該也不是楊千嬅。
 1	應該	_	AUX	_	_	4	aux	_	SpaceAfter=No
-2	也	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	也	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 5	楊千嬅	_	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -2444,7 +2443,7 @@
 
 # sent_id = 267
 # text = 哦。
-1	哦	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	哦	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 268
@@ -2457,7 +2456,7 @@
 
 # sent_id = 269
 # text = 哦。
-1	哦	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	哦	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 270
@@ -2522,7 +2521,7 @@
 # text = 我也要問功課！
 1	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 2	也	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-3	要	_	AUX	_	_	4	aux		SpaceAfter=No
+3	要	_	AUX	_	_	4	aux	_	SpaceAfter=No
 4	問	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	功課	_	NOUN	_	_	4	obj	_	SpaceAfter=No
 6	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2530,9 +2529,9 @@
 # sent_id = 278
 # text = 不是只有你有功課做！
 1	不	_	ADV	_	_	2	advmod	_	SpaceAfter=No
-2	是		VERB	_	_	0	root		SpaceAfter=No
+2	是	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	只	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-4	有		VERB	_	_	6	advcl		SpaceAfter=No
+4	有	_	VERB	_	_	6	advcl	_	SpaceAfter=No
 5	你	_	PRON	_	_	4	obj	_	SpaceAfter=No
 6	有	_	VERB	_	_	2	ccomp	_	SpaceAfter=No
 7	功課	_	NOUN	_	_	6	obj	_	SpaceAfter=No
@@ -2566,7 +2565,7 @@
 
 # sent_id = 282
 # text = 八號要交了！
-1	八號	_	NOUN	_	_	3	obl:temo	_	SpaceAfter=No
+1	八號	_	NOUN	_	_	3	obl:tmod	_	SpaceAfter=No
 2	要	_	AUX	_	_	3	aux	_	SpaceAfter=No
 3	交	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	了	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -2593,7 +2592,7 @@
 
 # sent_id = 286
 # text = 喂？
-1	喂	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	喂	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 287
@@ -2608,7 +2607,7 @@
 
 # sent_id = 288
 # text = 我想先教教她。
-1	我	_	PRON	_	_	4	nsubvj	_	SpaceAfter=No
+1	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 2	想	_	AUX	_	_	4	aux	_	SpaceAfter=No
 3	先	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	教教	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -2637,8 +2636,8 @@
 # sent_id = 291
 # text = 那題我明白了。
 1	那	_	DET	_	_	2	det	_	SpaceAfter=No
-2	題	_	NOUN	_	NounType=Clf	4	obl:periph	_	SpaceAfter=No
-3	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
+2	題	_	NOUN	_	NounType=Clf	4	obj:periph	_	SpaceAfter=No
+3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	明白	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	了	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 6	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -2648,7 +2647,7 @@
 1	好	_	ADJ	_	_	0	root	_	SpaceAfter=No
 2	的	_	PART	_	_	1	mark:rel	_	SpaceAfter=No
 3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	再見	_	INTJ	_	_	1	discouse	_	SpaceAfter=No
+4	再見	_	INTJ	_	_	1	discourse	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 293
@@ -2665,7 +2664,7 @@
 # sent_id = 294
 # text = 不要！
 1	不	_	ADV	_	_	2	advmod	_	SpaceAfter=No
-2	要	_	AUX	_	_	0	aux	_	SpaceAfter=No
+2	要	_	AUX	_	_	0	root	_	SpaceAfter=No
 3	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 295
@@ -2703,7 +2702,7 @@
 2	我	_	PRON	_	_	4	nmod	_	SpaceAfter=No
 3	什麼	_	DET	_	_	4	det	_	SpaceAfter=No
 4	事	_	NOUN	_	_	1	obj	_	SpaceAfter=No
-5	？	_	PUNCT	_	_	0	punct	_	SpaceAfter=No
+5	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 299
 # text = 喂，關係到將來你有沒有利是錢收。
@@ -2721,7 +2720,7 @@
 
 # sent_id = 300
 # text = 喂！
-1	喂	_	INTJ	_	_	0	discourse	_	SpaceAfter=No
+1	喂	_	INTJ	_	_	0	root	_	SpaceAfter=No
 2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 301
@@ -2774,7 +2773,7 @@
 # sent_id = 307
 # text = 又怎麼了？
 1	又	_	ADV	_	_	2	advmod	_	SpaceAfter=No
-2	怎麼	_	ADV	_	_	0	advmod	_	SpaceAfter=No
+2	怎麼	_	ADV	_	_	0	root	_	SpaceAfter=No
 3	了	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 4	？	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -2801,8 +2800,9 @@
 5	？	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 311
-# text = 計數！
+# text = 計數！！
 1	計數！	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 312
 # text = 記著，每一面三十分鐘。
@@ -2813,7 +2813,7 @@
 5	一	_	NUM	_	_	6	nummod	_	SpaceAfter=No
 6	面	_	NOUN	_	NounType=Clf	8	obl	_	SpaceAfter=No
 7	三十	_	NUM	_	_	8	nummod	_	SpaceAfter=No
-8	分鐘	_	NOUN	_	NounType=Clf	0	conj	_	SpaceAfter=No
+8	分鐘	_	NOUN	_	NounType=Clf	1	conj	_	SpaceAfter=No
 9	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 313
@@ -2823,7 +2823,7 @@
 3	歌	_	NOUN	_	_	2	obj	_	SpaceAfter=No
 4	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 5	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
-6	計數	_	VERB	_	_	2	paratraix	_	SpaceAfter=No
+6	計數	_	VERB	_	_	2	parataxis	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 314
@@ -2865,7 +2865,7 @@
 # sent_id = 318
 # text = 記下，第一首，《抬起我的頭來》，三分二十一秒。
 1	記	_	VERB	_	_	0	root	_	SpaceAfter=No
-2	下	_	PART	_	_	1	advmod	_	SpaceAfter=No
+2	下	_	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	第一	_	ADJ	_	_	5	amod	_	SpaceAfter=No
 5	首	_	NOUN	_	NounType=Clf	1	conj	_	SpaceAfter=No
@@ -2965,10 +2965,10 @@
 
 # sent_id = 330
 # text = 其實我也不明白，哥哥為何不直接送楊千嬅的唱片給他朋友。
-1	其實	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-2	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
-3	也	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-4	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+1	其實	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	我	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
+3	也	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	明白	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 7	哥哥	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
@@ -2986,7 +2986,7 @@
 
 # sent_id = 331
 # text = 但我覺得那一晚，我們幹了一場很帥很浪漫的事情。
-1	但	_	CCONJ	_	_	3	cc	_	SpaceAfter=No
+1	但	_	CCONJ	_	_	3	advmod	_	SpaceAfter=No
 2	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 3	覺得	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	那	_	DET	_	_	6	det	_	SpaceAfter=No
@@ -3009,7 +3009,7 @@
 # sent_id = 332
 # text = 收拾好！
 1	收拾	_	VERB	_	_	0	root	_	SpaceAfter=No
-2	好	_	ADJ	_	_	1	compund:vv	_	SpaceAfter=No
+2	好	_	ADJ	_	_	1	compound:vv	_	SpaceAfter=No
 3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 333
@@ -3063,7 +3063,7 @@
 # sent_id = 339
 # text = 這就是九零三。
 1	這	_	DET	_	_	4	det	_	SpaceAfter=No
-2	就	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	就	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	九零三	_	PROPN	_	_	0	root	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3081,11 +3081,11 @@
 2	不	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	到	_	VERB	_	_	1	compound:vv	_	SpaceAfter=No
 4	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-1	你	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
-2	弄	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	壞	_	VERB	_	_	2	compound:vv	_	SpaceAfter=No
-4	了	_	PART	_	_	2	aux	_	SpaceAfter=No
-5	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
+6	弄	_	VERB	_	_	1	parataxis	_	SpaceAfter=No
+7	壞	_	VERB	_	_	6	compound:vv	_	SpaceAfter=No
+8	了	_	PART	_	_	6	aux	_	SpaceAfter=No
+9	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 342
 # text = 你快弄好回來呀。
@@ -3094,7 +3094,7 @@
 3	弄	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	好	_	ADJ	_	_	3	compound:vv	_	SpaceAfter=No
 5	回來	_	VERB	_	_	3	conj	_	SpaceAfter=No
-6	呀	_	PART	_	_	3	discourse:sp		SpaceAfter=No
+6	呀	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 343
@@ -3228,7 +3228,7 @@
 3	弄	_	VERB	_	_	1	ccomp	_	SpaceAfter=No
 4	壞	_	ADJ	_	_	3	compound:vv	_	SpaceAfter=No
 5	的	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
-6	。	_	PUNCT	_	_	0	punct	_	SpaceAfter=No
+6	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 358
 # text = 你要負責弄好。
@@ -3423,7 +3423,7 @@
 # text = 乖乖坐下吧！
 1	乖乖	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	坐	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	下	_	PART	_	_	2	compound:dir	_	SpaceAfter=No
+3	下	_	ADV	_	_	2	compound:dir	_	SpaceAfter=No
 4	吧	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -3510,12 +3510,12 @@
 6	朋友	_	NOUN	_	_	7	obl	_	SpaceAfter=No
 7	交換	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	回來	_	VERB	_	_	7	conj	_	SpaceAfter=No
-9	的	_	PART	_	_	7	discourse:sp?case?mark:rel	_	SpaceAfter=No
+9	的	_	PART	_	_	7	discourse:sp	_	SpaceAfter=No
 10	！	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = 391
 # text = 已經是千禧年了，沒有人會再聽錄音帶！
-1	已經	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+1	已經	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	3	cop	_	SpaceAfter=No
 3	千禧年	_	NOUN	_	_	0	root	_	SpaceAfter=No
 4	了	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -3535,12 +3535,12 @@
 
 # sent_id = 393
 # text = 就是這一盒？
-1	就	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+1	就	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	這	_	DET	_	_	5	det	_	SpaceAfter=No
 4	一	_	NUM	_	_	5	nummod	_	SpaceAfter=No
-5	盒	_	NOUN	_	NounType=Clf	0	obj	_	SpaceAfter=No
-6	？	_	PUNCT	_	_	5	root	_	SpaceAfter=No
+5	盒	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No
+6	？	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 394
 # text = 對了，對了！
@@ -3554,55 +3554,55 @@
 # sent_id = 395
 # text = 《抬起我的頭來》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	抬起我的頭來	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	抬起我的頭來	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 396
 # text = 《今天等我來》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	今天等我來	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	今天等我來	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 397
 # text = 《不再讓你孤單》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	不再讓你孤單	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	不再讓你孤單	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 398
 # text = 《今日》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	今日	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	今日	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 399
 # text = 《每一個明天》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	每一個明天	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	每一個明天	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 400
 # text = 《夏天的故事》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	夏天的故事	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	夏天的故事	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 401
 # text = 《伴遊》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	伴遊	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	伴遊	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 402
 # text = 《與我常在》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	與我常在	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	與我常在	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 403
 # text = 《有發生過》
 1	《	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	有發生過	_	PROPN	_	_	0	rooot	_	SpaceAfter=No
+2	有發生過	_	PROPN	_	_	0	root	_	SpaceAfter=No
 3	》	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 404
@@ -3610,12 +3610,12 @@
 1	什麼	_	PRON	_	_	0	root	_	SpaceAfter=No
 2	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	童年	_	NOUN	_	_	4	compound	_	SpaceAfter=No
-4	經典	_	NOUN	_	_	7	appos	_	SpaceAfter=No
+4	經典	_	NOUN	_	_	1	conj	_	SpaceAfter=No
 5	──	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
-6	《	_	PUNCT	_	_	7	punct		SpaceAfter=No
+6	《	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	龍珠	_	PROPN	_	_	9	compound	_	SpaceAfter=No
-8	》	_	PUNCT	_	_	7	punct		SpaceAfter=No
-9	主題曲	_	NOUN	_	_	1	root	_	SpaceAfter=No
+8	》	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	主題曲	_	NOUN	_	_	4	appos	_	SpaceAfter=No
 10	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 405
@@ -3626,7 +3626,7 @@
 4	追	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	不	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	到	_	VERB	_	_	4	compound:vv	_	SpaceAfter=No
-7	那	_	DET	_	_	8	det		SpaceAfter=No
+7	那	_	DET	_	_	8	det	_	SpaceAfter=No
 8	女孩	_	NOUN	_	_	4	obj	_	SpaceAfter=No
 9	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
@@ -3671,5 +3671,4 @@
 4	欺負	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	我	_	PRON	_	_	4	obj	_	SpaceAfter=No
 6	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
-
 
