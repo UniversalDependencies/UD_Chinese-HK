@@ -1,6 +1,6 @@
 ﻿# Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from two films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shooted by students from the School of Creative Media. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
@@ -10,7 +10,7 @@ ORIGIN
 Title: Missing days / 小時光
 Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
 Duration: 30 minutes
-Fluency: The dialogues are most prepared.
+Fluency: The dialogues are mostly prepared.
 
 #send_id = 411 to 547
 Title: Tempo in Temple / 廟眾樂樂
@@ -18,11 +18,11 @@ Source: https://www.youtube.com/watch?v=8e8Lqd6grTE
 Duration: 16 minutes
 Fluency: This is an interview.  Most sentences are not prepared and thus contain a lot of disfluencies.  A lot of reparandums are tagged. 
 
-#send_id = 411 to 547
+#send_id = 548 to 650
 Title: What day is today / 今日星期幾
 Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
 Duration: 31 minutes
-Fluency: The dialogues are most prepared.
+Fluency: The dialogues are mostly prepared.  This film contains a lot of dead air.
 
 DATA
 
