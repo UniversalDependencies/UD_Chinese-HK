@@ -1935,7 +1935,7 @@
 # text = 阿哥愛聽陳奕迅，我就一起聽陳奕迅。
 1	阿哥	_	NOUN	_	_	3	nsubj	_	SpaceAfter=No
 2	愛	_	AUX	_	_	3	aux	_	SpaceAfter=No
-3	聽	_	VERB	_	_	9	conj	_	SpaceAfter=No
+3	聽	_	VERB	_	_	9	advcl	_	SpaceAfter=No
 4	陳奕迅	_	PROPN	_	_	3	obj	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	我	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
