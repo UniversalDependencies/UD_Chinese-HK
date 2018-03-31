@@ -1,10 +1,10 @@
 # sent_id = 1
 # text = 你在找些什麼？
-1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	在	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-3	找	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
-5	什麼	_	PRON	_	_	3	obj	_	SpaceAfter=No
+1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=ni3|Gloss=2SG
+2	在	_	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=zai4|Gloss=PROG
+3	找	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhao3|Gloss=find
+4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No|Translit=xie1|Gloss=CLF.PL
+5	什麼	_	PRON	_	_	3	obj	_	SpaceAfter=No|Translit=shen2me|Gloss=what
 6	？	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 2
@@ -3674,16 +3674,16 @@
 
 # sent_id = 411
 # text = 每一個歌手都有一個藝名的。
-1	每	_	DET	_	_	4	det	_	SpaceAfter=No
-2	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No
-3	個	_	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No
-4	歌手	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
-5	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No
-6	有	_	VERB	_	_	0	root	_	SpaceAfter=No
-7	一	_	NUM	_	_	9	nummod	_	SpaceAfter=No
-8	個	_	NOUN	_	NounType=Clf	7	clf	_	SpaceAfter=No
-9	藝名	_	NOUN	_	_	6	obj	_	SpaceAfter=No
-10	的	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+1	每	_	DET	_	_	4	det	_	SpaceAfter=No|Translit=mei3|Gloss=every
+2	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No|Translit=yi1|Gloss=one
+3	個	_	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No|Translit=ge4|Gloss=CLF
+4	歌手	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Translit=ge1|Gloss=singer
+5	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=dou1|Gloss=also
+6	有	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=you3|Gloss=have
+7	一	_	NUM	_	_	9	nummod	_	SpaceAfter=No|Translit=yi1|Gloss=one
+8	個	_	NOUN	_	NounType=Clf	7	clf	_	SpaceAfter=No|Translit=ge4|Gloss=CLF
+9	藝名	_	NOUN	_	_	6	obj	_	SpaceAfter=No|Translit=yi4ming2|Gloss=stage.name
+10	的	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No|Translit=de|Gloss=SFP
 11	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 412
@@ -5771,13 +5771,13 @@
 
 # sent_id = 548
 # text = 家裡的是這個嗎……
-1	家	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
-2	裡	_	ADP	_	_	1	case:loc	_	SpaceAfter=No
-3	的	_	PART	_	_	1	case	_	SpaceAfter=No
-4	是	_	AUX	_	_	6	cop	_	SpaceAfter=No
-5	這	_	DET	_	_	6	det	_	SpaceAfter=No
-6	個	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No
-7	嗎	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+1	家	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Translit=jia1|Gloss=home
+2	裡	_	ADP	_	_	1	case:loc	_	SpaceAfter=No|Translit=li3|Gloss=inside
+3	的	_	PART	_	_	1	case	_	SpaceAfter=No|Translit=de|Gloss=NOM
+4	是	_	AUX	_	_	6	cop	_	SpaceAfter=No|Translit=shi4|Gloss=COP
+5	這	_	DET	_	_	6	det	_	SpaceAfter=No|Translit=zhe4|Gloss=this
+6	個	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Translit=ge4|Gloss=CLF.GEN
+7	嗎	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No|Translit=ma|Gloss=Q
 8	……	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 549
@@ -6605,7 +6605,7 @@
 5	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 639
-# text = Philip Wong……又吃這麼多。
+# text = Philip_Wong……又吃這麼多。
 1	Philip_	_	PROPN	_	_	5	nsubj	_	SpaceAfter=No
 2	Wong	_	PROPN	_	_	1	flat	_	SpaceAfter=No
 3	……	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -6741,15 +6741,15 @@
 5	……	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 651
-# text = 剛才秘書處已宣佈五分鐘後復會。
-1	剛才	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-2	秘書處	_	NOUN	_	_	4	nsubj	_	SpaceAfter=No
-3	已	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-4	宣佈	_	VERB	_	_	0	root	_	SpaceAfter=No
-5	五	_	NUM	_	_	6	nummod	_	SpaceAfter=No
-6	分鐘	_	NOUN	_	NounType=Clf	4	obl:tmod	_	SpaceAfter=No
-7	後	_	ADP	_	_	6	case:loc	_	SpaceAfter=No
-8	復會	_	VERB	_	_	4	ccomp	_	SpaceAfter=No
+# text = 剛才秘書處已宣布五分鐘後復會。
+1	剛才	_	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=gang1cai2|Gloss=just.now
+2	秘書處	_	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Translit=mi4shu1chu4|Gloss=The.Secretariat
+3	已	_	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yi3|Gloss=already
+4	宣布	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xuan1bu4|Gloss=announce
+5	五	_	NUM	_	_	6	nummod	_	SpaceAfter=No|Translit=wu3|Gloss=five
+6	分鐘	_	NOUN	_	NounType=Clf	4	obl:tmod	_	SpaceAfter=No|Translit=fen1zhong1|Gloss=minute
+7	後	_	ADP	_	_	6	case:loc	_	SpaceAfter=No|Translit=hou4|Gloss=after
+8	復會	_	VERB	_	_	4	ccomp	_	SpaceAfter=No|Translit=fu4hui4|Gloss=resume.council
 9	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 652
