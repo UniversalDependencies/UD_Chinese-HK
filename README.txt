@@ -1,6 +1,6 @@
-﻿# Summary
+# Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shooted by students from the School of Creative Media. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shooted by students from the School of Creative Media as well as the part of the election of president of the council meeting of Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
@@ -10,30 +10,33 @@ ORIGIN
 Title: Missing days / 小時光
 Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
 Duration: 30 minutes
-Fluency: The dialogues are mostly prepared.
 
 #send_id = 411 to 547
 Title: Tempo in Temple / 廟眾樂樂
 Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
 Duration: 16 minutes
-Fluency: This is an interview.  Most sentences are not prepared and thus contain a lot of disfluencies.  A lot of reparandums are tagged. 
 
 #send_id = 548 to 650
 Title: What day is today / 今日星期幾
 Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
 Duration: 31 minutes
-Fluency: The dialogues are mostly prepared.  This film contains a lot of dead air.
+
+#send_id = 651 to 837
+Title: Election of President (part)
+Source: https://www.legco.gov.hk/php/hansard/chinese/rundown.php?term=yr16-20&date=2016-10-12&lang=0
+		https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
+Duration: 3 hours 19 minutes
 
 DATA
 
-Since there are only 4792 tokens, only the test set is provided.
+Since there are only 7458 tokens, only the test set is provided.
 
 BASIC STATISTICS
 
-Tree count:  650
-Word count:  4792
-Token count: 4792
-Dep. relations: 43 of which 12 language specific
+Tree count:  837
+Word count:  7458
+Token count: 7458
+Dep. relations: 47 of which 15 language specific
 POS tags: 16
 Category=value feature pairs: 1
 
