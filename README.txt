@@ -22,10 +22,10 @@ Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
 Duration: 31 minutes
 
 #send_id = 651 to 837
-Title: Election of President (part)
-Source: https://www.legco.gov.hk/php/hansard/chinese/rundown.php?term=yr16-20&date=2016-10-12&lang=0
+Title: Election of President (14:13:49 ~ 16:27:26)
+Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop
 		https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
-Duration: 3 hours 19 minutes
+Duration: 2 hours 14 minutes
 
 DATA
 
