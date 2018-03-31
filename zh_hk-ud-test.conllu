@@ -6605,8 +6605,8 @@
 5	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 639
-# text = PhilipWong……又吃這麼多。
-1	Philip	_	PROPN	_	_	5	nsubj	_	SpaceAfter=No
+# text = Philip Wong……又吃這麼多。
+1	Philip_	_	PROPN	_	_	5	nsubj	_	SpaceAfter=No
 2	Wong	_	PROPN	_	_	1	flat	_	SpaceAfter=No
 3	……	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	又	_	ADV	_	_	5	advmod	_	SpaceAfter=No
