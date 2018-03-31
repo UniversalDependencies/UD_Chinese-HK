@@ -1,6 +1,6 @@
 # Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shooted by students from the School of Creative Media as well as the part of the election of president of the council meeting of Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shoot by students from the School of Creative Media as well as the part of the election of president of the council meeting of Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
