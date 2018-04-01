@@ -1,6 +1,6 @@
 # Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as the official record of proceedings of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as the official record of proceedings of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Traditional Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
@@ -21,7 +21,7 @@ Title: What day is today / 今日星期幾
 Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
 Duration: 31 minutes
 
-#send_id = 651 to 870
+#send_id = 651 to 908
 Title: Election of President: The council meeting of the Legislative Council of HKSAR on 12th October, 2016(14:13:49 ~ 16:27:26) (incomplete)
 Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop
 		https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
