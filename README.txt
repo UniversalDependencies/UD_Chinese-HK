@@ -1,6 +1,6 @@
 # Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as the official record of proceedings of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
 
 # Introduction
 
@@ -22,7 +22,7 @@ Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
 Duration: 31 minutes
 
 #send_id = 651 to 870
-Title: The section of Election of President of the council meeting of the Legislative Council of the HKSAR on 12th October, 2016(14:13:49 ~ 16:27:26)
+Title: Election of President: The council meeting of the Legislative Council of HKSAR on 12th October, 2016(14:13:49 ~ 16:27:26) (incomplete)
 Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop
 		https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
 Duration: 2 hours 14 minutes
@@ -33,9 +33,9 @@ Since there are fewer than a myriad tokens, only the test set is provided.
 
 BASIC STATISTICS
 
-Tree count:  870
-Word count:  8013
-Token count: 8013
+Tree count:  908
+Word count:  8701
+Token count: 8701
 Dep. relations: 47 of which 15 language specific
 POS tags: 16
 Category=value feature pairs: 1
