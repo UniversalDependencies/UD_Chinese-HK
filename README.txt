@@ -13,7 +13,7 @@ Duration: 30 minutes
 
 #send_id = 411 to 547
 Title: Tempo in Temple / 廟眾樂樂
-Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
+Source: https://www.youtube.com/watch?v=8e8Lqd6grTE
 Duration: 16 minutes
 
 #send_id = 548 to 650
@@ -57,6 +57,13 @@ This work was partially supported by a grant from the PROCORE-France/Hong Kong J
 When using this treebank, please cite at least one paper from the following references:
 Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative Syntax on the Cantonese-Mandarin Parallel Dependency Treebank" Proceedings of the Fourth International Conference on Dependency Linguistics, pp. 266−275, Pisa, Italy, September 2017.
 Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
+
+# Changelog
+
+* 2018-04-15 v2.2
+  * ?
+* 2017-11-15 v2.1
+  * Initial UD release.
 
 === Machine-readable metadata =================================================
 Documentation status: partial
