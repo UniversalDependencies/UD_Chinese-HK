@@ -5,82 +5,82 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2428</sentences><tokens>21506</tokens><words>21506</words><fused>0</fused></total>
+    <total><sentences>908</sentences><tokens>8701</tokens><words>8701</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="1478" /><!-- 。, ，, 我, ！, 的, 你, 是, 不, ？, 了, 有, 在, 一, 要, 就 -->
+  <forms unique="1477" /><!-- 。, ，, 我, 的, ！, 你, 是, 不, ？, 了, 有, 議員, 在, 一, 要 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">639</tag><!-- _ -->
-    <tag name="ADP">662</tag><!-- _ -->
-    <tag name="ADV">2515</tag><!-- _ -->
-    <tag name="AUX">1034</tag><!-- _ -->
-    <tag name="CCONJ">181</tag><!-- _ -->
-    <tag name="DET">557</tag><!-- _ -->
-    <tag name="INTJ">100</tag><!-- _ -->
-    <tag name="NOUN">3611</tag><!-- _ -->
-    <tag name="NUM">437</tag><!-- _ -->
-    <tag name="PART">1344</tag><!-- _ -->
-    <tag name="PRON">1899</tag><!-- _ -->
-    <tag name="PROPN">412</tag><!-- _ -->
-    <tag name="PUNCT">3929</tag><!-- _ -->
-    <tag name="SCONJ">101</tag><!-- _ -->
-    <tag name="SYM">3</tag><!-- _ -->
-    <tag name="VERB">4082</tag><!-- _ -->
+    <tag name="ADJ">263</tag><!-- _ -->
+    <tag name="ADP">282</tag><!-- _ -->
+    <tag name="ADV">1017</tag><!-- _ -->
+    <tag name="AUX">405</tag><!-- _ -->
+    <tag name="CCONJ">85</tag><!-- _ -->
+    <tag name="DET">234</tag><!-- _ -->
+    <tag name="INTJ">34</tag><!-- _ -->
+    <tag name="NOUN">1565</tag><!-- _ -->
+    <tag name="NUM">168</tag><!-- _ -->
+    <tag name="PART">521</tag><!-- _ -->
+    <tag name="PRON">742</tag><!-- _ -->
+    <tag name="PROPN">157</tag><!-- _ -->
+    <tag name="PUNCT">1533</tag><!-- _ -->
+    <tag name="SCONJ">52</tag><!-- _ -->
+    <tag name="SYM">1</tag><!-- _ -->
+    <tag name="VERB">1642</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="NounType" value="Clf" upos="ADV,NOUN">621</feat><!-- 個, 元, 塊, 位, 張, 天, 年, 分鐘, 次, 分 -->
+    <feat name="NounType" value="Clf" upos="ADV,NOUN">249</feat><!-- 個, 元, 位, 塊, 次, 天, 分鐘, 張, 份, 分 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="47">
-    <dep name="acl">308</dep>
-    <dep name="advcl">426</dep>
-    <dep name="advmod">2607</dep>
-    <dep name="advmod:df">13</dep>
-    <dep name="amod">220</dep>
-    <dep name="appos">43</dep>
-    <dep name="aux">815</dep>
-    <dep name="aux:pass">4</dep>
-    <dep name="case">752</dep>
-    <dep name="case:loc">79</dep>
-    <dep name="cc">134</dep>
-    <dep name="ccomp">474</dep>
-    <dep name="clf">234</dep>
-    <dep name="compound">298</dep>
-    <dep name="compound:dir">56</dep>
-    <dep name="compound:ext">24</dep>
-    <dep name="compound:vo">15</dep>
-    <dep name="compound:vv">199</dep>
-    <dep name="conj">738</dep>
-    <dep name="cop">197</dep>
-    <dep name="csubj">36</dep>
-    <dep name="dep">4</dep>
-    <dep name="det">567</dep>
-    <dep name="discourse">80</dep>
-    <dep name="discourse:sp">848</dep>
-    <dep name="dislocated">10</dep>
-    <dep name="flat">70</dep>
-    <dep name="iobj">20</dep>
-    <dep name="mark">179</dep>
-    <dep name="mark:adv">9</dep>
-    <dep name="mark:rel">194</dep>
-    <dep name="nmod">317</dep>
-    <dep name="nsubj">1699</dep>
-    <dep name="nsubj:pass">2</dep>
-    <dep name="nummod">395</dep>
-    <dep name="obj">1687</dep>
-    <dep name="obj:periph">62</dep>
-    <dep name="obl">484</dep>
-    <dep name="obl:agent">3</dep>
-    <dep name="obl:patient">19</dep>
-    <dep name="obl:tmod">242</dep>
-    <dep name="parataxis">256</dep>
-    <dep name="punct">3925</dep>
-    <dep name="reparandum">8</dep>
-    <dep name="root">2428</dep>
-    <dep name="vocative">72</dep>
-    <dep name="xcomp">254</dep>
+    <dep name="acl">149</dep>
+    <dep name="advcl">184</dep>
+    <dep name="advmod">1059</dep>
+    <dep name="advmod:df">5</dep>
+    <dep name="amod">104</dep>
+    <dep name="appos">16</dep>
+    <dep name="aux">328</dep>
+    <dep name="aux:pass">2</dep>
+    <dep name="case">324</dep>
+    <dep name="case:loc">37</dep>
+    <dep name="cc">63</dep>
+    <dep name="ccomp">211</dep>
+    <dep name="clf">103</dep>
+    <dep name="compound">159</dep>
+    <dep name="compound:dir">25</dep>
+    <dep name="compound:ext">10</dep>
+    <dep name="compound:vo">5</dep>
+    <dep name="compound:vv">72</dep>
+    <dep name="conj">289</dep>
+    <dep name="cop">78</dep>
+    <dep name="csubj">14</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">239</dep>
+    <dep name="discourse">27</dep>
+    <dep name="discourse:sp">290</dep>
+    <dep name="dislocated">4</dep>
+    <dep name="flat">36</dep>
+    <dep name="iobj">7</dep>
+    <dep name="mark">89</dep>
+    <dep name="mark:adv">5</dep>
+    <dep name="mark:rel">92</dep>
+    <dep name="nmod">137</dep>
+    <dep name="nsubj">697</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="nummod">152</dep>
+    <dep name="obj">693</dep>
+    <dep name="obj:periph">25</dep>
+    <dep name="obl">199</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:patient">7</dep>
+    <dep name="obl:tmod">93</dep>
+    <dep name="parataxis">89</dep>
+    <dep name="punct">1531</dep>
+    <dep name="reparandum">3</dep>
+    <dep name="root">908</dep>
+    <dep name="vocative">33</dep>
+    <dep name="xcomp">104</dep>
   </deps>
 </treebank>
