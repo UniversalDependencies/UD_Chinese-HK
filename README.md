@@ -58,13 +58,10 @@ Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative 
 Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
 
 # Changelog
-* 2019-03-11 v1.52
-  * Changelog added.
-* 2019-03-11 v1.51
-  * fixed minor mistake
-* 2019-03-03 v1.5
-  * Description of data from the Legislative Council added
-  * first .md version uploaded
+* 2019-03-10 v1.51
+  * Some errors fixed
+* 2019-03-03 v.1.5
+  * Data from the Legislative Council added
 
 <pre>
 === Machine-readable metadata =================================================
