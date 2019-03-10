@@ -66,7 +66,7 @@ Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LE
   * Description of data from the Legislative Council added
   * first .md version uploaded
 
-  <pre>
+<pre>
 === Machine-readable metadata =================================================
 Documentation status: partial
 Data source: manual
