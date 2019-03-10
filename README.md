@@ -7,25 +7,24 @@ The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-
 ORIGIN
 
 #send_id = 1 to 410
-Title: Missing days / 小時光
-Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
-Duration: 30 minutes
+* Title: Missing days / 小時光
+* Source: https://www.youtube.com/watch?v=1qSMiw0vhzU
+* Duration: 30 minutes
 
 #send_id = 411 to 547
-Title: Tempo in Temple / 廟眾樂樂
-Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
-Duration: 16 minutes
+* Title: Tempo in Temple / 廟眾樂樂
+* Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
+* Duration: 16 minutes
 
 #send_id = 548 to 650
-Title: What day is today / 今日星期幾
-Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
-Duration: 31 minutes
+* Title: What day is today / 今日星期幾
+* Source: https://www.youtube.com/watch?v=bBGwxIDiZ_o
+* Duration: 31 minutes
 
 #send_id = 651 to 1004
-Title: Election of President: The council meeting of the Legislative Council of HKSAR on 12th October, 2016(14:13:49 ~ 14:47:54) (part)
-Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop
-		https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
-Duration: 34 minutes 5 seconds
+* Title: Election of President: The council meeting of the Legislative Council of HKSAR on 12th October, 2016(14:13:49 ~ 14:47:54) (part)
+* Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop	https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
+* Duration: 34 minutes 5 seconds
 
 DATA
 
@@ -33,12 +32,12 @@ Since there are fewer than a myriad tokens, only the test set is provided.
 
 BASIC STATISTICS
 
-Tree count:  1004
-Word count:  9874
-Token count: 9874
-Dep. relations: 46 of which 15 language specific
-POS tags: 16
-Category=value feature pairs: 1
+* Tree count:  1004
+* Word count:  9874
+* Token count: 9874
+* Dep. relations: 46 of which 15 language specific
+* POS tags: 16
+* Category=value feature pairs: 1
 
 POS TAGGING
 
