@@ -207,7 +207,7 @@
 
 # sent_id = 21
 # text = 真是很精彩的！
-1	真	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	真	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 3	很	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	精彩	_	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -647,8 +647,8 @@
 # sent_id = 78
 # text = 這不就是你很喜歡的悟空嗎？
 1	這	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
-2	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-3	就	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	不	_	ADV	_	_	9	advmod	_	SpaceAfter=No
+3	就	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	9	cop	_	SpaceAfter=No
 5	你	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
 6	很	_	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -660,8 +660,8 @@
 
 # sent_id = 79
 # text = 又不是閃卡！
-1	又	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	不	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+1	又	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	閃卡	_	NOUN	_	_	0	root	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -766,7 +766,7 @@
 
 # sent_id = 92
 # text = 都是爺爺的錯。
-1	都	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	爺爺	_	NOUN	_	_	5	nmod	_	SpaceAfter=No
 4	的	_	PART	_	_	3	case	_	SpaceAfter=No
@@ -881,7 +881,7 @@
 
 # sent_id = 105
 # text = 都是無線電視的錯！
-1	都	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	無線電視	_	PROPN	_	_	5	nmod	_	SpaceAfter=No
 4	的	_	PART	_	_	3	case	_	SpaceAfter=No
@@ -898,7 +898,7 @@
 6	令	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	小朋友們	_	NOUN	_	_	6	obj	_	SpaceAfter=No
 8	都	_	ADV	_	_	10	advmod	_	SpaceAfter=No
-9	捱夜	_	VERB	_	_	10	advmod	_	SpaceAfter=No
+9	捱夜	_	VERB	_	_	10	advcl	_	SpaceAfter=No
 10	追	_	VERB	_	_	6	xcomp	_	SpaceAfter=No
 11	看	_	VERB	_	_	10	conj	_	SpaceAfter=No
 12	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -1084,7 +1084,7 @@
 1	快	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	去	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	睡	_	VERB	_	_	2	conj	_	SpaceAfter=No
-4	！	_	PUNCT	_	_	2	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 128
 # text = 你們常常都忘了幫我錄。
@@ -1114,11 +1114,11 @@
 
 # sent_id = 130
 # text = 一般每二十多張白卡便出一張閃卡。
-1	一般	_	NOUN	_	_	7	advmod	_	SpaceAfter=No
+1	一般	_	NOUN	_	_	7	obl:tmod	_	SpaceAfter=No
 2	每	_	DET	_	_	5	det	_	SpaceAfter=No
 3	二十多	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	張	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
-5	白卡	_	NOUN	_	_	7	advmod	_	SpaceAfter=No
+5	白卡	_	NOUN	_	_	7	advcl	_	SpaceAfter=No
 6	便	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	出	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	一	_	NUM	_	_	10	nummod	_	SpaceAfter=No
@@ -1328,7 +1328,7 @@
 # text = 喂，從前你常帶哥哥四處走。
 1	喂	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	從前	_	NOUN	_	_	6	advmod	_	SpaceAfter=No
+3	從前	_	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No
 4	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
 5	常	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	帶	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -1380,7 +1380,7 @@
 # text = 我忘了！
 1	我	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
 2	忘	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	了	_	PART	_	_	2	aux	_	SpaceAfter=No
+3	了	_	AUX	_	_	2	aux	_	SpaceAfter=No
 4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 161
@@ -1416,7 +1416,7 @@
 # sent_id = 165
 # text = 你趕快收拾吧！
 1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	趕快	_	VERB	_	_	3	advmod	_	SpaceAfter=No
+2	趕快	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	收拾	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	吧	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -1430,7 +1430,7 @@
 5	拿	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
 6	去	_	VERB	_	_	7	case	_	SpaceAfter=No
 7	哥哥	_	NOUN	_	_	5	obl	_	SpaceAfter=No
-8	那邊	_	DET	_	_	7	case:loc	_	SpaceAfter=No
+8	那邊	_	PRON	_	_	7	case:loc	_	SpaceAfter=No
 9	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 167
@@ -1532,7 +1532,7 @@
 # sent_id = 176
 # text = 我從沒喜歡什麼明星！
 1	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	從沒	_	ADP	_	_	3	advmod	_	SpaceAfter=No
+2	從沒	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	喜歡	_	AUX	_	_	0	root	_	SpaceAfter=No
 4	什麼	_	DET	_	_	5	det	_	SpaceAfter=No
 5	明星	_	NOUN	_	_	3	obj	_	SpaceAfter=No
@@ -1619,7 +1619,7 @@
 2	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 3	原來	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	這樣	_	PRON	_	_	0	root	_	SpaceAfter=No
-5	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 187
 # text = 差不多了。
@@ -1633,7 +1633,7 @@
 2	題	_	NOUN	_	NounType=Clf	4	obj:periph	_	SpaceAfter=No
 3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	完成	_	VERB	_	_	0	root	_	SpaceAfter=No
-5	了	_	PART	_	_	4	aux	_	SpaceAfter=No
+5	了	_	AUX	_	_	4	aux	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	直方圖	_	NOUN	_	_	4	parataxis	_	SpaceAfter=No
 8	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -1851,7 +1851,7 @@
 2	啊	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	這	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
-5	是	_	VERB	_	_	7	cop	_	SpaceAfter=No
+5	是	_	AUX	_	_	7	cop	_	SpaceAfter=No
 6	最	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	新	_	ADJ	_	_	1	parataxis	_	SpaceAfter=No
 8	的	_	PART	_	_	7	discourse:sp	_	SpaceAfter=No
@@ -1880,7 +1880,7 @@
 
 # sent_id = 218
 # text = 不是蠻合襯嗎？
-1	不	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 3	蠻	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	合襯	_	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1952,23 +1952,23 @@
 3	歌	_	NOUN	_	_	2	obj	_	SpaceAfter=No
 4	還	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 5	可以	_	AUX	_	_	6	aux	_	SpaceAfter=No
-6	用	_	VERB	_	_	8	case	_	SpaceAfter=No
+6	用	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	十	_	NUM	_	_	8	nummod	_	SpaceAfter=No
-8	元	_	NOUN	_	NounType=Clf	9	obl	_	SpaceAfter=No
-9	買	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	元	_	NOUN	_	NounType=Clf	6	obj	_	SpaceAfter=No
+9	買	_	VERB	_	_	6	conj	_	SpaceAfter=No
 10	一	_	NUM	_	_	13	nummod	_	SpaceAfter=No
 11	隻	_	NOUN	_	NounType=Clf	10	clf	_	SpaceAfter=No
 12	雜錦	_	ADJ	_	_	13	amod	_	SpaceAfter=No
 13	錄音帶	_	NOUN	_	_	9	obj	_	SpaceAfter=No
 14	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	或是	_	CCONJ	_	_	16	cc	_	SpaceAfter=No
-16	花	_	VERB	_	_	9	conj	_	SpaceAfter=No
+16	花	_	VERB	_	_	6	conj	_	SpaceAfter=No
 17	二十	_	NUM	_	_	18	nummod	_	SpaceAfter=No
 18	元	_	NOUN	_	NounType=Clf	16	obj	_	SpaceAfter=No
 19	買	_	VERB	_	_	16	conj	_	SpaceAfter=No
 20	張	_	NOUN	_	NounType=Clf	21	det	_	SpaceAfter=No
 21	盜版	_	NOUN	_	_	19	obj	_	SpaceAfter=No
-22	。	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+22	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 224
 # text = 你自稱是歌迷的話，當然是買華星正版唱片！
@@ -2009,7 +2009,7 @@
 5	一樣	_	ADJ	_	_	0	root	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	一	_	NUM	_	_	8	nummod	_	SpaceAfter=No
-8	張	_	NOUN	_	NounType=Clf	10	advmod	_	SpaceAfter=No
+8	張	_	NOUN	_	NounType=Clf	10	advcl	_	SpaceAfter=No
 9	一百	_	NUM	_	_	10	nummod	_	SpaceAfter=No
 10	元	_	NOUN	_	NounType=Clf	5	parataxis	_	SpaceAfter=No
 11	左右	_	ADV	_	_	10	advmod	_	SpaceAfter=No
@@ -2023,7 +2023,7 @@
 4	兩	_	NUM	_	_	7	nummod	_	SpaceAfter=No
 5	三	_	NUM	_	_	4	conj	_	SpaceAfter=No
 6	個	_	NOUN	_	NounType=Clf	4	clf	_	SpaceAfter=No
-7	月	_	NOUN	_	_	9	advmod	_	SpaceAfter=No
+7	月	_	NOUN	_	_	9	advcl	_	SpaceAfter=No
 8	便	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	出	_	VERB	_	_	0	root	_	SpaceAfter=No
 10	一	_	NUM	_	_	13	nummod	_	SpaceAfter=No
@@ -2073,12 +2073,12 @@
 7	聽	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
 8	個	_	PART	_	_	7	advmod	_	SpaceAfter=No
 9	不	_	ADV	_	_	10	advmod	_	SpaceAfter=No
-10	停	_	VERB	_	_	7	advmod	_	SpaceAfter=No
+10	停	_	VERB	_	_	7	advcl	_	SpaceAfter=No
 11	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 231
 # text = 又是只有腸粉！
-1	又	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	又	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 3	只有	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	腸粉	_	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -2117,9 +2117,9 @@
 # sent_id = 235
 # text = 那些唱片又不是我的！
 1	那些	_	DET	_	_	2	det	_	SpaceAfter=No
-2	唱片	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No
-3	又	_	ADV	_	_	5	advmod	_	SpaceAfter=No
-4	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	唱片	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+3	又	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+4	不	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 5	是	_	AUX	_	_	6	cop	_	SpaceAfter=No
 6	我	_	PRON	_	_	0	root	_	SpaceAfter=No
 7	的	_	PART	_	_	6	case	_	SpaceAfter=No
@@ -2271,8 +2271,8 @@
 6	你	_	PRON	_	_	5	iobj	_	SpaceAfter=No
 7	兩	_	NUM	_	_	8	nummod	_	SpaceAfter=No
 8	元	_	NOUN	_	NounType=Clf	5	obj	_	SpaceAfter=No
-9	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
-10	再	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+9	，	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
+10	再	_	ADV	_	_	13	advmod	_	SpaceAfter=No
 11	給	_	ADP	_	_	12	case	_	SpaceAfter=No
 12	你	_	PRON	_	_	13	obl	_	SpaceAfter=No
 13	扭	_	VERB	_	_	5	conj	_	SpaceAfter=No
@@ -2283,7 +2283,7 @@
 
 # sent_id = 253
 # text = 這樣可以了吧？
-1	這樣	_	PRON	_	_	2	advmod	_	SpaceAfter=No
+1	這樣	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	可以	_	AUX	_	_	0	root	_	SpaceAfter=No
 3	了	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 4	吧	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
@@ -2319,8 +2319,8 @@
 6	買	_	VERB	_	_	12	csubj	_	SpaceAfter=No
 7	回來	_	VERB	_	_	6	compound:dir	_	SpaceAfter=No
 8	的	_	PART	_	_	6	mark:rel	_	SpaceAfter=No
-9	竟然	_	ADV	_	_	11	advmod	_	SpaceAfter=No
-10	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+9	竟然	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+10	不	_	ADV	_	_	12	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	陳奕迅	_	PROPN	_	_	0	root	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -2387,16 +2387,16 @@
 7	的	_	PART	_	_	6	case	_	SpaceAfter=No
 8	好	_	ADJ	_	_	9	amod	_	SpaceAfter=No
 9	品味	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
-10	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+10	不	_	ADV	_	_	12	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	陳奕迅	_	PROPN	_	_	5	ccomp	_	SpaceAfter=No
 13	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 262
 # text = 應該也不是楊千嬅。
-1	應該	_	AUX	_	_	4	aux	_	SpaceAfter=No
-2	也	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-3	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+1	應該	_	AUX	_	_	5	aux	_	SpaceAfter=No
+2	也	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 5	楊千嬅	_	PROPN	_	_	0	root	_	SpaceAfter=No
 6	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -2519,8 +2519,8 @@
 
 # sent_id = 277
 # text = 我也要問功課！
-1	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	也	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+1	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+2	也	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	要	_	AUX	_	_	4	aux	_	SpaceAfter=No
 4	問	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	功課	_	NOUN	_	_	4	obj	_	SpaceAfter=No
@@ -2741,7 +2741,7 @@
 # sent_id = 303
 # text = 你專心刷牙啦！
 1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	專心	_	VERB	_	_	3	advmod	_	SpaceAfter=No
+2	專心	_	VERB	_	_	3	advcl	_	SpaceAfter=No
 3	刷牙	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	啦	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -2859,7 +2859,7 @@
 1	打	_	VERB	_	_	0	root	_	SpaceAfter=No
 2	你	_	PRON	_	_	1	obj	_	SpaceAfter=No
 3	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No
-4	身	_	NOUN	_	NounType=Clf	1	advmod	_	SpaceAfter=No
+4	身	_	NOUN	_	NounType=Clf	1	advmod:df	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 318
@@ -2970,7 +2970,7 @@
 3	也	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	明白	_	VERB	_	_	0	root	_	SpaceAfter=No
-6	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
+6	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	哥哥	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 8	為何	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 9	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -3063,7 +3063,7 @@
 # sent_id = 339
 # text = 這就是九零三。
 1	這	_	DET	_	_	4	det	_	SpaceAfter=No
-2	就	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	就	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	九零三	_	PROPN	_	_	0	root	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3084,7 +3084,7 @@
 5	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
 6	弄	_	VERB	_	_	1	parataxis	_	SpaceAfter=No
 7	壞	_	VERB	_	_	6	compound:vv	_	SpaceAfter=No
-8	了	_	PART	_	_	6	aux	_	SpaceAfter=No
+8	了	_	AUX	_	_	6	aux	_	SpaceAfter=No
 9	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 342
@@ -3107,7 +3107,7 @@
 
 # sent_id = 344
 # text = 仍接收不到。
-1	仍	_	VERB	_	_	2	advmod	_	SpaceAfter=No
+1	仍	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	接收	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	到	_	VERB	_	_	2	compound:vv	_	SpaceAfter=No
@@ -3515,7 +3515,7 @@
 
 # sent_id = 391
 # text = 已經是千禧年了，沒有人會再聽錄音帶！
-1	已經	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	已經	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	3	cop	_	SpaceAfter=No
 3	千禧年	_	NOUN	_	_	0	root	_	SpaceAfter=No
 4	了	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -3535,7 +3535,7 @@
 
 # sent_id = 393
 # text = 就是這一盒？
-1	就	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+1	就	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	這	_	DET	_	_	5	det	_	SpaceAfter=No
 4	一	_	NUM	_	_	5	nummod	_	SpaceAfter=No
@@ -3620,7 +3620,7 @@
 
 # sent_id = 405
 # text = 難怪那時他追不到那女孩！
-1	難怪	_	VERB	_	_	4	advmod	_	SpaceAfter=No
+1	難怪	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	那時	_	ADV	_	_	4	obl:tmod	_	SpaceAfter=No
 3	他	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	追	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -3720,14 +3720,14 @@
 # text = 但我不是那種人，我就是愛出去玩的性格。
 1	但	_	CCONJ	_	_	7	cc	_	SpaceAfter=No
 2	我	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
-3	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	不	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	7	cop	_	SpaceAfter=No
 5	那	_	DET	_	_	7	det	_	SpaceAfter=No
 6	種	_	NOUN	_	NounType=Clf	5	clf	_	SpaceAfter=No
 7	人	_	NOUN	_	_	0	root	_	SpaceAfter=No
 8	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 9	我	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
-10	就	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+10	就	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	16	cop	_	SpaceAfter=No
 12	愛	_	AUX	_	_	13	aux	_	SpaceAfter=No
 13	出去	_	VERB	_	_	16	acl	_	SpaceAfter=No
@@ -3987,7 +3987,7 @@
 17	能	_	AUX	_	_	18	aux	_	SpaceAfter=No
 18	做	_	VERB	_	_	1	parataxis	_	SpaceAfter=No
 19	好	_	ADJ	_	_	18	compound:vv	_	SpaceAfter=No
-20	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+20	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 430
 # text = 天生我材必有用。
@@ -4051,8 +4051,8 @@
 
 # sent_id = 436
 # text = 全都是自發性的，可以抒發自己。
-1	全	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	都	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+1	全	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	都	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	自發性	_	ADJ	_	_	0	root	_	SpaceAfter=No
 5	的	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
@@ -4356,14 +4356,14 @@
 # text = 但我不是那種人，我就是愛出去玩的性格，不愛做家務、帶小孩。
 1	但	_	CCONJ	_	_	7	cc	_	SpaceAfter=No
 2	我	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
-3	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	不	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 4	是	_	AUX	_	_	7	cop	_	SpaceAfter=No
 5	那	_	DET	_	_	7	det	_	SpaceAfter=No
 6	種	_	NOUN	_	NounType=Clf	5	clf	_	SpaceAfter=No
 7	人	_	NOUN	_	_	0	root	_	SpaceAfter=No
 8	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 9	我	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
-10	就	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+10	就	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	16	cop	_	SpaceAfter=No
 12	愛	_	AUX	_	_	13	aux	_	SpaceAfter=No
 13	出去	_	VERB	_	_	16	acl	_	SpaceAfter=No
@@ -4532,7 +4532,7 @@
 2	小	_	ADJ	_	_	7	obl	_	SpaceAfter=No
 3	到	_	ADP	_	_	4	case	_	SpaceAfter=No
 4	大	_	ADJ	_	_	2	conj	_	SpaceAfter=No
-5	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+5	都	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 6	是	_	AUX	_	_	7	cop	_	SpaceAfter=No
 7	興趣	_	NOUN	_	_	0	root	_	SpaceAfter=No
 8	。	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -5169,7 +5169,7 @@
 4	在	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 5	家	_	NOUN	_	_	4	obj	_	SpaceAfter=No
 6	就	_	ADV	_	_	8	advmod	_	SpaceAfter=No
-7	阿彌陀佛	_	PROPN	_	_	8	advmod	_	SpaceAfter=No
+7	阿彌陀佛	_	PROPN	_	_	8	advcl	_	SpaceAfter=No
 8	對	_	VERB	_	_	2	parataxis	_	SpaceAfter=No
 9	住	_	AUX	_	_	8	aux	_	SpaceAfter=No
 10	四	_	NUM	_	_	12	nummod	_	SpaceAfter=No
@@ -5537,7 +5537,7 @@
 # sent_id = 532
 # text = 以前不是這樣的，欄杆那邊圍滿人。
 1	以前	_	NOUN	_	_	4	obl:tmod	_	SpaceAfter=No
-2	不	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	不	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	這樣	_	PRON	_	_	0	root	_	SpaceAfter=No
 5	的	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
@@ -5593,7 +5593,7 @@
 # sent_id = 535
 # text = 他們都是水上人家，做躉船、運輸等。
 1	他們	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
-2	都	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	都	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 3	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 4	水上人家	_	NOUN	_	_	0	root	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -5752,7 +5752,7 @@
 8	說	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
 9	有	_	VERB	_	_	8	ccomp	_	SpaceAfter=No
 10	噪音	_	NOUN	_	_	9	obj	_	SpaceAfter=No
-11	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+11	，	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 12	所以	_	ADV	_	_	17	advmod	_	SpaceAfter=No
 13	我們	_	PRON	_	_	17	nsubj	_	SpaceAfter=No
 14	十一點	_	NOUN	_	_	17	obl:tmod	_	SpaceAfter=No
@@ -5875,7 +5875,7 @@
 2	塊	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No
 3	一	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	個	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
-5	人	_	NOUN	_	_	2	advmod	_	SpaceAfter=No
+5	人	_	NOUN	_	_	2	advcl	_	SpaceAfter=No
 6	的	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -5940,7 +5940,7 @@
 3	錢	_	NOUN	_	_	8	obj:periph	_	SpaceAfter=No
 4	我	_	PRON	_	_	8	nsubj	_	SpaceAfter=No
 5	全	_	DET	_	_	6	det	_	SpaceAfter=No
-6	程	_	NOUN	_	NounType=Clf	8	advmod	_	SpaceAfter=No
+6	程	_	NOUN	_	NounType=Clf	8	advcl	_	SpaceAfter=No
 7	都	_	ADV	_	_	8	advmod	_	SpaceAfter=No
 8	付	_	VERB	_	_	0	root	_	SpaceAfter=No
 9	了	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
@@ -5965,7 +5965,7 @@
 2	塊	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No
 3	一	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	個	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
-5	人	_	NOUN	_	_	2	advmod	_	SpaceAfter=No
+5	人	_	NOUN	_	_	2	advcl	_	SpaceAfter=No
 6	的	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 7	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -6378,7 +6378,7 @@
 # sent_id = 612
 # text = 他整天都爆的！
 1	他	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
-2	整天	_	NOUN	_	_	4	advmod	_	SpaceAfter=No
+2	整天	_	NOUN	_	_	4	obl:tmod	_	SpaceAfter=No
 3	都	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	爆	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	的	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
@@ -6598,7 +6598,7 @@
 
 # sent_id = 638
 # text = 小心弄破了！
-1	小心	_	VERB	_	_	2	advmod	_	SpaceAfter=No
+1	小心	_	VERB	_	_	2	advcl	_	SpaceAfter=No
 2	弄	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	破	_	VERB	_	_	2	compound:vv	_	SpaceAfter=No
 4	了	_	AUX	_	_	3	aux	_	SpaceAfter=No
@@ -6675,16 +6675,16 @@
 1	一	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	行	_	VERB	_	_	6	advcl	_	SpaceAfter=No
 3	出去	_	VERB	_	_	2	compound:dir	_	SpaceAfter=No
-4	就	_	ADV	_	_	5	advmod	_	SpaceAfter=No
-5	係	_	VERB	_	_	6	cop	_	SpaceAfter=No
+4	就	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+5	係	_	AUX	_	_	6	cop	_	SpaceAfter=No
 6	泳池	_	NOUN	_	_	0	root	_	SpaceAfter=No
 7	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	再	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	行	_	VERB	_	_	14	advcl	_	SpaceAfter=No
 10	出	_	VERB	_	_	9	compound:dir	_	SpaceAfter=No
 11	Ｄ	_	ADV	_	_	10	advmod	_	SpaceAfter=No
-12	就	_	ADV	_	_	13	advmod	_	SpaceAfter=No
-13	係	_	VERB	_	_	14	cop	_	SpaceAfter=No
+12	就	_	ADV	_	_	14	advmod	_	SpaceAfter=No
+13	係	_	AUX	_	_	14	cop	_	SpaceAfter=No
 14	沙灘	_	NOUN	_	_	6	parataxis	_	SpaceAfter=No
 15	！	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -6737,7 +6737,7 @@
 1	都	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	已經	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	回來	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	了	_	PART	_	_	3	aux	_	SpaceAfter=No
+4	了	_	AUX	_	_	3	aux	_	SpaceAfter=No
 5	……	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = 651
@@ -6783,7 +6783,7 @@
 # text = 第一部分是剛才大家已完成的宣誓。
 1	第一	_	ADJ	_	_	2	amod	_	SpaceAfter=No
 2	部分	_	NOUN	_	NounType=Clf	9	nsubj	_	SpaceAfter=No
-3	是	_	VERB	_	_	9	cop	_	SpaceAfter=No
+3	是	_	AUX	_	_	9	cop	_	SpaceAfter=No
 4	剛才	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 5	大家	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
 6	已	_	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -6841,7 +6841,7 @@
 6	沒有	_	VERB	_	_	32	advcl	_	SpaceAfter=No
 7	任何	_	DET	_	_	8	det	_	SpaceAfter=No
 8	程序	_	NOUN	_	_	6	obj	_	SpaceAfter=No
-9	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	容許	_	VERB	_	_	8	acl	_	SpaceAfter=No
 11	我們	_	PRON	_	_	10	obj	_	SpaceAfter=No
 12	在	_	ADP	_	_	13	case	_	SpaceAfter=No
@@ -6860,7 +6860,7 @@
 25	因此	_	ADV	_	_	32	advmod	_	SpaceAfter=No
 26	我們	_	PRON	_	_	32	nsubj	_	SpaceAfter=No
 27	不	_	ADV	_	_	28	advmod	_	SpaceAfter=No
-28	可以	_	VERB	_	_	32	aux	_	SpaceAfter=No
+28	可以	_	AUX	_	_	32	aux	_	SpaceAfter=No
 29	在	_	ADP	_	_	30	case	_	SpaceAfter=No
 30	會議廳	_	NOUN	_	_	32	obl	_	SpaceAfter=No
 31	內	_	ADP	_	_	30	case:loc	_	SpaceAfter=No
@@ -7072,7 +7072,7 @@
 2	我們	_	PRON	_	_	1	obj	_	SpaceAfter=No
 3	今天	_	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No
 4	可以	_	AUX	_	_	8	ccomp	_	SpaceAfter=No
-5	有	_	VERB	_	_	8	advmod	_	SpaceAfter=No
+5	有	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 6	秩序	_	NOUN	_	_	5	obj	_	SpaceAfter=No
 7	地	_	PART	_	_	5	mark	_	SpaceAfter=No
 8	進行	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
@@ -7217,8 +7217,8 @@
 9	的	_	PART	_	_	7	case	_	SpaceAfter=No
 10	國籍	_	NOUN	_	_	11	compound	_	SpaceAfter=No
 11	問題	_	NOUN	_	_	18	nsubj	_	SpaceAfter=No
-12	不	_	ADV	_	_	13	advmod	_	SpaceAfter=No
-13	是	_	VERB	_	_	18	cop	_	SpaceAfter=No
+12	不	_	ADV	_	_	18	advmod	_	SpaceAfter=No
+13	是	_	AUX	_	_	18	cop	_	SpaceAfter=No
 14	今天	_	NOUN	_	_	15	compound	_	SpaceAfter=No
 15	會議	_	NOUN	_	_	18	nmod	_	SpaceAfter=No
 16	的	_	PART	_	_	15	case	_	SpaceAfter=No
@@ -7276,7 +7276,7 @@
 28	特別	_	ADV	_	_	29	advmod	_	SpaceAfter=No
 29	安排	_	VERB	_	_	4	ccomp	_	SpaceAfter=No
 30	時間	_	NOUN	_	_	29	obj	_	SpaceAfter=No
-31	，	_	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	，	_	PUNCT	_	_	29	punct	_	SpaceAfter=No
 32	讓	_	VERB	_	_	28	advcl	_	SpaceAfter=No
 33	梁	_	PROPN	_	_	32	obj	_	SpaceAfter=No
 34	議員	_	NOUN	_	_	33	flat	_	SpaceAfter=No
@@ -7293,14 +7293,14 @@
 
 # sent_id = 684
 # text = 如果各位剛才有出席，便應該知道情況如何。
-1	如果	_	SCONJ	_	_	5	advmod	_	SpaceAfter=No
+1	如果	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
 2	各位	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
 3	剛才	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	有	_	AUX	_	_	5	aux	_	SpaceAfter=No
 5	出席	_	VERB	_	_	9	advcl	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 7	便	_	ADV	_	_	9	advmod	_	SpaceAfter=No
-8	應該	_	VERB	_	_	9	aux	_	SpaceAfter=No
+8	應該	_	AUX	_	_	9	aux	_	SpaceAfter=No
 9	知道	_	VERB	_	_	0	root	_	SpaceAfter=No
 10	情況	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 11	如何	_	ADV	_	_	9	ccomp	_	SpaceAfter=No
@@ -7310,7 +7310,7 @@
 # text = 不過，無論當事人如何澄清及解釋，在這個會議上，我不能保證令大家滿意。
 1	不過	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	無論	_	SCONJ	_	_	6	advmod	_	SpaceAfter=No
+3	無論	_	SCONJ	_	_	6	mark	_	SpaceAfter=No
 4	當事人	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 5	如何	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	澄清	_	VERB	_	_	18	advcl	_	SpaceAfter=No
@@ -7339,7 +7339,7 @@
 4	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	我	_	PRON	_	_	11	nsubj	_	SpaceAfter=No
 6	祇	_	ADV	_	_	11	advmod	_	SpaceAfter=No
-7	能	_	VERB	_	_	11	aux	_	SpaceAfter=No
+7	能	_	AUX	_	_	11	aux	_	SpaceAfter=No
 8	根據	_	ADP	_	_	10	case	_	SpaceAfter=No
 9	會議	_	NOUN	_	_	10	compound	_	SpaceAfter=No
 10	規則	_	NOUN	_	_	11	obl	_	SpaceAfter=No
@@ -7349,7 +7349,7 @@
 
 # sent_id = 687
 # text = 如果議員想確保他的問題得到滿意的答覆，可以在其他場合提出。
-1	如果	_	SCONJ	_	_	3	advmod	_	SpaceAfter=No
+1	如果	_	SCONJ	_	_	3	mark	_	SpaceAfter=No
 2	議員	_	NOUN	_	_	3	nsubj	_	SpaceAfter=No
 3	想	_	AUX	_	_	4	aux	_	SpaceAfter=No
 4	確保	_	VERB	_	_	17	advcl	_	SpaceAfter=No
@@ -7361,7 +7361,7 @@
 10	的	_	PART	_	_	9	mark:rel	_	SpaceAfter=No
 11	答覆	_	NOUN	_	_	8	obj	_	SpaceAfter=No
 12	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
-13	可以	_	VERB	_	_	17	aux	_	SpaceAfter=No
+13	可以	_	AUX	_	_	17	aux	_	SpaceAfter=No
 14	在	_	ADP	_	_	16	case	_	SpaceAfter=No
 15	其他	_	DET	_	_	16	det	_	SpaceAfter=No
 16	場合	_	NOUN	_	_	17	obl	_	SpaceAfter=No
@@ -7450,7 +7450,7 @@
 7	爭論	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	其他	_	DET	_	_	9	det	_	SpaceAfter=No
 9	問題	_	NOUN	_	_	7	obj	_	SpaceAfter=No
-10	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	因為	_	ADV	_	_	13	advmod	_	SpaceAfter=No
 12	我	_	PRON	_	_	13	nsubj	_	SpaceAfter=No
 13	沒有	_	VERB	_	_	7	advcl	_	SpaceAfter=No
@@ -7628,7 +7628,7 @@
 4	又	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	怎樣	_	ADV	_	_	0	root	_	SpaceAfter=No
 6	呢	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
-7	？	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	？	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 705
 # text = 如果議員真的不返回座位，也不要緊。
@@ -7692,7 +7692,7 @@
 8	的	_	PART	_	_	7	case	_	SpaceAfter=No
 9	規程	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
 10	祇	_	ADV	_	_	12	advmod	_	SpaceAfter=No
-11	能夠	_	VERB	_	_	12	aux	_	SpaceAfter=No
+11	能夠	_	AUX	_	_	12	aux	_	SpaceAfter=No
 12	涉及	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	選舉	_	VERB	_	_	14	acl	_	SpaceAfter=No
 14	過程	_	NOUN	_	_	12	obj	_	SpaceAfter=No
@@ -7734,7 +7734,7 @@
 2	不	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	是	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	故意	_	ADV	_	_	6	advmod	_	SpaceAfter=No
-5	要	_	VERB	_	_	6	aux	_	SpaceAfter=No
+5	要	_	AUX	_	_	6	aux	_	SpaceAfter=No
 6	為難	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
 7	你	_	PRON	_	_	6	obj	_	SpaceAfter=No
 8	或	_	CCONJ	_	_	9	cc	_	SpaceAfter=No
@@ -7744,7 +7744,7 @@
 # sent_id = 713
 # text = 還要感謝你試圖安排我們到會議廳外聆聽梁君彥議員的解釋。
 1	還	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-2	要	_	VERB	_	_	3	aux	_	SpaceAfter=No
+2	要	_	AUX	_	_	3	aux	_	SpaceAfter=No
 3	感謝	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
 5	試圖	_	AUX	_	_	6	aux	_	SpaceAfter=No
@@ -7823,7 +7823,7 @@
 1	原來	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	那	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
 3	是	_	AUX	_	_	6	cop	_	SpaceAfter=No
-4	一	_	NUM	_	_	6	det	_	SpaceAfter=No
+4	一	_	NUM	_	_	6	nummod	_	SpaceAfter=No
 5	封	_	NOUN	_	NounType=Clf	4	clf	_	SpaceAfter=No
 6	電郵	_	NOUN	_	_	0	root	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -7833,8 +7833,8 @@
 1	第二	_	ADJ	_	_	3	amod	_	SpaceAfter=No
 2	封	_	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No
 3	信	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
-4	才	_	ADV	_	_	5	advmod	_	SpaceAfter=No
-5	是	_	VERB	_	_	6	cop	_	SpaceAfter=No
+4	才	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+5	是	_	AUX	_	_	6	cop	_	SpaceAfter=No
 6	正本	_	NOUN	_	_	0	root	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -7871,7 +7871,7 @@
 7	，	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
 8	立法會	_	NOUN	_	_	9	compound	_	SpaceAfter=No
 9	主席	_	NOUN	_	_	13	nsubj	_	SpaceAfter=No
-10	必須	_	VERB	_	_	13	aux	_	SpaceAfter=No
+10	必須	_	AUX	_	_	13	aux	_	SpaceAfter=No
 11	在	_	ADP	_	_	12	case	_	SpaceAfter=No
 12	外國	_	NOUN	_	_	13	obl	_	SpaceAfter=No
 13	無	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
@@ -7893,9 +7893,9 @@
 11	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	但	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 13	卻	_	ADV	_	_	18	advmod	_	SpaceAfter=No
-14	不	_	ADV	_	_	16	advmod	_	SpaceAfter=No
-15	一定	_	ADV	_	_	16	advmod	_	SpaceAfter=No
-16	是	_	VERB	_	_	18	cop	_	SpaceAfter=No
+14	不	_	ADV	_	_	18	advmod	_	SpaceAfter=No
+15	一定	_	ADV	_	_	18	advmod	_	SpaceAfter=No
+16	是	_	AUX	_	_	18	cop	_	SpaceAfter=No
 17	法律	_	NOUN	_	_	18	compound	_	SpaceAfter=No
 18	文件	_	NOUN	_	_	0	root	_	SpaceAfter=No
 19	。	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -7973,7 +7973,7 @@
 6	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	毛孟靜	_	PROPN	_	_	4	vocative	_	SpaceAfter=No
 8	議員	_	NOUN	_	_	7	flat	_	SpaceAfter=No
-9	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 729
 # text = 我剛才說過，你的提問祇能夠涉及選舉過程或與選舉有關的事情。
@@ -8041,14 +8041,14 @@
 2	他	_	PRON	_	_	4	nmod	_	SpaceAfter=No
 3	的	_	PART	_	_	2	case	_	SpaceAfter=No
 4	答覆	_	NOUN	_	_	7	nsubj	_	SpaceAfter=No
-5	能	_	AUX	_	_	7	advmod	_	SpaceAfter=No
+5	能	_	AUX	_	_	7	aux	_	SpaceAfter=No
 6	否	_	ADV	_	_	5	conj	_	SpaceAfter=No
 7	回應	_	VERB	_	_	16	advcl	_	SpaceAfter=No
 8	你	_	PRON	_	_	11	nmod	_	SpaceAfter=No
 9	剛才	_	ADV	_	_	11	amod	_	SpaceAfter=No
 10	的	_	PART	_	_	9	mark:rel	_	SpaceAfter=No
 11	提問	_	NOUN	_	_	7	obj	_	SpaceAfter=No
-12	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+12	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 13	我	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
 14	並不	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 15	能夠	_	AUX	_	_	16	aux	_	SpaceAfter=No
@@ -8113,7 +8113,7 @@
 13	提問	_	NOUN	_	_	10	obj	_	SpaceAfter=No
 14	，	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	大家	_	PRON	_	_	17	nsubj	_	SpaceAfter=No
-16	可以	_	VERB	_	_	17	aux	_	SpaceAfter=No
+16	可以	_	AUX	_	_	17	aux	_	SpaceAfter=No
 17	決定	_	VERB	_	_	0	root	_	SpaceAfter=No
 18	尋求	_	VERB	_	_	17	xcomp	_	SpaceAfter=No
 19	……	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
@@ -8286,7 +8286,7 @@
 11	的	_	PART	_	_	10	case	_	SpaceAfter=No
 12	正式	_	ADJ	_	_	13	amod	_	SpaceAfter=No
 13	文件	_	NOUN	_	_	4	obj	_	SpaceAfter=No
-14	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+14	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 744
 # text = 而最好當然是正本。
@@ -8412,12 +8412,12 @@
 12	但	_	ADV	_	_	21	advmod	_	SpaceAfter=No
 13	如果	_	SCONJ	_	_	16	mark	_	SpaceAfter=No
 14	大家	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
-15	想	_	VERB	_	_	16	aux	_	SpaceAfter=No
+15	想	_	AUX	_	_	16	aux	_	SpaceAfter=No
 16	澄清	_	VERB	_	_	21	advcl	_	SpaceAfter=No
 17	的話	_	PART	_	_	16	mark	_	SpaceAfter=No
-18	，	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
+18	，	_	PUNCT	_	_	21	punct	_	SpaceAfter=No
 19	便	_	ADV	_	_	21	advmod	_	SpaceAfter=No
-20	應該	_	VERB	_	_	21	aux	_	SpaceAfter=No
+20	應該	_	AUX	_	_	21	aux	_	SpaceAfter=No
 21	透過	_	ADP	_	_	4	advcl	_	SpaceAfter=No
 22	其他	_	DET	_	_	23	det	_	SpaceAfter=No
 23	途徑	_	NOUN	_	_	21	obj	_	SpaceAfter=No
@@ -8463,7 +8463,7 @@
 
 # sent_id = 755
 # text = 不好意思，我不是特別要為難你，亦覺得這樣插言不禮貌。
-1	不好意思	_	INTJ	_	_	5	advmod	_	SpaceAfter=No
+1	不好意思	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	我	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
 4	不	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -8472,7 +8472,7 @@
 7	要	_	AUX	_	_	8	aux	_	SpaceAfter=No
 8	為難	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
 9	你	_	PRON	_	_	8	obj	_	SpaceAfter=No
-10	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 11	亦	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 12	覺得	_	VERB	_	_	5	conj	_	SpaceAfter=No
 13	這樣	_	ADV	_	_	14	advmod	_	SpaceAfter=No
@@ -8489,7 +8489,7 @@
 
 # sent_id = 757
 # text = ……但按照你剛才的說法，作為立法會主席便不能夠擁有外國居留權。
-1	……	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+1	……	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	但	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 3	按照	_	ADP	_	_	7	case	_	SpaceAfter=No
 4	你	_	PRON	_	_	7	nmod	_	SpaceAfter=No
@@ -8525,7 +8525,7 @@
 13	稍後	_	NOUN	_	_	15	compound	_	SpaceAfter=No
 14	半	_	NUM	_	_	15	nummod	_	SpaceAfter=No
 15	小時	_	NOUN	_	NounType=Clf	22	obl	_	SpaceAfter=No
-16	，	_	PUNCT	_	_	22	punct	_	SpaceAfter=No
+16	，	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	或	_	CCONJ	_	_	19	cc	_	SpaceAfter=No
 18	十	_	NUM	_	_	19	nummod	_	SpaceAfter=No
 19	分鐘	_	NOUN	_	NounType=Clf	15	conj	_	SpaceAfter=No
@@ -8544,7 +8544,7 @@
 5	能	_	AUX	_	_	11	aux	_	SpaceAfter=No
 6	在	_	ADP	_	_	7	case	_	SpaceAfter=No
 7	今天	_	NOUN	_	_	11	obl:tmod	_	SpaceAfter=No
-8	內	_	ADJ	_	_	7	case:loc	_	SpaceAfter=No
+8	內	_	ADP	_	_	7	case:loc	_	SpaceAfter=No
 9	向	_	ADP	_	_	10	case	_	SpaceAfter=No
 10	我們	_	PRON	_	_	11	obl	_	SpaceAfter=No
 11	提供	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -8575,13 +8575,13 @@
 
 # sent_id = 762
 # text = ……就是一旦他當選，發覺條件不符合規定，他便不應該成為主席。
-1	……	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	……	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	就	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	是	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	一旦	_	SCONJ	_	_	6	advmod	_	SpaceAfter=No
+4	一旦	_	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	他	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
 6	當選	_	VERB	_	_	11	advcl	_	SpaceAfter=No
-7	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+7	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	發覺	_	VERB	_	_	18	advcl	_	SpaceAfter=No
 9	條件	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 10	不	_	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -8599,7 +8599,7 @@
 # sent_id = 763
 # text = 這是正確的。
 1	這	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
-2	是	_	VERB	_	_	3	cop	_	SpaceAfter=No
+2	是	_	AUX	_	_	3	cop	_	SpaceAfter=No
 3	正確	_	ADJ	_	_	0	root	_	SpaceAfter=No
 4	的	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -8611,8 +8611,8 @@
 3	問題	_	NOUN	_	_	4	nsubj	_	SpaceAfter=No
 4	是	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	我	_	PRON	_	_	8	nsubj	_	SpaceAfter=No
-6	不	_	ADV	_	_	7	advmod	_	SpaceAfter=No
-7	能夠	_	VERB	_	_	8	aux	_	SpaceAfter=No
+6	不	_	ADV	_	_	8	advmod	_	SpaceAfter=No
+7	能夠	_	AUX	_	_	8	aux	_	SpaceAfter=No
 8	建議	_	VERB	_	_	4	ccomp	_	SpaceAfter=No
 9	他	_	PRON	_	_	8	obj	_	SpaceAfter=No
 10	接着	_	ADV	_	_	13	advmod	_	SpaceAfter=No
@@ -8824,7 +8824,7 @@
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	在	_	ADP	_	_	4	mark	_	SpaceAfter=No
 4	投票	_	VERB	_	_	10	advcl	_	SpaceAfter=No
-5	前	_	NOUN	_	_	4	mark	_	SpaceAfter=No
+5	前	_	ADP	_	_	4	mark	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	你	_	PRON	_	_	10	nsubj	_	SpaceAfter=No
 8	首先	_	ADV	_	_	10	advmod	_	SpaceAfter=No
@@ -8870,7 +8870,7 @@
 7	我	_	PRON	_	_	6	obj	_	SpaceAfter=No
 8	的	_	PART	_	_	6	mark:rel	_	SpaceAfter=No
 9	名單	_	NOUN	_	_	4	obj	_	SpaceAfter=No
-10	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	包括	_	VERB	_	_	9	acl	_	SpaceAfter=No
 12	候選人	_	NOUN	_	_	11	obj	_	SpaceAfter=No
 13	和	_	CCONJ	_	_	18	cc	_	SpaceAfter=No
@@ -8897,7 +8897,7 @@
 12	向	_	ADP	_	_	13	case	_	SpaceAfter=No
 13	我	_	PRON	_	_	14	obl	_	SpaceAfter=No
 14	提出	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
-15	，	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
+15	，	_	PUNCT	_	_	20	punct	_	SpaceAfter=No
 16	因為	_	ADV	_	_	20	advmod	_	SpaceAfter=No
 17	我	_	PRON	_	_	20	nsubj	_	SpaceAfter=No
 18	無	_	VERB	_	_	20	advcl	_	SpaceAfter=No
@@ -8930,7 +8930,7 @@
 6	問題	_	NOUN	_	_	4	obj	_	SpaceAfter=No
 7	的	_	PART	_	_	4	mark:rel	_	SpaceAfter=No
 8	議員	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
-9	是	_	VERB	_	_	10	cop	_	SpaceAfter=No
+9	是	_	AUX	_	_	10	cop	_	SpaceAfter=No
 10	許智峯	_	PROPN	_	_	0	root	_	SpaceAfter=No
 11	議員	_	NOUN	_	_	10	flat	_	SpaceAfter=No
 12	。	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -8972,7 +8972,7 @@
 2	我們	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 3	是	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	否	_	ADV	_	_	3	conj	_	SpaceAfter=No
-5	應該	_	VERB	_	_	6	aux	_	SpaceAfter=No
+5	應該	_	AUX	_	_	6	aux	_	SpaceAfter=No
 6	繼續	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
 7	進行	_	VERB	_	_	6	xcomp	_	SpaceAfter=No
 8	會議	_	NOUN	_	_	7	obj	_	SpaceAfter=No
@@ -8986,7 +8986,7 @@
 1	毛孟靜	_	PROPN	_	_	11	nsubj	_	SpaceAfter=No
 2	議員	_	NOUN	_	_	1	flat	_	SpaceAfter=No
 3	和	_	CCONJ	_	_	9	cc	_	SpaceAfter=No
-4	多	_	NUM	_	_	9	det	_	SpaceAfter=No
+4	多	_	DET	_	_	9	det	_	SpaceAfter=No
 5	位	_	NOUN	_	NounType=Clf	4	clf	_	SpaceAfter=No
 6	非	_	ADJ	_	_	7	amod	_	SpaceAfter=No
 7	建制	_	NOUN	_	_	8	amod	_	SpaceAfter=No
@@ -8995,7 +8995,7 @@
 10	剛才	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	說	_	VERB	_	_	0	root	_	SpaceAfter=No
 12	過	_	AUX	_	_	11	aux	_	SpaceAfter=No
-13	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	我們	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
 15	不	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 16	信納	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
@@ -9032,7 +9032,7 @@
 # sent_id = 790
 # text = 這是第一點。
 1	這	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
-2	是	_	VERB	_	_	4	cop	_	SpaceAfter=No
+2	是	_	AUX	_	_	4	cop	_	SpaceAfter=No
 3	第一	_	ADJ	_	_	4	amod	_	SpaceAfter=No
 4	點	_	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -9053,7 +9053,7 @@
 12	剛才	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 13	在	_	ADP	_	_	14	mark	_	SpaceAfter=No
 14	宣誓	_	VERB	_	_	16	advcl	_	SpaceAfter=No
-15	時	_	NOUN	_	_	14	mark	_	SpaceAfter=No
+15	時	_	ADP	_	_	14	mark	_	SpaceAfter=No
 16	遇到	_	VERB	_	_	0	root	_	SpaceAfter=No
 17	一些	_	DET	_	_	18	det	_	SpaceAfter=No
 18	障礙	_	NOUN	_	_	16	obj	_	SpaceAfter=No
@@ -9094,7 +9094,7 @@
 # text = 但是，多位議員認為，他們所採用的宣誓方式，歷屆立法會議員也曾採用類似方式，卻沒有問題。
 1	但是	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
-3	多	_	NUM	_	_	5	det	_	SpaceAfter=No
+3	多	_	DET	_	_	5	det	_	SpaceAfter=No
 4	位	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 5	議員	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 6	認為	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -9147,8 +9147,8 @@
 12	選舉	_	NOUN	_	_	23	nsubj	_	SpaceAfter=No
 13	便	_	ADV	_	_	23	advmod	_	SpaceAfter=No
 14	不	_	ADV	_	_	15	advmod	_	SpaceAfter=No
-15	會	_	AUX	_	_	16	aux	_	SpaceAfter=No
-16	是	_	VERB	_	_	23	cop	_	SpaceAfter=No
+15	會	_	AUX	_	_	23	aux	_	SpaceAfter=No
+16	是	_	AUX	_	_	23	cop	_	SpaceAfter=No
 17	公平	_	ADJ	_	_	23	acl	_	SpaceAfter=No
 18	及	_	CCONJ	_	_	19	cc	_	SpaceAfter=No
 19	符合	_	VERB	_	_	17	conj	_	SpaceAfter=No
@@ -9165,7 +9165,7 @@
 3	請	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	你	_	PRON	_	_	3	obj	_	SpaceAfter=No
 5	決定	_	VERB	_	_	3	xcomp	_	SpaceAfter=No
-6	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	面對	_	VERB	_	_	16	advcl	_	SpaceAfter=No
 8	那麼	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	多	_	DET	_	_	12	amod	_	SpaceAfter=No
@@ -9173,7 +9173,7 @@
 11	公義	_	NOUN	_	_	12	compound	_	SpaceAfter=No
 12	問題	_	NOUN	_	_	7	obj	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
-14	應	_	VERB	_	_	16	aux	_	SpaceAfter=No
+14	應	_	AUX	_	_	16	aux	_	SpaceAfter=No
 15	否	_	ADV	_	_	14	conj	_	SpaceAfter=No
 16	繼續	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
 17	進行	_	VERB	_	_	16	xcomp	_	SpaceAfter=No
@@ -9374,7 +9374,7 @@
 3	你	_	PRON	_	_	5	nmod	_	SpaceAfter=No
 4	的	_	PART	_	_	3	case	_	SpaceAfter=No
 5	判斷	_	NOUN	_	_	2	obj	_	SpaceAfter=No
-6	，	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	便	_	ADV	_	_	8	advmod	_	SpaceAfter=No
 8	是	_	VERB	_	_	5	acl	_	SpaceAfter=No
 9	秘書長	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
@@ -9551,8 +9551,8 @@
 11	封	_	NOUN	_	NounType=Clf	10	clf	_	SpaceAfter=No
 12	信	_	NOUN	_	_	5	obj	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
-14	供	_	VERB	_	_	16	mark	_	SpaceAfter=No
-15	大家	_	PRON	_	_	16	nsubj	_	SpaceAfter=No
+14	供	_	VERB	_	_	15	case	_	SpaceAfter=No
+15	大家	_	PRON	_	_	16	obl	_	SpaceAfter=No
 16	參閱	_	VERB	_	_	5	advcl	_	SpaceAfter=No
 17	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
@@ -9615,7 +9615,7 @@
 
 # sent_id = 821
 # text = 既然已定了今天選舉主席，我認為我們應按照所訂定的時間安排順利完成選舉主席。
-1	既然	_	SCONJ	_	_	11	advmod	_	SpaceAfter=No
+1	既然	_	SCONJ	_	_	11	mark	_	SpaceAfter=No
 2	已	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	定	_	VERB	_	_	11	advcl	_	SpaceAfter=No
 4	了	_	AUX	_	_	3	aux	_	SpaceAfter=No
@@ -9627,13 +9627,13 @@
 10	我	_	PRON	_	_	11	nsubj	_	SpaceAfter=No
 11	認為	_	VERB	_	_	0	root	_	SpaceAfter=No
 12	我們	_	PRON	_	_	21	nsubj	_	SpaceAfter=No
-13	應	_	PROPN	_	_	14	aux	_	SpaceAfter=No
+13	應	_	AUX	_	_	21	aux	_	SpaceAfter=No
 14	按照	_	ADP	_	_	18	case	_	SpaceAfter=No
 15	所	_	SCONJ	_	_	16	mark	_	SpaceAfter=No
 16	訂定	_	VERB	_	_	19	acl	_	SpaceAfter=No
 17	的	_	PART	_	_	16	mark:rel	_	SpaceAfter=No
 18	時間	_	NOUN	_	_	19	compound	_	SpaceAfter=No
-19	安排	_	NOUN	_	_	21	case	_	SpaceAfter=No
+19	安排	_	NOUN	_	_	21	obl	_	SpaceAfter=No
 20	順利	_	ADV	_	_	21	advmod	_	SpaceAfter=No
 21	完成	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
 22	選舉	_	NOUN	_	_	23	acl	_	SpaceAfter=No
@@ -9705,7 +9705,7 @@
 12	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	確保	_	VERB	_	_	10	advcl	_	SpaceAfter=No
 14	我們	_	PRON	_	_	17	nsubj	_	SpaceAfter=No
-15	能夠	_	VERB	_	_	17	aux	_	SpaceAfter=No
+15	能夠	_	AUX	_	_	17	aux	_	SpaceAfter=No
 16	順利	_	ADV	_	_	17	advmod	_	SpaceAfter=No
 17	選	_	VERB	_	_	13	ccomp	_	SpaceAfter=No
 18	出	_	VERB	_	_	17	compound:dir	_	SpaceAfter=No
@@ -9843,10 +9843,10 @@
 5	剛才	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	提	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	到	_	ADP	_	_	10	case	_	SpaceAfter=No
-8	一	_	NUM	_	_	11	nummod	_	SpaceAfter=No
+8	一	_	NUM	_	_	10	nummod	_	SpaceAfter=No
 9	個	_	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No
 10	觀點	_	NOUN	_	_	6	obl	_	SpaceAfter=No
-11	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+11	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	就	_	ADV	_	_	13	advmod	_	SpaceAfter=No
 13	是	_	VERB	_	_	10	acl	_	SpaceAfter=No
 14	按照	_	ADP	_	_	23	case	_	SpaceAfter=No
@@ -9899,7 +9899,7 @@
 4	次	_	NOUN	_	NounType=Clf	5	advmod	_	SpaceAfter=No
 5	選舉	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 6	主席	_	NOUN	_	_	5	obj	_	SpaceAfter=No
-7	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
+7	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	後果	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 9	十分	_	ADV	_	_	10	advmod	_	SpaceAfter=No
 10	重大	_	ADJ	_	_	2	ccomp	_	SpaceAfter=No
@@ -9977,10 +9977,10 @@
 # sent_id = 837
 # text = 在此情況下，就《基本法》第七十一條所指的外國居留權問題，我認為在未澄清之前，是否必須在這一刻選舉立法會主席？
 1	在	_	ADP	_	_	3	case	_	SpaceAfter=No
-2	此	_	DET	_	_	1	det	_	SpaceAfter=No
+2	此	_	DET	_	_	3	det	_	SpaceAfter=No
 3	情況	_	NOUN	_	_	20	obl	_	SpaceAfter=No
 4	下	_	ADP	_	_	3	case	_	SpaceAfter=No
-5	，	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
+5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	就	_	ADP	_	_	17	case	_	SpaceAfter=No
 7	《	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	基本法	_	NOUN	_	_	11	compound	_	SpaceAfter=No
@@ -10000,7 +10000,7 @@
 22	未	_	ADV	_	_	23	advmod	_	SpaceAfter=No
 23	澄清	_	VERB	_	_	26	advcl	_	SpaceAfter=No
 24	之前	_	ADP	_	_	23	mark	_	SpaceAfter=No
-25	，	_	PUNCT	_	_	20	punct	_	SpaceAfter=No
+25	，	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	是	_	VERB	_	_	20	ccomp	_	SpaceAfter=No
 27	否	_	ADP	_	_	26	conj	_	SpaceAfter=No
 28	必須	_	AUX	_	_	33	aux	_	SpaceAfter=No
@@ -10037,7 +10037,7 @@
 12	得	_	VERB	_	_	17	advcl	_	SpaceAfter=No
 13	出	_	VERB	_	_	12	compound:dir	_	SpaceAfter=No
 14	結果	_	NOUN	_	_	12	obj	_	SpaceAfter=No
-15	後	_	NOUN	_	_	12	mark	_	SpaceAfter=No
+15	後	_	ADP	_	_	12	mark	_	SpaceAfter=No
 16	，	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	作	_	VERB	_	_	7	conj	_	SpaceAfter=No
 18	出	_	VERB	_	_	17	compound:dir	_	SpaceAfter=No
@@ -10101,9 +10101,9 @@
 # sent_id = 843
 # text = 我是第一次參與立法會會議。
 1	我	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
-2	是	_	VERB	_	_	5	cop	_	SpaceAfter=No
+2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
 3	第一	_	ADJ	_	_	4	amod	_	SpaceAfter=No
-4	次	_	NOUN	_	NounType=Clf	5	advmod	_	SpaceAfter=No
+4	次	_	NOUN	_	NounType=Clf	5	advcl	_	SpaceAfter=No
 5	參與	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	立法會	_	NOUN	_	_	7	compound	_	SpaceAfter=No
 7	會議	_	NOUN	_	_	5	obj	_	SpaceAfter=No
@@ -10189,7 +10189,7 @@
 # sent_id = 849
 # text = 怎可能在尚未確定候選人的國籍便開展整個程式？
 1	怎	_	ADV	_	_	2	advmod	_	SpaceAfter=No
-2	可能	_	AUX	_	_	11	advmod	_	SpaceAfter=No
+2	可能	_	AUX	_	_	11	aux	_	SpaceAfter=No
 3	在	_	ADP	_	_	6	mark	_	SpaceAfter=No
 4	尚	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 5	未	_	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -10229,7 +10229,7 @@
 12	但	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 13	都	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 14	不過	_	ADV	_	_	18	advmod	_	SpaceAfter=No
-15	是	_	VERB	_	_	18	cop	_	SpaceAfter=No
+15	是	_	AUX	_	_	18	cop	_	SpaceAfter=No
 16	口頭上	_	NOUN	_	_	18	nmod	_	SpaceAfter=No
 17	的	_	PART	_	_	16	case	_	SpaceAfter=No
 18	確認	_	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -10237,7 +10237,7 @@
 
 # sent_id = 852
 # text = 倘若秘書處和主席對整個選舉負責，或覺得整個立法會要取信於民，重新取得市民的信任，便更要將每個程式做得更嚴謹，而非「按章工作」，即秘書處說不需要查便不查。
-1	倘若	_	SCONJ	_	_	8	advmod	_	SpaceAfter=No
+1	倘若	_	SCONJ	_	_	8	mark	_	SpaceAfter=No
 2	秘書處	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 3	和	_	CCONJ	_	_	4	cc	_	SpaceAfter=No
 4	主席	_	NOUN	_	_	2	conj	_	SpaceAfter=No
@@ -10245,7 +10245,7 @@
 6	整個	_	DET	_	_	7	det	_	SpaceAfter=No
 7	選舉	_	NOUN	_	_	8	obl	_	SpaceAfter=No
 8	負責	_	VERB	_	_	30	advcl	_	SpaceAfter=No
-9	，	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
+9	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	或	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
 11	覺得	_	VERB	_	_	8	conj	_	SpaceAfter=No
 12	整個	_	DET	_	_	13	det	_	SpaceAfter=No
@@ -10255,10 +10255,10 @@
 16	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	重新	_	ADV	_	_	19	advmod	_	SpaceAfter=No
 18	取得	_	VERB	_	_	15	conj	_	SpaceAfter=No
-19	市民	_	NOUN	_	_	22	nmod	_	SpaceAfter=No
+19	市民	_	NOUN	_	_	21	nmod	_	SpaceAfter=No
 20	的	_	PART	_	_	19	case	_	SpaceAfter=No
-21	信任	_	NOUN	_	_	19	obj	_	SpaceAfter=No
-22	，	_	PUNCT	_	_	31	punct	_	SpaceAfter=No
+21	信任	_	NOUN	_	_	18	obj	_	SpaceAfter=No
+22	，	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
 23	便	_	ADV	_	_	31	advmod	_	SpaceAfter=No
 24	更	_	ADV	_	_	31	advmod	_	SpaceAfter=No
 25	要	_	AUX	_	_	31	aux	_	SpaceAfter=No
@@ -10268,11 +10268,11 @@
 29	程式	_	NOUN	_	_	31	obl:patient	_	SpaceAfter=No
 30	做	_	VERB	_	_	0	root	_	SpaceAfter=No
 31	得	_	AUX	_	_	30	aux	_	SpaceAfter=No
-32	更	_	ADV	_	_	34	advmod	_	SpaceAfter=No
+32	更	_	ADV	_	_	33	advmod	_	SpaceAfter=No
 33	嚴謹	_	ADJ	_	_	31	xcomp	_	SpaceAfter=No
-34	，	_	PUNCT	_	_	37	punct	_	SpaceAfter=No
-35	而	_	CCONJ	_	_	37	cc	_	SpaceAfter=No
-36	非	_	VERB	_	_	31	conj	_	SpaceAfter=No
+34	，	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
+35	而	_	CCONJ	_	_	40	cc	_	SpaceAfter=No
+36	非	_	VERB	_	_	30	conj	_	SpaceAfter=No
 37	「	_	PUNCT	_	_	40	punct	_	SpaceAfter=No
 38	按	_	ADP	_	_	39	case	_	SpaceAfter=No
 39	章	_	NOUN	_	_	40	obl	_	SpaceAfter=No
@@ -10356,14 +10356,14 @@
 # text = 這是第一個問題。
 1	這	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
 2	是	_	AUX	_	_	5	cop	_	SpaceAfter=No
-3	第一	_	ADJ	_	_	5	nummod	_	SpaceAfter=No
+3	第一	_	ADJ	_	_	5	amod	_	SpaceAfter=No
 4	個	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 5	問題	_	NOUN	_	_	0	root	_	SpaceAfter=No
 6	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 857
 # text = 第二個問題，我們現在尚未弄清楚多少議員能夠投票。
-1	第二	_	ADJ	_	_	3	nummod	_	SpaceAfter=No
+1	第二	_	ADJ	_	_	3	amod	_	SpaceAfter=No
 2	個	_	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No
 3	問題	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 4	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -10457,7 +10457,7 @@
 2	讓	_	VERB	_	_	13	advcl	_	SpaceAfter=No
 3	所有	_	DET	_	_	4	det	_	SpaceAfter=No
 4	議員	_	NOUN	_	_	2	obj	_	SpaceAfter=No
-5	能夠	_	VERB	_	_	7	aux	_	SpaceAfter=No
+5	能夠	_	AUX	_	_	7	aux	_	SpaceAfter=No
 6	成功	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	完成	_	VERB	_	_	2	xcomp	_	SpaceAfter=No
 8	宣誓	_	VERB	_	_	9	acl	_	SpaceAfter=No
@@ -10482,7 +10482,7 @@
 7	決定	_	VERB	_	_	12	nsubj	_	SpaceAfter=No
 8	或	_	CCONJ	_	_	7	cc	_	SpaceAfter=No
 9	判斷	_	VERB	_	_	7	conj	_	SpaceAfter=No
-10	完全	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+10	完全	_	ADV	_	_	12	advmod	_	SpaceAfter=No
 11	是	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	arbitrary_use_of_power	_	NOUN	_	_	0	root	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -10497,7 +10497,7 @@
 
 # sent_id = 863
 # text = 如果大家翻看剛才錄影片段，其實三位議員已完整讀完誓詞。
-1	如果	_	SCONJ	_	_	3	advmod	_	SpaceAfter=No
+1	如果	_	SCONJ	_	_	3	mark	_	SpaceAfter=No
 2	大家	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 3	翻看	_	VERB	_	_	14	advcl	_	SpaceAfter=No
 4	剛才	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -10716,7 +10716,7 @@
 28	了	_	AUX	_	_	27	aux	_	SpaceAfter=No
 29	海	_	NOUN	_	_	27	obj	_	SpaceAfter=No
 30	便	_	ADV	_	_	32	advmod	_	SpaceAfter=No
-31	是	_	VERB	_	_	32	cop	_	SpaceAfter=No
+31	是	_	AUX	_	_	32	cop	_	SpaceAfter=No
 32	神仙	_	NOUN	_	_	23	xcomp	_	SpaceAfter=No
 33	」	_	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	。	_	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -10759,7 +10759,7 @@
 13	未	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 14	能	_	AUX	_	_	15	aux	_	SpaceAfter=No
 15	釐清	_	VERB	_	_	0	root	_	SpaceAfter=No
-16	。	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+16	。	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = 877
 # text = 在如此混亂、粗疏的情況下進入選舉程序，主席，我怕你背負的壓力會很大。
@@ -10941,7 +10941,7 @@
 # text = 所以，如果梁君彥議員仍然無法交出蓋有正規印章的信件正本，他應該不符合參選資格。
 1	所以	_	ADV	_	_	21	advmod	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
-3	如果	_	SCONJ	_	_	8	advmod	_	SpaceAfter=No
+3	如果	_	SCONJ	_	_	8	mark	_	SpaceAfter=No
 4	梁君彥	_	PROPN	_	_	5	compound	_	SpaceAfter=No
 5	議員	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 6	仍然	_	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -10992,7 +10992,7 @@
 24	議員	_	NOUN	_	_	23	flat	_	SpaceAfter=No
 25	設置	_	VERB	_	_	18	ccomp	_	SpaceAfter=No
 26	投票箱	_	NOUN	_	_	25	obj	_	SpaceAfter=No
-27	？	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+27	？	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = 887
 # text = 這相當影響未來立法會任期內會議如何進行，跟全港公眾利益也有莫大關係。
@@ -11035,7 +11035,7 @@
 
 # sent_id = 889
 # text = 如果梁君彥議員無法交出文件正本，他應該不符合參選資格。
-1	如果	_	SCONJ	_	_	5	advmod	_	SpaceAfter=No
+1	如果	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
 2	梁君彥	_	PROPN	_	_	5	nsubj	_	SpaceAfter=No
 3	議員	_	NOUN	_	_	2	flat	_	SpaceAfter=No
 4	無法	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -11158,9 +11158,9 @@
 # text = 主席，如果這是正式會議，梁頌恒議員沒有資格參加這個會議。
 1	主席	_	NOUN	_	_	11	vocative	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
-3	如果	_	SCONJ	_	_	7	advmod	_	SpaceAfter=No
+3	如果	_	SCONJ	_	_	7	mark	_	SpaceAfter=No
 4	這	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
-5	是	_	VERB	_	_	7	cop	_	SpaceAfter=No
+5	是	_	AUX	_	_	7	cop	_	SpaceAfter=No
 6	正式	_	ADJ	_	_	7	amod	_	SpaceAfter=No
 7	會議	_	NOUN	_	_	11	advcl	_	SpaceAfter=No
 8	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -11180,8 +11180,8 @@
 3	那麼	_	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	我	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
 5	修正	_	VERB	_	_	0	root	_	SpaceAfter=No
-6	我	_	PRON	_	_	10	compound	_	SpaceAfter=No
-7	第一	_	ADJ	_	_	10	amod	_	SpaceAfter=No
+6	我	_	PRON	_	_	9	compound	_	SpaceAfter=No
+7	第一	_	ADJ	_	_	9	amod	_	SpaceAfter=No
 8	個	_	NOUN	_	NounType=Clf	7	clf	_	SpaceAfter=No
 9	問題	_	NOUN	_	_	5	obj	_	SpaceAfter=No
 10	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -11206,7 +11206,7 @@
 # sent_id = 898
 # text = 主席，根據《議事規則》和相關法例，任何未宣誓的議員不能參加正式會議和發言。
 1	主席	_	NOUN	_	_	19	vocative	_	SpaceAfter=No
-2	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 3	根據	_	ADP	_	_	6	case	_	SpaceAfter=No
 4	《	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 5	議事	_	NOUN	_	_	6	compound	_	SpaceAfter=No
@@ -11268,7 +11268,7 @@
 # sent_id = 901
 # text = （一）在立法會每屆任期首次會議上，議員須按照本議事規則第一條《宗教式或非宗教式宣誓》的規定作宗教式或非宗教式宣誓。
 1	（	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	一	_	NUM	_	_	32	advmod	_	SpaceAfter=No
+2	一	_	NUM	_	_	32	advcl	_	SpaceAfter=No
 3	）	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 4	在	_	ADP	_	_	11	case	_	SpaceAfter=No
 5	立法會	_	NOUN	_	_	11	compound	_	SpaceAfter=No
@@ -11310,7 +11310,7 @@
 # sent_id = 902
 # text = （二）在所有出席會議的議員……「──包括我──」作宗教式或非宗教式宣誓後，須按照本議事規則第四條《立法會主席的選擧》規定的程序進行立法會主席的選擧。
 1	（	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	二	_	NUM	_	_	42	advmod	_	SpaceAfter=No
+2	二	_	NUM	_	_	42	advcl	_	SpaceAfter=No
 3	）	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 4	在	_	ADP	_	_	17	mark	_	SpaceAfter=No
 5	所有	_	DET	_	_	9	det	_	SpaceAfter=No
@@ -11324,7 +11324,7 @@
 13	包括	_	VERB	_	_	9	acl	_	SpaceAfter=No
 14	我	_	PRON	_	_	13	obj	_	SpaceAfter=No
 15	──	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
-16	」	_	PUNCT	_	_	13	nsubj	_	SpaceAfter=No
+16	」	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	作	_	VERB	_	_	42	advcl	_	SpaceAfter=No
 18	宗教	_	NOUN	_	_	19	compound	_	SpaceAfter=No
 19	式	_	NOUN	_	_	23	compound	_	SpaceAfter=No
@@ -11332,7 +11332,7 @@
 21	非宗教	_	ADJ	_	_	22	amod	_	SpaceAfter=No
 22	式	_	NOUN	_	_	19	conj	_	SpaceAfter=No
 23	宣誓	_	VERB	_	_	17	obj	_	SpaceAfter=No
-24	後	_	NOUN	_	_	17	mark	_	SpaceAfter=No
+24	後	_	ADP	_	_	17	mark	_	SpaceAfter=No
 25	，	_	PUNCT	_	_	42	punct	_	SpaceAfter=No
 26	須	_	AUX	_	_	42	aux	_	SpaceAfter=No
 27	按照	_	ADP	_	_	32	case	_	SpaceAfter=No
@@ -11379,7 +11379,7 @@
 6	款	_	NOUN	_	NounType=Clf	8	nmod	_	SpaceAfter=No
 7	的	_	PART	_	_	6	case	_	SpaceAfter=No
 8	程序	_	NOUN	_	_	4	obj	_	SpaceAfter=No
-9	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	即	_	ADV	_	_	18	advmod	_	SpaceAfter=No
 11	所有	_	DET	_	_	17	det	_	SpaceAfter=No
 12	出席	_	VERB	_	_	17	acl	_	SpaceAfter=No
@@ -11438,7 +11438,7 @@
 16	發言	_	VERB	_	_	14	xcomp	_	SpaceAfter=No
 17	的	_	PART	_	_	14	mark:rel	_	SpaceAfter=No
 18	決定	_	NOUN	_	_	12	obj	_	SpaceAfter=No
-19	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+19	。	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = 908
 # text = 我會讓他發言。
@@ -11612,7 +11612,7 @@
 18	基礎	_	NOUN	_	_	17	obj	_	SpaceAfter=No
 19	作出	_	VERB	_	_	0	root	_	SpaceAfter=No
 20	決定	_	NOUN	_	_	19	obj	_	SpaceAfter=No
-21	。	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+21	。	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = 920
 # text = 但如果你同意有關宣誓不合理和不合法，你這樣做便嚴重違反了《議事規則》第一條。
@@ -11680,7 +11680,7 @@
 7	尚	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 8	未	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	宣誓	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
-10	，	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
 11	尚	_	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	未	_	ADV	_	_	14	advmod	_	SpaceAfter=No
 13	是	_	AUX	_	_	14	cop	_	SpaceAfter=No
@@ -11784,7 +11784,7 @@
 # sent_id = 929
 # text = 你先前在會議上就座，沒有人取消你的資格，所以你有資格宣誓。
 1	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
-2	先前	_	NOUN	_	_	6	advmod	_	SpaceAfter=No
+2	先前	_	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No
 3	在	_	ADP	_	_	4	case	_	SpaceAfter=No
 4	會議	_	NOUN	_	_	6	obl	_	SpaceAfter=No
 5	上	_	ADP	_	_	4	case:loc	_	SpaceAfter=No
@@ -11881,7 +11881,7 @@
 5	剛才	_	NOUN	_	_	7	nmod	_	SpaceAfter=No
 6	的	_	PART	_	_	5	case	_	SpaceAfter=No
 7	程序	_	NOUN	_	_	17	obl	_	SpaceAfter=No
-8	，	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+8	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	你們	_	PRON	_	_	11	nsubj	_	SpaceAfter=No
 10	尚未	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	宣誓	_	VERB	_	_	17	advcl	_	SpaceAfter=No
@@ -11974,7 +11974,7 @@
 8	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 9	那	_	ADV	_	_	12	advmod	_	SpaceAfter=No
 10	就	_	ADV	_	_	12	advmod	_	SpaceAfter=No
-11	不用	_	AUX	_	_	12	advmod	_	SpaceAfter=No
+11	不用	_	AUX	_	_	12	aux	_	SpaceAfter=No
 12	理會	_	VERB	_	_	0	root	_	SpaceAfter=No
 13	我	_	PRON	_	_	15	nmod	_	SpaceAfter=No
 14	這	_	DET	_	_	15	det	_	SpaceAfter=No
@@ -11985,10 +11985,10 @@
 # text = 梁頌恒議員，你是否要繼續發言？
 1	梁頌恒	_	PROPN	_	_	7	vocative	_	SpaceAfter=No
 2	議員	_	NOUN	_	_	1	flat	_	SpaceAfter=No
-3	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 4	你	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
 5	是否	_	ADV	_	_	7	advmod	_	SpaceAfter=No
-6	要	_	VERB	_	_	7	aux	_	SpaceAfter=No
+6	要	_	AUX	_	_	7	aux	_	SpaceAfter=No
 7	繼續	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	發言	_	VERB	_	_	7	xcomp	_	SpaceAfter=No
 9	？	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -12310,7 +12310,7 @@
 8	作	_	VERB	_	_	10	acl	_	SpaceAfter=No
 9	的	_	PART	_	_	8	mark:rel	_	SpaceAfter=No
 10	決定	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
-11	便	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+11	便	_	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	是	_	AUX	_	_	14	cop	_	SpaceAfter=No
 13	最終	_	ADJ	_	_	14	amod	_	SpaceAfter=No
 14	決定	_	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -12487,7 +12487,7 @@
 # text = 請這五位議員返回座位，因為立法會《議事規則》……
 1	請	_	VERB	_	_	0	root	_	SpaceAfter=No
 2	這	_	DET	_	_	5	det	_	SpaceAfter=No
-3	五	_	NUM	_	_	5	det	_	SpaceAfter=No
+3	五	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	位	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 5	議員	_	NOUN	_	_	1	obj	_	SpaceAfter=No
 6	返回	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
@@ -12699,7 +12699,7 @@
 8	的	_	PART	_	_	7	case	_	SpaceAfter=No
 9	兩	_	NUM	_	_	10	nummod	_	SpaceAfter=No
 10	點	_	NOUN	_	NounType=Clf	14	nsubj	_	SpaceAfter=No
-11	就	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+11	就	_	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	是	_	AUX	_	_	14	cop	_	SpaceAfter=No
 13	候選人	_	NOUN	_	_	14	compound	_	SpaceAfter=No
 14	資格	_	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -12731,7 +12731,7 @@
 # sent_id = 998
 # text = 剛才多位議員已說過這點，我不詳述。
 1	剛才	_	ADV	_	_	6	advmod	_	SpaceAfter=No
-2	多	_	DET	_	_	4	nummod	_	SpaceAfter=No
+2	多	_	DET	_	_	4	det	_	SpaceAfter=No
 3	位	_	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No
 4	議員	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 5	已	_	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -12747,7 +12747,7 @@
 
 # sent_id = 999
 # text = 第二個問題是關於投票人的資格，《議事規則》訂明的上一項程序根本未完成。
-1	第二	_	ADJ	_	_	3	nummod	_	SpaceAfter=No
+1	第二	_	ADJ	_	_	3	amod	_	SpaceAfter=No
 2	個	_	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No
 3	問題	_	NOUN	_	_	4	nsubj	_	SpaceAfter=No
 4	是	_	AUX	_	_	0	root	_	SpaceAfter=No
@@ -12839,7 +12839,7 @@
 10	議事	_	VERB	_	_	11	acl	_	SpaceAfter=No
 11	規則	_	NOUN	_	_	8	obj	_	SpaceAfter=No
 12	》	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+13	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 14	以	_	SCONJ	_	_	15	mark	_	SpaceAfter=No
 15	決定	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 16	各	_	DET	_	_	17	det	_	SpaceAfter=No
@@ -12851,7 +12851,7 @@
 
 # sent_id = 1004
 # text = 應該讓每位出席會議的議員作出宗教式或非宗教式宣誓後，再按照《議事規則》第四條進行選舉主席的程序。
-1	應該	_	VERB	_	_	2	advmod	_	SpaceAfter=No
+1	應該	_	AUX	_	_	2	aux	_	SpaceAfter=No
 2	讓	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	每	_	DET	_	_	8	det	_	SpaceAfter=No
 4	位	_	NOUN	_	_	3	clf	_	SpaceAfter=No
@@ -12868,7 +12868,7 @@
 15	式	_	NOUN	_	_	12	conj	_	SpaceAfter=No
 16	宣誓	_	VERB	_	_	9	obj	_	SpaceAfter=No
 17	後	_	ADP	_	_	9	mark	_	SpaceAfter=No
-18	，	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+18	，	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
 19	再	_	ADV	_	_	27	advmod	_	SpaceAfter=No
 20	按照	_	ADP	_	_	26	case	_	SpaceAfter=No
 21	《	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
