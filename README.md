@@ -57,6 +57,16 @@ When using this treebank, please cite at least one paper from the following refe
 Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative Syntax on the Cantonese-Mandarin Parallel Dependency Treebank" Proceedings of the Fourth International Conference on Dependency Linguistics, pp. 266−275, Pisa, Italy, September 2017.
 Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
 
+# Changelog
+* 2019-03-11 v1.52
+  * Changelog added.
+* 2019-03-11 v1.51
+  * fixed minor mistake
+* 2019-03-03 v1.5
+  * Description of data from the Legislative Council added
+  * first .md version uploaded
+
+  <pre>
 === Machine-readable metadata =================================================
 Documentation status: partial
 Data source: manual
@@ -73,3 +83,4 @@ Contributors: Gerdes, Kim; Lee, John; Leung, Herman; Wong, Tak-sum
 contributing: elsewhere
 Contact: tswong-c@my.cityu.edu.hk; jsylee@cityu.edu.hk
 ===============================================================================
+</pre>
