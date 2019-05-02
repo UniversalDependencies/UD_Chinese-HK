@@ -1,8 +1,10 @@
 # Summary
 
-The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as part of the official record of proceedings of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Traditional Chinese.  These trees form a parallel treebank with those in Cantonese-HK.
+A Traditional Chinese treebank of film subtitles and of legislative proceedings of Hong Kong, parallel with the Cantonese-HK treebank.
 
 # Introduction
+
+The Chinese-HK UD treebank was manually annotated by Herman H. M. Leung and Tak-sum Wong at City University of Hong Kong, directly using the subtitles from three films shot by students from the School of Creative Media as well as part of the official record of proceedings of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Traditional Chinese. These trees form a parallel treebank with those in Cantonese-HK.
 
 ORIGIN
 
@@ -13,7 +15,7 @@ ORIGIN
 
 #send_id = 411 to 547
 * Title: Tempo in Temple / 廟眾樂樂
-* Source: https://www.youtube.com/watch?v=8e8Lqd6grTE	
+* Source: https://www.youtube.com/watch?v=8e8Lqd6grTE
 * Duration: 16 minutes
 
 #send_id = 548 to 650
@@ -70,7 +72,7 @@ Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: subtitle, hansard
+Genre: fiction government
 Lemmas: not available
 UPOS: manual native
 XPOS: not available
