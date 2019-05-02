@@ -1,6 +1,7 @@
 # Summary
 
-A Traditional Chinese treebank of film subtitles and of legislative proceedings of Hong Kong, parallel with the Cantonese-HK treebank.
+A Traditional Chinese treebank of film subtitles and of legislative proceedings
+of Hong Kong, parallel with the Cantonese-HK treebank.
 
 # Introduction
 
