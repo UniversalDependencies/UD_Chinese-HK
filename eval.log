@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Chinese-HK:
-commit 1f9439ee405f6e4b0ab0833cd104145b9f4e474d
-Merge: a0cade3 182cd1d
+commit e47f673be437c140fa1b308ebe6ae298d9200dab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 20:58:44 2019 +0200
 Size: counted 9874 of 9874 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.57981007967334.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 3226 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 9874 words.
 Genres: found 1 out of 17 known.
 validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 6 Sent 1 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 193 Sent 19 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:愛:aux --> 2:不:advmod)
+[Line 941 Sent 110 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:能:aux --> 2:不:advmod)
+[Line 955 Sent 111 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:怕:aux --> 2:又:advmod)
+[Line 979 Sent 113 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 1433 Sent 166 Node 8]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 1969 Sent 223 Node 20]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 2365 Sent 260 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 2658 Sent 293 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+...suppressing further errors regarding Syntax
+Syntax errors: 71
+*** FAILED *** with 71 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.253807451020305) * (availability=1) * (validity=1) = 0.253807451020305
-STARS = 1.5
-UD_Chinese-HK	0.253807451020305	1.5
+(TOTAL score=0.253807451020305) * (availability=1) * (validity=0.01) = 0.00253807451020305
+STARS = 0
+UD_Chinese-HK	0.00253807451020305	0
