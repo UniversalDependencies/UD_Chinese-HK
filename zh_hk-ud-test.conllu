@@ -1166,7 +1166,7 @@
 9	中	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
 10	閃卡	_	NOUN	_	_	9	obj	_	SpaceAfter=No
 11	時	_	ADP	_	_	1	mark	_	SpaceAfter=No
-12	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 13	我們	_	PRON	_	_	15	nsubj	_	SpaceAfter=No
 14	便	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 15	行動	_	VERB	_	_	0	root	_	SpaceAfter=No
@@ -5920,7 +5920,7 @@
 1	我們	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
 2	坐	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	郵輪	_	NOUN	_	_	2	obj	_	SpaceAfter=No
-4	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+4	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	又	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 6	可以	_	AUX	_	_	9	aux	_	SpaceAfter=No
 7	呢	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
@@ -7911,10 +7911,10 @@
 7	是	_	AUX	_	_	14	cop	_	SpaceAfter=No
 8	那	_	DET	_	_	14	det	_	SpaceAfter=No
 9	份	_	NOUN	_	_	8	clf	_	SpaceAfter=No
-10	「	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	「	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	放棄	_	VERB	_	_	12	acl	_	SpaceAfter=No
 12	國籍	_	NOUN	_	_	14	compound	_	SpaceAfter=No
-13	」	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	」	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	聲明	_	NOUN	_	_	0	root	_	SpaceAfter=No
 15	（	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	Declaration_of_Renunciation_of_British_Citizenship	_	NOUN	_	_	14	parataxis	_	SpaceAfter=No
@@ -8552,10 +8552,10 @@
 13	所	_	PART	_	_	14	mark	_	SpaceAfter=No
 14	說	_	VERB	_	_	21	acl	_	SpaceAfter=No
 15	的	_	PART	_	_	14	mark:rel	_	SpaceAfter=No
-16	「	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	「	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	放棄	_	VERB	_	_	21	acl	_	SpaceAfter=No
 18	國籍	_	NOUN	_	_	17	obj	_	SpaceAfter=No
-19	」	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
+19	」	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 20	正式	_	ADJ	_	_	21	amod	_	SpaceAfter=No
 21	聲明	_	NOUN	_	_	11	obj	_	SpaceAfter=No
 22	。	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -10753,7 +10753,7 @@
 7	合	_	VERB	_	_	9	advcl	_	SpaceAfter=No
 8	資格	_	NOUN	_	_	7	obj	_	SpaceAfter=No
 9	投票	_	NOUN	_	_	15	ccomp	_	SpaceAfter=No
-10	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	我們	_	PRON	_	_	15	nsubj	_	SpaceAfter=No
 12	都	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 13	未	_	ADV	_	_	15	advmod	_	SpaceAfter=No
@@ -10971,7 +10971,7 @@
 3	兩	_	NUM	_	_	5	nummod	_	SpaceAfter=No
 4	個	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 5	投票箱	_	NOUN	_	_	2	obj	_	SpaceAfter=No
-6	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	分別	_	ADV	_	_	9	advmod	_	SpaceAfter=No
 8	供	_	ADP	_	_	9	mark	_	SpaceAfter=No
 9	投	_	VERB	_	_	5	acl	_	SpaceAfter=No
