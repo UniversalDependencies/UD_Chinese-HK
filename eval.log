@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Chinese-HK:
-commit 78298ac957424e02b1094a31e87cd6cbc31436c3
+commit 073f6d54ac60c2c05c4055c1b1619824c46f9c89
+Merge: bf85c7e 5f06be2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:46:21 2019 +0100
 Size: counted 9874 of 9874 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.57981007967334.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 271 out of 9874 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 3226 bugs.
+Udapi: found 3220 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 9874 words.
 Genres: found 1 out of 17 known.
 validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
