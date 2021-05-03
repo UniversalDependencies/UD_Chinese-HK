@@ -3039,7 +3039,7 @@
 # sent_id = 336
 # text = 快些吧！
 1	快	_	ADJ	_	_	0	root	_	SpaceAfter=No
-2	些	_	ADV	_	NounType=Clf	1	advmod	_	SpaceAfter=No
+2	些	_	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	吧	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
