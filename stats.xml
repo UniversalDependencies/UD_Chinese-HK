@@ -34,7 +34,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="NounType" value="Clf" upos="ADV,NOUN">271</feat><!-- 個, 位, 元, 條, 塊, 次, 天, 點, 分鐘, 張 -->
+    <feat name="NounType" value="Clf" upos="NOUN">270</feat><!-- 個, 位, 元, 條, 塊, 次, 天, 點, 分鐘, 張 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="46">
