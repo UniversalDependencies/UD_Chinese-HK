@@ -3,7 +3,7 @@
 1	你	_	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=ni3|Gloss=2SG
 2	在	_	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=zai4|Gloss=PROG
 3	找	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhao3|Gloss=find
-4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No|Translit=xie1|Gloss=CLF.PL
+4	些	_	NOUN	_	NounType=Clf	5	clf	_	SpaceAfter=No|Translit=xie1|Gloss=CLF.PL
 5	什麼	_	PRON	_	_	3	obj	_	SpaceAfter=No|Translit=shen2me|Gloss=what
 6	？	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -1966,7 +1966,7 @@
 17	二十	_	NUM	_	_	18	nummod	_	SpaceAfter=No
 18	元	_	NOUN	_	NounType=Clf	16	obj	_	SpaceAfter=No
 19	買	_	VERB	_	_	16	conj	_	SpaceAfter=No
-20	張	_	NOUN	_	NounType=Clf	21	det	_	SpaceAfter=No
+20	張	_	NOUN	_	NounType=Clf	21	clf	_	SpaceAfter=No
 21	盜版	_	NOUN	_	_	19	obj	_	SpaceAfter=No
 22	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
@@ -2362,7 +2362,7 @@
 3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	拿	_	VERB	_	_	11	advcl	_	SpaceAfter=No
 5	著	_	AUX	_	_	4	aux	_	SpaceAfter=No
-6	本	_	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+6	本	_	NOUN	_	NounType=Clf	7	clf	_	SpaceAfter=No
 7	破破爛爛	_	ADJ	_	_	9	amod	_	SpaceAfter=No
 8	的	_	PART	_	_	7	mark:rel	_	SpaceAfter=No
 9	Yes!	_	PROPN	_	_	4	obj	_	SpaceAfter=No
@@ -2655,7 +2655,7 @@
 1	喂	_	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	借	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	盒	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	盒	_	NOUN	_	NounType=Clf	5	clf	_	SpaceAfter=No
 5	錄音帶	_	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	給	_	ADP	_	_	7	case	_	SpaceAfter=No
 7	我	_	PRON	_	_	3	obl	_	SpaceAfter=No
@@ -2690,7 +2690,7 @@
 1	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
 2	想	_	AUX	_	_	3	aux	_	SpaceAfter=No
 3	錄	_	VERB	_	_	0	root	_	SpaceAfter=No
-4	些	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	些	_	NOUN	_	NounType=Clf	5	clf	_	SpaceAfter=No
 5	東西	_	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	給	_	ADP	_	_	7	case	_	SpaceAfter=No
 7	她	_	PRON	_	_	3	obl	_	SpaceAfter=No
@@ -3153,7 +3153,7 @@
 # sent_id = 349
 # text = 轉個圈看看。
 1	轉	_	VERB	_	_	0	root	_	SpaceAfter=No
-2	個	_	NOUN	_	NounType=Clf	3	det	_	SpaceAfter=No
+2	個	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 3	圈	_	NOUN	_	_	1	obl	_	SpaceAfter=No
 4	看看	_	VERB	_	_	1	conj	_	SpaceAfter=No
 5	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -4885,7 +4885,7 @@
 # text = 終於有個朋友介紹我在酒樓夜總會唱歌。
 1	終於	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	有	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	個	_	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	個	_	NOUN	_	NounType=Clf	4	clf	_	SpaceAfter=No
 4	朋友	_	NOUN	_	_	2	obj	_	SpaceAfter=No
 5	介紹	_	VERB	_	_	4	acl	_	SpaceAfter=No
 6	我	_	PRON	_	_	5	obj	_	SpaceAfter=No
@@ -9046,7 +9046,7 @@
 5	你	_	PRON	_	_	6	nmod	_	SpaceAfter=No
 6	身後	_	NOUN	_	_	10	nmod	_	SpaceAfter=No
 7	的	_	PART	_	_	6	case	_	SpaceAfter=No
-8	數	_	NOUN	_	_	10	det	_	SpaceAfter=No
+8	數	_	NOUN	_	_	10	clf	_	SpaceAfter=No
 9	位	_	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No
 10	議員	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
 11	，	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -9134,7 +9134,7 @@
 # sent_id = 796
 # text = 令數位議員稍後無法進行投票，這個選舉便不會是公平及符合程序公義的選舉。
 1	令	_	VERB	_	_	23	advcl	_	SpaceAfter=No
-2	數	_	NOUN	_	_	4	det	_	SpaceAfter=No
+2	數	_	NOUN	_	_	4	clf	_	SpaceAfter=No
 3	位	_	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No
 4	議員	_	NOUN	_	_	1	obj	_	SpaceAfter=No
 5	稍後	_	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -9619,7 +9619,7 @@
 2	已	_	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	定	_	VERB	_	_	11	advcl	_	SpaceAfter=No
 4	了	_	AUX	_	_	3	aux	_	SpaceAfter=No
-5	今	_	NOUN	_	_	6	det	_	SpaceAfter=No
+5	今	_	NOUN	_	_	6	clf	_	SpaceAfter=No
 6	天	_	NOUN	_	NounType=Clf	7	obl:tmod	_	SpaceAfter=No
 7	選舉	_	NOUN	_	_	3	ccomp	_	SpaceAfter=No
 8	主席	_	NOUN	_	_	7	obj	_	SpaceAfter=No
@@ -11146,7 +11146,7 @@
 14	選舉	_	NOUN	_	_	4	conj	_	SpaceAfter=No
 15	，	_	PUNCT	_	_	22	punct	_	SpaceAfter=No
 16	以至	_	ADP	_	_	22	case	_	SpaceAfter=No
-17	今	_	NOUN	_	_	18	det	_	SpaceAfter=No
+17	今	_	NOUN	_	_	18	clf	_	SpaceAfter=No
 18	天	_	NOUN	_	NounType=Clf	22	compound	_	SpaceAfter=No
 19	立法會	_	NOUN	_	_	20	compound	_	SpaceAfter=No
 20	主席	_	NOUN	_	_	22	nmod	_	SpaceAfter=No

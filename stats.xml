@@ -50,7 +50,7 @@
     <dep name="case:loc">40</dep>
     <dep name="cc">77</dep>
     <dep name="ccomp">253</dep>
-    <dep name="clf">116</dep>
+    <dep name="clf">127</dep>
     <dep name="compound">174</dep>
     <dep name="compound:dir">33</dep>
     <dep name="compound:ext">11</dep>
@@ -59,7 +59,7 @@
     <dep name="conj">312</dep>
     <dep name="cop">92</dep>
     <dep name="csubj">14</dep>
-    <dep name="det">264</dep>
+    <dep name="det">253</dep>
     <dep name="discourse">28</dep>
     <dep name="discourse:sp">293</dep>
     <dep name="dislocated">4</dep>

@@ -64,6 +64,7 @@ Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LE
 
 * 2023-05-15 v2.12
   * Fixed: PUNCT nodes must be attached via punct relations.
+  * Fixed: Only some UPOS categories are compatible with det.
 * 2019-03-10 v1.51
   * Some errors fixed
 * 2019-03-03 v.1.5
