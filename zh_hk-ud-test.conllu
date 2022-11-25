@@ -40,8 +40,8 @@
 
 # sent_id = 4
 # text = 餘下的都沒用！
-# translit = 餘xiàdedōuméiyòng!
-1	餘下	餘下	VERB	_	_	4	nsubj	_	SpaceAfter=No|Translit=餘xià|LTranslit=餘xià
+# translit = yúxiàdedōuméiyòng!
+1	餘下	餘下	VERB	_	_	4	nsubj	_	SpaceAfter=No|Translit=yúxià|LTranslit=yúxià
 2	的	的	PART	_	_	1	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 3	都	都	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=dōu|LTranslit=dōu
 4	沒用	沒用	VERB	_	_	0	root	_	SpaceAfter=No|Translit=méiyòng|LTranslit=méiyòng
@@ -364,11 +364,11 @@
 
 # sent_id = 37
 # text = 很強的戰鬥力！
-# translit = hěnqiángdezhàn鬥lì!
+# translit = hěnqiángdezhàndòulì!
 1	很	很	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=hěn|LTranslit=hěn
 2	強	強	ADJ	_	_	4	amod	_	SpaceAfter=No|Translit=qiáng|LTranslit=qiáng
 3	的	的	PART	_	_	2	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
-4	戰鬥力	戰鬥力	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=zhàn鬥lì|LTranslit=zhàn鬥lì
+4	戰鬥力	戰鬥力	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=zhàndòulì|LTranslit=zhàndòulì
 5	！	！	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
 # sent_id = 38
@@ -867,12 +867,12 @@
 
 # sent_id = 93
 # text = 那閃卡本應屬於我的。
-# translit = nàshǎnkǎběnyīngshǔ於wǒde.
+# translit = nàshǎnkǎběnyīngshǔyúwǒde.
 1	那	那	DET	_	_	2	det	_	SpaceAfter=No|Translit=nà|LTranslit=nà
 2	閃卡	閃卡	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=shǎnkǎ|LTranslit=shǎnkǎ
 3	本	本	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=běn|LTranslit=běn
 4	應	應	AUX	_	_	5	aux	_	SpaceAfter=No|Translit=yīng|LTranslit=yīng
-5	屬於	屬於	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shǔ於|LTranslit=shǔ於
+5	屬於	屬於	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shǔyú|LTranslit=shǔyú
 6	我	我	PRON	_	_	5	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 7	的	的	PART	_	_	5	discourse:sp	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -1228,7 +1228,7 @@
 
 # sent_id = 129
 # text = 那天開始，我們懂得玩這個遊戲。
-# translit = nàtiānkāishǐ,wǒmendǒngdewánzhègè遊xì.
+# translit = nàtiānkāishǐ,wǒmendǒngdewánzhègèyóuxì.
 1	那	那	DET	_	_	2	det	_	SpaceAfter=No|Translit=nà|LTranslit=nà
 2	天	天	NOUN	_	NounType=Clf	3	obl:tmod	_	SpaceAfter=No|Translit=tiān|LTranslit=tiān
 3	開始	開始	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
@@ -1238,7 +1238,7 @@
 7	玩	玩	VERB	_	_	0	root	_	SpaceAfter=No|Translit=wán|LTranslit=wán
 8	這	這	DET	_	_	10	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
 9	個	個	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
-10	遊戲	遊戲	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=遊xì|LTranslit=遊xì
+10	遊戲	遊戲	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=yóuxì|LTranslit=yóuxì
 11	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 130
@@ -1267,7 +1267,7 @@
 
 # sent_id = 132
 # text = 見到別人有十個一元左右，就排在他後面。
-# translit = jiàndàobiérényǒushígèyīyuánzuǒyòu,jiùpáizàitā後miàn.
+# translit = jiàndàobiérényǒushígèyīyuánzuǒyòu,jiùpáizàitāhòumiàn.
 1	見	見	VERB	_	_	12	advcl	_	SpaceAfter=No|Translit=jiàn|LTranslit=jiàn
 2	到	到	VERB	_	_	1	compound:vv	_	SpaceAfter=No|Translit=dào|LTranslit=dào
 3	別人	別人	PRON	_	_	1	obj	_	SpaceAfter=No|Translit=biérén|LTranslit=biérén
@@ -1282,7 +1282,7 @@
 12	排	排	VERB	_	_	0	root	_	SpaceAfter=No|Translit=pái|LTranslit=pái
 13	在	在	ADP	_	_	14	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 14	他	他	PRON	_	_	12	obl	_	SpaceAfter=No|Translit=tā|LTranslit=tā
-15	後面	後面	NOUN	_	_	14	case:loc	_	SpaceAfter=No|Translit=後miàn|LTranslit=後miàn
+15	後面	後面	NOUN	_	_	14	case:loc	_	SpaceAfter=No|Translit=hòumiàn|LTranslit=hòumiàn
 16	。	。	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 133
@@ -1982,13 +1982,13 @@
 
 # sent_id = 207
 # text = 那你快坐下然後閉嘴！
-# translit = nànǐkuàizuòxiàrán後bìzuǐ!
+# translit = nànǐkuàizuòxiàránhòubìzuǐ!
 1	那	那	ADV	_	_	4	discourse	_	SpaceAfter=No|Translit=nà|LTranslit=nà
 2	你	你	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 3	快	快	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=kuài|LTranslit=kuài
 4	坐	坐	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
 5	下	下	VERB	_	_	4	compound:dir	_	SpaceAfter=No|Translit=xià|LTranslit=xià
-6	然後	然後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+6	然後	然後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 7	閉嘴	閉嘴	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=bìzuǐ|LTranslit=bìzuǐ
 8	！	！	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
@@ -2083,13 +2083,13 @@
 
 # sent_id = 217
 # text = 你覺得陳奕迅同楊千嬅最後會一起嗎？
-# translit = nǐjuédechén奕xùntóngyángqiān嬅zuì後huìyīqǐma?
+# translit = nǐjuédechén奕xùntóngyángqiān嬅zuìhòuhuìyīqǐma?
 1	你	你	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	覺得	覺得	VERB	_	_	0	root	_	SpaceAfter=No|Translit=juéde|LTranslit=juéde
 3	陳奕迅	陳奕迅	PROPN	_	_	8	nsubj	_	SpaceAfter=No|Translit=chén奕xùn|LTranslit=chén奕xùn
 4	同	同	CCONJ	_	_	5	cc	_	SpaceAfter=No|Translit=tóng|LTranslit=tóng
 5	楊千嬅	楊千嬅	PROPN	_	_	3	conj	_	SpaceAfter=No|Translit=yángqiān嬅|LTranslit=yángqiān嬅
-6	最後	最後	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Translit=zuì後|LTranslit=zuì後
+6	最後	最後	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Translit=zuìhòu|LTranslit=zuìhòu
 7	會	會	AUX	_	_	8	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
 8	一起	一起	ADV	_	_	2	ccomp	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
 9	嗎	嗎	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Translit=ma|LTranslit=ma
@@ -3275,11 +3275,11 @@
 
 # sent_id = 329
 # text = 《夏天的故事》之後，哥哥沒再買過陳奕迅以外的唱片。
-# translit = «xiàtiāndegùshì»zhī後,gēgēméizàimǎiguòchén奕xùnyǐwàidechàngpiàn.
+# translit = «xiàtiāndegùshì»zhīhòu,gēgēméizàimǎiguòchén奕xùnyǐwàidechàngpiàn.
 1	《	《	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=«|LTranslit=«
 2	夏天的故事	夏天的故事	PROPN	_	_	9	obl	_	SpaceAfter=No|Translit=xiàtiāndegùshì|LTranslit=xiàtiāndegùshì
 3	》	》	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=»|LTranslit=»
-4	之後	之後	ADP	_	_	2	case:loc	_	SpaceAfter=No|Translit=zhī後|LTranslit=zhī後
+4	之後	之後	ADP	_	_	2	case:loc	_	SpaceAfter=No|Translit=zhīhòu|LTranslit=zhīhòu
 5	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	哥哥	哥哥	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Translit=gēgē|LTranslit=gēgē
 7	沒	沒	AUX	_	_	9	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
@@ -3567,10 +3567,10 @@
 
 # sent_id = 356
 # text = 你最後一個踫它。
-# translit = nǐzuì後yīgè踫tā.
+# translit = nǐzuìhòuyīgè踫tā.
 1	你	你	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	最	最	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=zuì|LTranslit=zuì
-3	後	後	ADJ	_	_	5	amod	_	SpaceAfter=No|Translit=後|LTranslit=後
+3	後	後	ADJ	_	_	5	amod	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 4	一	一	NUM	_	_	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 5	個	個	NOUN	_	NounType=Clf	1	appos	_	SpaceAfter=No|Translit=gè|LTranslit=gè
 6	踫	踫	VERB	_	_	0	root	_	SpaceAfter=No|Translit=踫|LTranslit=踫
@@ -3989,9 +3989,9 @@
 
 # sent_id = 401
 # text = 《伴遊》
-# translit = «bàn遊»
+# translit = «bànyóu»
 1	《	《	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=«|LTranslit=«
-2	伴遊	伴遊	PROPN	_	_	0	root	_	SpaceAfter=No|Translit=bàn遊|LTranslit=bàn遊
+2	伴遊	伴遊	PROPN	_	_	0	root	_	SpaceAfter=No|Translit=bànyóu|LTranslit=bànyóu
 3	》	》	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=»|LTranslit=»
 
 # sent_id = 402
@@ -4297,8 +4297,8 @@
 
 # sent_id = 424
 # text = 後來老闆解僱我，我很感謝他解僱我呢！
-# translit = 後láilǎo闆jiěgùwǒ,wǒhěngǎnxiètājiěgùwǒne!
-1	後來	後來	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=後lái|LTranslit=後lái
+# translit = hòuláilǎo闆jiěgùwǒ,wǒhěngǎnxiètājiěgùwǒne!
+1	後來	後來	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=hòulái|LTranslit=hòulái
 2	老闆	老闆	NOUN	_	_	3	nsubj	_	SpaceAfter=No|Translit=lǎo闆|LTranslit=lǎo闆
 3	解僱	解僱	VERB	_	_	0	root	_	SpaceAfter=No|Translit=jiěgù|LTranslit=jiěgù
 4	我	我	PRON	_	_	3	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
@@ -4329,11 +4329,11 @@
 
 # sent_id = 426
 # text = 他解僱我以後，剛好這邊的老闆很忙，做不來，打理不了。
-# translit = tājiěgùwǒyǐ後,gānghǎozhèbiāndelǎo闆hěnmáng,zuòbùlái,dǎlǐbùle.
+# translit = tājiěgùwǒyǐhòu,gānghǎozhèbiāndelǎo闆hěnmáng,zuòbùlái,dǎlǐbùle.
 1	他	他	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
 2	解僱	解僱	VERB	_	_	11	advcl	_	SpaceAfter=No|Translit=jiěgù|LTranslit=jiěgù
 3	我	我	PRON	_	_	2	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-4	以後	以後	ADP	_	_	2	mark	_	SpaceAfter=No|Translit=yǐ後|LTranslit=yǐ後
+4	以後	以後	ADP	_	_	2	mark	_	SpaceAfter=No|Translit=yǐhòu|LTranslit=yǐhòu
 5	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	剛好	剛好	ADV	_	_	11	advmod	_	SpaceAfter=No|Translit=gānghǎo|LTranslit=gānghǎo
 7	這邊	這邊	PRON	_	_	9	nmod	_	SpaceAfter=No|Translit=zhèbiān|LTranslit=zhèbiān
@@ -5037,8 +5037,8 @@
 
 # sent_id = 471
 # text = 然後就在夜總會唱一SET（四十五分鐘）。
-# translit = rán後jiùzàiyèzǒnghuìchàngyīSET(sìshíwǔfēnzhōng).
-1	然後	然後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+# translit = ránhòujiùzàiyèzǒnghuìchàngyīSET(sìshíwǔfēnzhōng).
+1	然後	然後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 2	就	就	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 3	在	在	ADP	_	_	4	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 4	夜總會	夜總會	NOUN	_	_	5	obl	_	SpaceAfter=No|Translit=yèzǒnghuì|LTranslit=yèzǒnghuì
@@ -5053,8 +5053,8 @@
 
 # sent_id = 472
 # text = 然後我又轉行做經紀了。
-# translit = rán後wǒyòuzhuǎnxíngzuòjīngjìle.
-1	然後	然後	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+# translit = ránhòuwǒyòuzhuǎnxíngzuòjīngjìle.
+1	然後	然後	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 2	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	又	又	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yòu|LTranslit=yòu
 4	轉行	轉行	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhuǎnxíng|LTranslit=zhuǎnxíng
@@ -5358,12 +5358,12 @@
 
 # sent_id = 491
 # text = 所以來到香港之後就找朋友、看報紙。
-# translit = suǒyǐláidàoxiānggǎngzhī後jiùzhǎopéngyou,kànbàozhǐ.
+# translit = suǒyǐláidàoxiānggǎngzhīhòujiùzhǎopéngyou,kànbàozhǐ.
 1	所以	所以	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=suǒyǐ|LTranslit=suǒyǐ
 2	來	來	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=lái|LTranslit=lái
 3	到	到	ADP	_	_	4	case	_	SpaceAfter=No|Translit=dào|LTranslit=dào
 4	香港	香港	PROPN	_	_	2	obl	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
-5	之後	之後	ADP	_	_	2	mark	_	SpaceAfter=No|Translit=zhī後|LTranslit=zhī後
+5	之後	之後	ADP	_	_	2	mark	_	SpaceAfter=No|Translit=zhīhòu|LTranslit=zhīhòu
 6	就	就	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 7	找	找	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhǎo|LTranslit=zhǎo
 8	朋友	朋友	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=péngyou|LTranslit=péngyou
@@ -5374,8 +5374,8 @@
 
 # sent_id = 492
 # text = 終於有個朋友介紹我在酒樓夜總會唱歌。
-# translit = zhōng於yǒugèpéngyoujièshàowǒzàijiǔlóuyèzǒnghuìchànggē.
-1	終於	終於	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=zhōng於|LTranslit=zhōng於
+# translit = zhōngyúyǒugèpéngyoujièshàowǒzàijiǔlóuyèzǒnghuìchànggē.
+1	終於	終於	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=zhōngyú|LTranslit=zhōngyú
 2	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 3	個	個	NOUN	_	NounType=Clf	4	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
 4	朋友	朋友	NOUN	_	_	2	obj	_	SpaceAfter=No|Translit=péngyou|LTranslit=péngyou
@@ -5428,13 +5428,13 @@
 
 # sent_id = 494
 # text = 因為我來了香港之後，香港的朋友都跟我說：「你千萬要明白，你在香港做歌手與在中國大陸做歌手是不同的。」
-# translit = yīnwèiwǒláilexiānggǎngzhī後,xiānggǎngdepéngyoudōugēnwǒshuō:“nǐqiānwànyàomíngbái,nǐzàixiānggǎngzuògēshǒuyǔzàizhōngguódàlùzuògēshǒushìbùtóngde.”
+# translit = yīnwèiwǒláilexiānggǎngzhīhòu,xiānggǎngdepéngyoudōugēnwǒshuō:“nǐqiānwànyàomíngbái,nǐzàixiānggǎngzuògēshǒuyǔzàizhōngguódàlùzuògēshǒushìbùtóngde.”
 1	因為	因為	ADV	_	_	14	advmod	_	SpaceAfter=No|Translit=yīnwèi|LTranslit=yīnwèi
 2	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	來	來	VERB	_	_	14	advcl	_	SpaceAfter=No|Translit=lái|LTranslit=lái
 4	了	了	AUX	_	_	3	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
 5	香港	香港	PROPN	_	_	3	obj	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
-6	之後	之後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=zhī後|LTranslit=zhī後
+6	之後	之後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=zhīhòu|LTranslit=zhīhòu
 7	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 8	香港	香港	PROPN	_	_	10	nmod	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
 9	的	的	PART	_	_	8	case	_	SpaceAfter=No|Translit=de|LTranslit=de
@@ -6007,13 +6007,13 @@
 
 # sent_id = 529
 # text = 有些人移民去外國後，回來都說：「紅姐，你千萬不要結束這個檔啊！這裡是廟街的文化！」
-# translit = yǒuxiērényímínqùwàiguó後,huíláidōushuō:“hóngjie,nǐqiānwànbùyàojiéshùzhègèdàng'a!zhèlishìmiàojiēdewénhuà!”
+# translit = yǒuxiērényímínqùwàiguóhòu,huíláidōushuō:“hóngjie,nǐqiānwànbùyàojiéshùzhègèdàng'a!zhèlishìmiàojiēdewénhuà!”
 1	有些	有些	DET	_	_	2	det	_	SpaceAfter=No|Translit=yǒuxiē|LTranslit=yǒuxiē
 2	人	人	NOUN	_	_	3	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
 3	移民	移民	VERB	_	_	10	advcl	_	SpaceAfter=No|Translit=yímín|LTranslit=yímín
 4	去	去	ADP	_	_	5	case	_	SpaceAfter=No|Translit=qù|LTranslit=qù
 5	外國	外國	NOUN	_	_	3	obl	_	SpaceAfter=No|Translit=wàiguó|LTranslit=wàiguó
-6	後	後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=後|LTranslit=後
+6	後	後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 7	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 8	回來	回來	VERB	_	_	10	advcl	_	SpaceAfter=No|Translit=huílái|LTranslit=huílái
 9	都	都	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=dōu|LTranslit=dōu
@@ -6183,14 +6183,14 @@
 
 # sent_id = 539
 # text = 梅艷芳在這裡唱過，羅文、尹光又在這裡唱過，多少大明星在這裡唱過呀！
-# translit = méiyàn芳zàizhèlichàngguò,羅wén,尹guāngyòuzàizhèlichàngguò,duōshǎodàmíngxīngzàizhèlichàngguòya!
+# translit = méiyàn芳zàizhèlichàngguò,luówén,尹guāngyòuzàizhèlichàngguò,duōshǎodàmíngxīngzàizhèlichàngguòya!
 1	梅艷芳	梅艷芳	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Translit=méiyàn芳|LTranslit=méiyàn芳
 2	在	在	ADP	_	_	3	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 3	這裡	這裡	PRON	_	_	4	obl	_	SpaceAfter=No|Translit=zhèli|LTranslit=zhèli
 4	唱	唱	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chàng|LTranslit=chàng
 5	過	過	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=guò|LTranslit=guò
 6	，	，	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-7	羅文	羅文	PROPN	_	_	13	nsubj	_	SpaceAfter=No|Translit=羅wén|LTranslit=羅wén
+7	羅文	羅文	PROPN	_	_	13	nsubj	_	SpaceAfter=No|Translit=luówén|LTranslit=luówén
 8	、	、	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 9	尹光	尹光	PROPN	_	_	7	conj	_	SpaceAfter=No|Translit=尹guāng|LTranslit=尹guāng
 10	又	又	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=yòu|LTranslit=yòu
@@ -6330,10 +6330,10 @@
 
 # sent_id = 549
 # text = 喂，阿Ｂ呀！
-# translit = wèi,'āＢya!
+# translit = wèi,'āBya!
 1	喂	喂	INTJ	_	_	3	discourse	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-3	阿Ｂ	阿Ｂ	PROPN	_	_	0	root	_	SpaceAfter=No|Translit='āＢ|LTranslit='āＢ
+3	阿Ｂ	阿Ｂ	PROPN	_	_	0	root	_	SpaceAfter=No|Translit='āB|LTranslit='āB
 4	呀	呀	PART	_	_	3	discourse:sp	_	SpaceAfter=No|Translit=ya|LTranslit=ya
 5	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
@@ -6690,8 +6690,8 @@
 
 # sent_id = 583
 # text = ＯＫ的！
-# translit = ＯＫde!
-1	ＯＫ	ＯＫ	VERB	_	_	0	root	_	SpaceAfter=No|Translit=ＯＫ|LTranslit=ＯＫ
+# translit = OKde!
+1	ＯＫ	ＯＫ	VERB	_	_	0	root	_	SpaceAfter=No|Translit=OK|LTranslit=OK
 2	的	的	PART	_	_	1	discourse:sp	_	SpaceAfter=No|Translit=de|LTranslit=de
 3	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
@@ -6821,8 +6821,8 @@
 
 # sent_id = 597
 # text = 然之後，我兒子問我：「你明天去旅行嗎？」
-# translit = ránzhī後,wǒrziwènwǒ:“nǐmíngtiānqùlǚxíngma?”
-1	然之後	然之後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=ránzhī後|LTranslit=ránzhī後
+# translit = ránzhīhòu,wǒrziwènwǒ:“nǐmíngtiānqùlǚxíngma?”
+1	然之後	然之後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=ránzhīhòu|LTranslit=ránzhīhòu
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	我	我	PRON	_	_	5	nmod	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 4	兒子	兒子	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=rzi|LTranslit=rzi
@@ -7098,8 +7098,8 @@
 
 # sent_id = 624
 # text = 卡啦ＯＫ嗎？
-# translit = kǎlaＯＫma?
-1	卡啦ＯＫ	卡啦ＯＫ	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=kǎlaＯＫ|LTranslit=kǎlaＯＫ
+# translit = kǎlaOKma?
+1	卡啦ＯＫ	卡啦ＯＫ	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=kǎlaOK|LTranslit=kǎlaOK
 2	嗎	嗎	PART	_	_	1	discourse:sp	_	SpaceAfter=No|Translit=ma|LTranslit=ma
 3	？	？	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
 
@@ -7279,7 +7279,7 @@
 
 # sent_id = 642
 # text = 媽、爸：八日七夜吉隆坡＋浮羅交怡之旅來到第四天。
-# translit = mā,bà:bārìqīyèjílóngpō+fú羅jiāo怡zhīlǚláidàodìsìtiān.
+# translit = mā,bà:bārìqīyèjílóngpō+fúluójiāo怡zhīlǚláidàodìsìtiān.
 1	媽	媽	NOUN	_	_	14	vocative	_	SpaceAfter=No|Translit=mā|LTranslit=mā
 2	、	、	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	爸	爸	NOUN	_	_	1	conj	_	SpaceAfter=No|Translit=bà|LTranslit=bà
@@ -7290,7 +7290,7 @@
 8	夜	夜	NOUN	_	NounType=Clf	6	conj	_	SpaceAfter=No|Translit=yè|LTranslit=yè
 9	吉隆坡	吉隆坡	PROPN	_	_	13	nmod	_	SpaceAfter=No|Translit=jílóngpō|LTranslit=jílóngpō
 10	＋	＋	SYM	_	_	11	cc	_	SpaceAfter=No|Translit=+|LTranslit=+
-11	浮羅交怡	浮羅交怡	PROPN	_	_	9	conj	_	SpaceAfter=No|Translit=fú羅jiāo怡|LTranslit=fú羅jiāo怡
+11	浮羅交怡	浮羅交怡	PROPN	_	_	9	conj	_	SpaceAfter=No|Translit=fúluójiāo怡|LTranslit=fúluójiāo怡
 12	之	之	PART	_	_	9	case	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
 13	旅	旅	NOUN	_	_	14	nsubj	_	SpaceAfter=No|Translit=lǚ|LTranslit=lǚ
 14	來	來	VERB	_	_	0	root	_	SpaceAfter=No|Translit=lái|LTranslit=lái
@@ -7315,7 +7315,7 @@
 
 # sent_id = 644
 # text = 一行出去就係泳池，再行出Ｄ就係沙灘！
-# translit = yīxíngchūqùjiùxìyǒngchí,zàixíngchūＤjiùxìshātān!
+# translit = yīxíngchūqùjiùxìyǒngchí,zàixíngchūDjiùxìshātān!
 1	一	一	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 2	行	行	VERB	_	_	6	advcl	_	SpaceAfter=No|Translit=xíng|LTranslit=xíng
 3	出去	出去	VERB	_	_	2	compound:dir	_	SpaceAfter=No|Translit=chūqù|LTranslit=chūqù
@@ -7326,7 +7326,7 @@
 8	再	再	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 9	行	行	VERB	_	_	14	advcl	_	SpaceAfter=No|Translit=xíng|LTranslit=xíng
 10	出	出	VERB	_	_	9	compound:dir	_	SpaceAfter=No|Translit=chū|LTranslit=chū
-11	Ｄ	Ｄ	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=Ｄ|LTranslit=Ｄ
+11	Ｄ	Ｄ	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=D|LTranslit=D
 12	就	就	ADV	_	_	14	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 13	係	係	AUX	_	_	14	cop	_	SpaceAfter=No|Translit=xì|LTranslit=xì
 14	沙灘	沙灘	NOUN	_	_	6	parataxis	_	SpaceAfter=No|Translit=shātān|LTranslit=shātān
@@ -7392,15 +7392,15 @@
 
 # sent_id = 651
 # text = 剛才秘書處已宣布五分鐘後復會。
-# translit = gāngcáimìshūchùyǐxuānbùwǔfēnzhōng後復huì.
+# translit = gāngcáimìshūchùyǐxuānbùwǔfēnzhōnghòufùhuì.
 1	剛才	剛才	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=gāngcái|LTranslit=gāngcái
 2	秘書處	秘書處	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Translit=mìshūchù|LTranslit=mìshūchù
 3	已	已	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
 4	宣布	宣布	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xuānbù|LTranslit=xuānbù
 5	五	五	NUM	_	_	6	nummod	_	SpaceAfter=No|Translit=wǔ|LTranslit=wǔ
 6	分鐘	分鐘	NOUN	_	NounType=Clf	4	obl:tmod	_	SpaceAfter=No|Translit=fēnzhōng|LTranslit=fēnzhōng
-7	後	後	ADP	_	_	6	case:loc	_	SpaceAfter=No|Translit=後|LTranslit=後
-8	復會	復會	VERB	_	_	4	ccomp	_	SpaceAfter=No|Translit=復huì|LTranslit=復huì
+7	後	後	ADP	_	_	6	case:loc	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+8	復會	復會	VERB	_	_	4	ccomp	_	SpaceAfter=No|Translit=fùhuì|LTranslit=fùhuì
 9	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 652
@@ -7490,12 +7490,12 @@
 
 # sent_id = 658
 # text = 由於今天的會議並沒有任何程序，容許我們在會議廳內進行澄清、提問、辯論或諮詢等，因此我們不可以在會議廳內進行這些工作。
-# translit = yóu於jīntiāndehuìyì並méiyǒurènhéchéngxù,róngxǔwǒmenzàihuìyìtīngnèijìnxíng澄qīng,tíwèn,biànlùnhuò諮xúnděng,yīncǐwǒmenbùkěyǐzàihuìyìtīngnèijìnxíngzhèxiēgōngzuò.
-1	由於	由於	SCONJ	_	_	6	mark	_	SpaceAfter=No|Translit=yóu於|LTranslit=yóu於
+# translit = yóuyújīntiāndehuìyìbìngméiyǒurènhéchéngxù,róngxǔwǒmenzàihuìyìtīngnèijìnxíng澄qīng,tíwèn,biànlùnhuò諮xúnděng,yīncǐwǒmenbùkěyǐzàihuìyìtīngnèijìnxíngzhèxiēgōngzuò.
+1	由於	由於	SCONJ	_	_	6	mark	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
 2	今天	今天	NOUN	_	_	4	nmod	_	SpaceAfter=No|Translit=jīntiān|LTranslit=jīntiān
 3	的	的	PART	_	_	2	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 4	會議	會議	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
-5	並	並	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+5	並	並	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 6	沒有	沒有	VERB	_	_	32	advcl	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
 7	任何	任何	DET	_	_	8	det	_	SpaceAfter=No|Translit=rènhé|LTranslit=rènhé
 8	程序	程序	NOUN	_	_	6	obj	_	SpaceAfter=No|Translit=chéngxù|LTranslit=chéngxù
@@ -7529,7 +7529,7 @@
 
 # sent_id = 659
 # text = 不過，為讓一些關注此事的議員能獲澄清，我建議梁君彥議員稍後到會議廳外，向新聞傳媒交代他的國籍問題。
-# translit = bùguò,wèiràngyīxiēguānzhùcǐshìdeyìyuánnénghuò澄qīng,wǒjiànyìliángjūn彥yìyuánshāo後dàohuìyìtīngwài,xiàngxīnwénchuán媒jiāodàitādeguójíwèntí.
+# translit = bùguò,wèiràngyīxiēguānzhùcǐshìdeyìyuánnénghuò澄qīng,wǒjiànyìliángjūn彥yìyuánshāohòudàohuìyìtīngwài,xiàngxīnwénchuánméijiāodàitādeguójíwèntí.
 1	不過	不過	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	為	為	ADP	_	_	4	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
@@ -7548,14 +7548,14 @@
 16	建議	建議	VERB	_	_	0	root	_	SpaceAfter=No|Translit=jiànyì|LTranslit=jiànyì
 17	梁君彥	梁君彥	PROPN	_	_	27	nsubj	_	SpaceAfter=No|Translit=liángjūn彥|LTranslit=liángjūn彥
 18	議員	議員	NOUN	_	_	17	flat	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
-19	稍後	稍後	ADV	_	_	27	advmod	_	SpaceAfter=No|Translit=shāo後|LTranslit=shāo後
+19	稍後	稍後	ADV	_	_	27	advmod	_	SpaceAfter=No|Translit=shāohòu|LTranslit=shāohòu
 20	到	到	ADP	_	_	21	case	_	SpaceAfter=No|Translit=dào|LTranslit=dào
 21	會議廳	會議廳	NOUN	_	_	27	obl	_	SpaceAfter=No|Translit=huìyìtīng|LTranslit=huìyìtīng
 22	外	外	ADP	_	_	21	case:loc	_	SpaceAfter=No|Translit=wài|LTranslit=wài
 23	，	，	PUNCT	_	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 24	向	向	VERB	_	_	26	case	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
 25	新聞	新聞	NOUN	_	_	26	compound	_	SpaceAfter=No|Translit=xīnwén|LTranslit=xīnwén
-26	傳媒	傳媒	NOUN	_	_	27	obl	_	SpaceAfter=No|Translit=chuán媒|LTranslit=chuán媒
+26	傳媒	傳媒	NOUN	_	_	27	obl	_	SpaceAfter=No|Translit=chuánméi|LTranslit=chuánméi
 27	交代	交代	VERB	_	_	16	ccomp	_	SpaceAfter=No|Translit=jiāodài|LTranslit=jiāodài
 28	他	他	PRON	_	_	31	nmod	_	SpaceAfter=No|Translit=tā|LTranslit=tā
 29	的	的	PART	_	_	28	case	_	SpaceAfter=No|Translit=de|LTranslit=de
@@ -7636,7 +7636,7 @@
 
 # sent_id = 663
 # text = 我預期會議將在下午二時三十分正式恢復。
-# translit = wǒyùqīhuìyìjiāngzàixiàwǔ'èrshísānshífēnzhèngshìhuī復.
+# translit = wǒyùqīhuìyìjiāngzàixiàwǔ'èrshísānshífēnzhèngshìhuīfù.
 1	我	我	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	預期	預期	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yùqī|LTranslit=yùqī
 3	會議	會議	NOUN	_	_	12	nsubj	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
@@ -7648,7 +7648,7 @@
 9	三十	三十	NUM	_	_	10	nummod	_	SpaceAfter=No|Translit=sānshí|LTranslit=sānshí
 10	分	分	NOUN	_	NounType=Clf	6	flat	_	SpaceAfter=No|Translit=fēn|LTranslit=fēn
 11	正式	正式	ADV	_	_	12	advmod	_	SpaceAfter=No|Translit=zhèngshì|LTranslit=zhèngshì
-12	恢復	恢復	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=huī復|LTranslit=huī復
+12	恢復	恢復	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=huīfù|LTranslit=huīfù
 13	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 664
@@ -7671,7 +7671,7 @@
 
 # sent_id = 666
 # text = 現在是二時三十五分，較我原先宣佈二時三十分恢復會議的時間，遲了五分鐘。
-# translit = xiànzàishì'èrshísānshíwǔfēn,jiàowǒyuánxiānxuān佈'èrshísānshífēnhuī復huìyìdeshíjiān,chílewǔfēnzhōng.
+# translit = xiànzàishì'èrshísānshíwǔfēn,jiàowǒyuánxiānxuān佈'èrshísānshífēnhuīfùhuìyìdeshíjiān,chílewǔfēnzhōng.
 1	現在	現在	NOUN	_	_	2	obl:tmod	_	SpaceAfter=No|Translit=xiànzài|LTranslit=xiànzài
 2	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 3	二	二	NUM	_	_	4	nummod	_	SpaceAfter=No|Translit='èr|LTranslit='èr
@@ -7687,7 +7687,7 @@
 13	時	時	NOUN	_	NounType=Clf	16	obl:tmod	_	SpaceAfter=No|Translit=shí|LTranslit=shí
 14	三十	三十	NUM	_	_	15	nummod	_	SpaceAfter=No|Translit=sānshí|LTranslit=sānshí
 15	分	分	NOUN	_	NounType=Clf	13	conj	_	SpaceAfter=No|Translit=fēn|LTranslit=fēn
-16	恢復	恢復	VERB	_	_	11	ccomp	_	SpaceAfter=No|Translit=huī復|LTranslit=huī復
+16	恢復	恢復	VERB	_	_	11	ccomp	_	SpaceAfter=No|Translit=huīfù|LTranslit=huīfù
 17	會議	會議	NOUN	_	_	16	obj	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
 18	的	的	PART	_	_	11	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 19	時間	時間	NOUN	_	_	21	obl	_	SpaceAfter=No|Translit=shíjiān|LTranslit=shíjiān
@@ -7710,20 +7710,20 @@
 
 # sent_id = 668
 # text = 現在宣佈正式復會。
-# translit = xiànzàixuān佈zhèngshì復huì.
+# translit = xiànzàixuān佈zhèngshìfùhuì.
 1	現在	現在	NOUN	_	_	2	obl:tmod	_	SpaceAfter=No|Translit=xiànzài|LTranslit=xiànzài
 2	宣佈	宣佈	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xuān佈|LTranslit=xuān佈
 3	正式	正式	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=zhèngshì|LTranslit=zhèngshì
-4	復會	復會	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=復huì|LTranslit=復huì
+4	復會	復會	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=fùhuì|LTranslit=fùhuì
 5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 669
 # text = 會議現已恢復，我希望所有同事返回自己的座位。
-# translit = huìyìxiànyǐhuī復,wǒxīwàngsuǒyǒutóngshìfǎnhuízìjǐdezuòwèi.
+# translit = huìyìxiànyǐhuīfù,wǒxīwàngsuǒyǒutóngshìfǎnhuízìjǐdezuòwèi.
 1	會議	會議	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
 2	現	現	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=xiàn|LTranslit=xiàn
 3	已	已	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
-4	恢復	恢復	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=huī復|LTranslit=huī復
+4	恢復	恢復	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=huīfù|LTranslit=huīfù
 5	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 7	希望	希望	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xīwàng|LTranslit=xīwàng
@@ -7885,7 +7885,7 @@
 
 # sent_id = 680
 # text = 剛才我說過，有關梁君彥議員的國籍問題不是今天會議的討論範疇。
-# translit = gāngcáiwǒshuōguò,yǒuguānliángjūn彥yìyuándeguójíwèntíbùshìjīntiānhuìyìdetǎolùn範疇.
+# translit = gāngcáiwǒshuōguò,yǒuguānliángjūn彥yìyuándeguójíwèntíbùshìjīntiānhuìyìdetǎolùnfàn疇.
 1	剛才	剛才	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=gāngcái|LTranslit=gāngcái
 2	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	說	說	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shuō|LTranslit=shuō
@@ -7903,7 +7903,7 @@
 15	會議	會議	NOUN	_	_	18	nmod	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
 16	的	的	PART	_	_	15	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 17	討論	討論	VERB	_	_	18	compound	_	SpaceAfter=No|Translit=tǎolùn|LTranslit=tǎolùn
-18	範疇	範疇	NOUN	_	_	3	ccomp	_	SpaceAfter=No|Translit=範疇|LTranslit=範疇
+18	範疇	範疇	NOUN	_	_	3	ccomp	_	SpaceAfter=No|Translit=fàn疇|LTranslit=fàn疇
 19	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 681
@@ -7928,7 +7928,7 @@
 
 # sent_id = 683
 # text = 我剛才已經說過，為了讓大家進一步瞭解有關梁君彥議員的國籍問題，或要求他澄清，我已作出-特別安排時間，讓梁議員在會議廳外向傳媒作出交代和澄清。
-# translit = wǒgāngcáiyǐjīngshuōguò,wèileràngdàjiājìnyībùliǎojiěyǒuguānliángjūn彥yìyuándeguójíwèntí,huòyàoqiútā澄qīng,wǒyǐzuòchū-tèbié'ānpáishíjiān,ràngliángyìyuánzàihuìyìtīngwàixiàngchuán媒zuòchūjiāodàihé澄qīng.
+# translit = wǒgāngcáiyǐjīngshuōguò,wèileràngdàjiājìnyībùliǎojiěyǒuguānliángjūn彥yìyuándeguójíwèntí,huòyàoqiútā澄qīng,wǒyǐzuòchū-tèbié'ānpáishíjiān,ràngliángyìyuánzàihuìyìtīngwàixiàngchuánméizuòchūjiāodàihé澄qīng.
 1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	剛才	剛才	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=gāngcái|LTranslit=gāngcái
 3	已經	已經	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yǐjīng|LTranslit=yǐjīng
@@ -7967,7 +7967,7 @@
 36	會議廳	會議廳	NOUN	_	_	40	obl	_	SpaceAfter=No|Translit=huìyìtīng|LTranslit=huìyìtīng
 37	外	外	ADP	_	_	36	case:loc	_	SpaceAfter=No|Translit=wài|LTranslit=wài
 38	向	向	ADP	_	_	39	case	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
-39	傳媒	傳媒	NOUN	_	_	40	obl	_	SpaceAfter=No|Translit=chuán媒|LTranslit=chuán媒
+39	傳媒	傳媒	NOUN	_	_	40	obl	_	SpaceAfter=No|Translit=chuánméi|LTranslit=chuánméi
 40	作出	作出	VERB	_	_	32	xcomp	_	SpaceAfter=No|Translit=zuòchū|LTranslit=zuòchū
 41	交代	交代	NOUN	_	_	40	obj	_	SpaceAfter=No|Translit=jiāodài|LTranslit=jiāodài
 42	和	和	CCONJ	_	_	43	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
@@ -7992,7 +7992,7 @@
 
 # sent_id = 685
 # text = 不過，無論當事人如何澄清及解釋，在這個會議上，我不能保證令大家滿意。
-# translit = bùguò,wúlùndāngshìrénrúhé澄qīngjíjiěshì,zàizhègèhuìyìshàng,wǒbùnéngbǎo證lìngdàjiāmǎnyì.
+# translit = bùguò,wúlùndāngshìrénrúhé澄qīngjíjiěshì,zàizhègèhuìyìshàng,wǒbùnéngbǎozhènglìngdàjiāmǎnyì.
 1	不過	不過	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	無論	無論	SCONJ	_	_	6	mark	_	SpaceAfter=No|Translit=wúlùn|LTranslit=wúlùn
@@ -8010,7 +8010,7 @@
 15	我	我	PRON	_	_	18	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 16	不	不	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 17	能	能	AUX	_	_	18	aux	_	SpaceAfter=No|Translit=néng|LTranslit=néng
-18	保證	保證	VERB	_	_	0	root	_	SpaceAfter=No|Translit=bǎo證|LTranslit=bǎo證
+18	保證	保證	VERB	_	_	0	root	_	SpaceAfter=No|Translit=bǎozhèng|LTranslit=bǎozhèng
 19	令	令	VERB	_	_	18	ccomp	_	SpaceAfter=No|Translit=lìng|LTranslit=lìng
 20	大家	大家	PRON	_	_	19	obj	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
 21	滿意	滿意	ADJ	_	_	19	xcomp	_	SpaceAfter=No|Translit=mǎnyì|LTranslit=mǎnyì
@@ -8525,13 +8525,13 @@
 
 # sent_id = 717
 # text = 但相關的copy卻並不存在。
-# translit = dànxiāngguāndecopyquè並bùcúnzài.
+# translit = dànxiāngguāndecopyquèbìngbùcúnzài.
 1	但	但	CCONJ	_	_	7	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
 2	相關	相關	ADJ	_	_	4	amod	_	SpaceAfter=No|Translit=xiāngguān|LTranslit=xiāngguān
 3	的	的	PART	_	_	2	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 4	copy	copy	NOUN	_	_	7	nsubj	_	SpaceAfter=No|Translit=copy|LTranslit=copy
 5	卻	卻	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=què|LTranslit=què
-6	並不	並不	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=並bù|LTranslit=並bù
+6	並不	並不	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=bìngbù|LTranslit=bìngbù
 7	存在	存在	VERB	_	_	0	root	_	SpaceAfter=No|Translit=cúnzài|LTranslit=cúnzài
 8	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
@@ -8674,14 +8674,14 @@
 
 # sent_id = 727
 # text = 所有事情皆被正式確認後，才展開選舉程序呢？
-# translit = suǒyǒushìqíngjiēbèizhèngshìquèrèn後,cáizhǎnkāixuǎnjǔchéngxùne?
+# translit = suǒyǒushìqíngjiēbèizhèngshìquèrènhòu,cáizhǎnkāixuǎnjǔchéngxùne?
 1	所有	所有	DET	_	_	2	det	_	SpaceAfter=No|Translit=suǒyǒu|LTranslit=suǒyǒu
 2	事情	事情	NOUN	_	_	6	nsubj:pass	_	SpaceAfter=No|Translit=shìqíng|LTranslit=shìqíng
 3	皆	皆	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=jiē|LTranslit=jiē
 4	被	被	AUX	_	_	6	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
 5	正式	正式	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=zhèngshì|LTranslit=zhèngshì
 6	確認	確認	VERB	_	_	10	advcl	_	SpaceAfter=No|Translit=quèrèn|LTranslit=quèrèn
-7	後	後	ADP	_	_	6	case:loc	_	SpaceAfter=No|Translit=後|LTranslit=後
+7	後	後	ADP	_	_	6	case:loc	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 8	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 9	才	才	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=cái|LTranslit=cái
 10	展開	展開	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhǎnkāi|LTranslit=zhǎnkāi
@@ -8768,8 +8768,8 @@
 
 # sent_id = 732
 # text = 至於他的答覆能否回應你剛才的提問，我並不能夠提出任何意見。
-# translit = zhì於tādedáfùnéngfǒuhuíyīngnǐgāngcáidetíwèn,wǒ並bùnénggòutíchūrènhéyìjiàn.
-1	至於	至於	ADP	_	_	7	mark	_	SpaceAfter=No|Translit=zhì於|LTranslit=zhì於
+# translit = zhìyútādedáfùnéngfǒuhuíyīngnǐgāngcáidetíwèn,wǒbìngbùnénggòutíchūrènhéyìjiàn.
+1	至於	至於	ADP	_	_	7	mark	_	SpaceAfter=No|Translit=zhìyú|LTranslit=zhìyú
 2	他	他	PRON	_	_	4	nmod	_	SpaceAfter=No|Translit=tā|LTranslit=tā
 3	的	的	PART	_	_	2	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 4	答覆	答覆	NOUN	_	_	7	nsubj	_	SpaceAfter=No|Translit=dáfù|LTranslit=dáfù
@@ -8782,7 +8782,7 @@
 11	提問	提問	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=tíwèn|LTranslit=tíwèn
 12	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 13	我	我	PRON	_	_	16	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-14	並不	並不	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=並bù|LTranslit=並bù
+14	並不	並不	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=bìngbù|LTranslit=bìngbù
 15	能夠	能夠	AUX	_	_	16	aux	_	SpaceAfter=No|Translit=nénggòu|LTranslit=nénggòu
 16	提出	提出	VERB	_	_	0	root	_	SpaceAfter=No|Translit=tíchū|LTranslit=tíchū
 17	任何	任何	DET	_	_	18	det	_	SpaceAfter=No|Translit=rènhé|LTranslit=rènhé
@@ -8791,7 +8791,7 @@
 
 # sent_id = 733
 # text = 不過，我想對大家說，鑒於梁君彥議員已經一而再、再而三地提供資料，並在公開場合作出澄清，議員大可自行決定稍後會否投票支持他。
-# translit = bùguò,wǒxiǎngduìdàjiāshuō,jiàn於liángjūn彥yìyuányǐjīngyī'érzài,zài'érsāndetígōngzīliào,並zàigōngkāichǎnghézuòchū澄qīng,yìyuándàkězìxíngjuédìngshāo後huìfǒutóupiàozhīchítā.
+# translit = bùguò,wǒxiǎngduìdàjiāshuō,jiànyúliángjūn彥yìyuányǐjīngyī'érzài,zài'érsāndetígōngzīliào,bìngzàigōngkāichǎnghézuòchū澄qīng,yìyuándàkězìxíngjuédìngshāohòuhuìfǒutóupiàozhīchítā.
 1	不過	不過	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
@@ -8800,7 +8800,7 @@
 6	大家	大家	PRON	_	_	7	obl	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
 7	說	說	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shuō|LTranslit=shuō
 8	，	，	PUNCT	_	_	29	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-9	鑒於	鑒於	ADP	_	_	15	mark	_	SpaceAfter=No|Translit=jiàn於|LTranslit=jiàn於
+9	鑒於	鑒於	ADP	_	_	15	mark	_	SpaceAfter=No|Translit=jiànyú|LTranslit=jiànyú
 10	梁君彥	梁君彥	PROPN	_	_	15	nsubj	_	SpaceAfter=No|Translit=liángjūn彥|LTranslit=liángjūn彥
 11	議員	議員	NOUN	_	_	10	flat	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 12	已經	已經	ADV	_	_	15	advmod	_	SpaceAfter=No|Translit=yǐjīng|LTranslit=yǐjīng
@@ -8809,7 +8809,7 @@
 15	提供	提供	VERB	_	_	29	advcl	_	SpaceAfter=No|Translit=tígōng|LTranslit=tígōng
 16	資料	資料	NOUN	_	_	15	obj	_	SpaceAfter=No|Translit=zīliào|LTranslit=zīliào
 17	，	，	PUNCT	_	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-18	並	並	CCONJ	_	_	22	cc	_	SpaceAfter=No|Translit=並|LTranslit=並
+18	並	並	CCONJ	_	_	22	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 19	在	在	ADP	_	_	21	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 20	公開	公開	ADJ	_	_	21	amod	_	SpaceAfter=No|Translit=gōngkāi|LTranslit=gōngkāi
 21	場合	場合	NOUN	_	_	22	obl	_	SpaceAfter=No|Translit=chǎnghé|LTranslit=chǎnghé
@@ -8821,7 +8821,7 @@
 27	可	可	AUX	_	_	29	aux	_	SpaceAfter=No|Translit=kě|LTranslit=kě
 28	自行	自行	ADV	_	_	29	advmod	_	SpaceAfter=No|Translit=zìxíng|LTranslit=zìxíng
 29	決定	決定	VERB	_	_	7	ccomp	_	SpaceAfter=No|Translit=juédìng|LTranslit=juédìng
-30	稍後	稍後	ADV	_	_	33	advmod	_	SpaceAfter=No|Translit=shāo後|LTranslit=shāo後
+30	稍後	稍後	ADV	_	_	33	advmod	_	SpaceAfter=No|Translit=shāohòu|LTranslit=shāohòu
 31	會	會	AUX	_	_	33	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
 32	否	否	ADV	_	_	31	advmod	_	SpaceAfter=No|Translit=fǒu|LTranslit=fǒu
 33	投票	投票	VERB	_	_	29	ccomp	_	SpaceAfter=No|Translit=tóupiào|LTranslit=tóupiào
@@ -8922,8 +8922,8 @@
 
 # sent_id = 738
 # text = 由於立法會主席的選舉須按照《議事規則》附表一所訂的程序進行。
-# translit = yóu於lìfǎhuìzhǔxídexuǎnjǔxū'ànzhào«yìshìguīzé»fùbiǎoyīsuǒdìngdechéngxùjìnxíng.
-1	由於	由於	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=yóu於|LTranslit=yóu於
+# translit = yóuyúlìfǎhuìzhǔxídexuǎnjǔxū'ànzhào«yìshìguīzé»fùbiǎoyīsuǒdìngdechéngxùjìnxíng.
+1	由於	由於	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
 2	立法會	立法會	NOUN	_	_	3	compound	_	SpaceAfter=No|Translit=lìfǎhuì|LTranslit=lìfǎhuì
 3	主席	主席	NOUN	_	_	5	nmod	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 4	的	的	PART	_	_	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
@@ -9132,7 +9132,7 @@
 
 # sent_id = 750
 # text = 這方面已清楚訂明，但並沒有提及候選人。
-# translit = zhèfāngmiànyǐqīngchudìngmíng,dàn並méiyǒutíjíhouxuǎnrén.
+# translit = zhèfāngmiànyǐqīngchudìngmíng,dànbìngméiyǒutíjíhouxuǎnrén.
 1	這	這	DET	_	_	2	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
 2	方面	方面	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=fāngmiàn|LTranslit=fāngmiàn
 3	已	已	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
@@ -9140,7 +9140,7 @@
 5	訂明	訂明	VERB	_	_	0	root	_	SpaceAfter=No|Translit=dìngmíng|LTranslit=dìngmíng
 6	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 7	但	但	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
-8	並	並	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+8	並	並	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 9	沒有	沒有	AUX	_	_	10	aux	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
 10	提及	提及	VERB	_	_	5	advcl	_	SpaceAfter=No|Translit=tíjí|LTranslit=tíjí
 11	候選人	候選人	NOUN	_	_	10	obj	_	SpaceAfter=No|Translit=houxuǎnrén|LTranslit=houxuǎnrén
@@ -9267,7 +9267,7 @@
 
 # sent_id = 758
 # text = 但是，如果要進行選舉的話，有人將於稍後半小時，或十分鐘後便會當選主席。
-# translit = dànshì,rúguǒyàojìnxíngxuǎnjǔdehuà,yǒurénjiāng於shāo後bànxiǎoshí,huòshífēnzhōng後biànhuìdāngxuǎnzhǔxí.
+# translit = dànshì,rúguǒyàojìnxíngxuǎnjǔdehuà,yǒurénjiāngyúshāohòubànxiǎoshí,huòshífēnzhōnghòubiànhuìdāngxuǎnzhǔxí.
 1	但是	但是	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=dànshì|LTranslit=dànshì
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	如果	如果	SCONJ	_	_	5	mark	_	SpaceAfter=No|Translit=rúguǒ|LTranslit=rúguǒ
@@ -9279,15 +9279,15 @@
 9	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 10	人	人	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
 11	將	將	ADV	_	_	22	advmod	_	SpaceAfter=No|Translit=jiāng|LTranslit=jiāng
-12	於	於	ADP	_	_	15	case	_	SpaceAfter=No|Translit=於|LTranslit=於
-13	稍後	稍後	NOUN	_	_	15	compound	_	SpaceAfter=No|Translit=shāo後|LTranslit=shāo後
+12	於	於	ADP	_	_	15	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+13	稍後	稍後	NOUN	_	_	15	compound	_	SpaceAfter=No|Translit=shāohòu|LTranslit=shāohòu
 14	半	半	NUM	_	_	15	nummod	_	SpaceAfter=No|Translit=bàn|LTranslit=bàn
 15	小時	小時	NOUN	_	NounType=Clf	22	obl	_	SpaceAfter=No|Translit=xiǎoshí|LTranslit=xiǎoshí
 16	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 17	或	或	CCONJ	_	_	19	cc	_	SpaceAfter=No|Translit=huò|LTranslit=huò
 18	十	十	NUM	_	_	19	nummod	_	SpaceAfter=No|Translit=shí|LTranslit=shí
 19	分鐘	分鐘	NOUN	_	NounType=Clf	15	conj	_	SpaceAfter=No|Translit=fēnzhōng|LTranslit=fēnzhōng
-20	後	後	ADP	_	_	19	case:loc	_	SpaceAfter=No|Translit=後|LTranslit=後
+20	後	後	ADP	_	_	19	case:loc	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 21	便會	便會	ADV	_	_	22	advmod	_	SpaceAfter=No|Translit=biànhuì|LTranslit=biànhuì
 22	當選	當選	VERB	_	_	10	acl	_	SpaceAfter=No|Translit=dāngxuǎn|LTranslit=dāngxuǎn
 23	主席	主席	NOUN	_	_	22	obj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
@@ -9506,8 +9506,8 @@
 
 # sent_id = 774
 # text = 最後，一個規程問題。
-# translit = zuì後,yīgèguīchéngwèntí.
-1	最後	最後	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=zuì後|LTranslit=zuì後
+# translit = zuìhòu,yīgèguīchéngwèntí.
+1	最後	最後	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=zuìhòu|LTranslit=zuìhòu
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	一	一	NUM	_	_	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 4	個	個	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
@@ -9517,7 +9517,7 @@
 
 # sent_id = 775
 # text = 為了抗爭，為表示我不同意現時的程序，我現在也走出來，站在你後面不會離開。
-# translit = wèilekàngzhēng,wèibiǎoshìwǒbùtóngyìxiànshídechéngxù,wǒxiànzàiyězǒuchūlái,zhànzàinǐ後miànbùhuìlíkāi.
+# translit = wèilekàngzhēng,wèibiǎoshìwǒbùtóngyìxiànshídechéngxù,wǒxiànzàiyězǒuchūlái,zhànzàinǐhòumiànbùhuìlíkāi.
 1	為了	為了	ADP	_	_	2	mark	_	SpaceAfter=No|Translit=wèile|LTranslit=wèile
 2	抗爭	抗爭	VERB	_	_	16	advcl	_	SpaceAfter=No|Translit=kàngzhēng|LTranslit=kàngzhēng
 3	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
@@ -9539,7 +9539,7 @@
 19	站	站	VERB	_	_	16	conj	_	SpaceAfter=No|Translit=zhàn|LTranslit=zhàn
 20	在	在	ADP	_	_	22	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 21	你	你	PRON	_	_	22	nmod	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
-22	後面	後面	NOUN	_	_	19	obl	_	SpaceAfter=No|Translit=後miàn|LTranslit=後miàn
+22	後面	後面	NOUN	_	_	19	obl	_	SpaceAfter=No|Translit=hòumiàn|LTranslit=hòumiàn
 23	不	不	ADV	_	_	24	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 24	會	會	AUX	_	_	25	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
 25	離開	離開	VERB	_	_	19	conj	_	SpaceAfter=No|Translit=líkāi|LTranslit=líkāi
@@ -9754,7 +9754,7 @@
 
 # sent_id = 787
 # text = ……我們是否應該繼續進行會議並選舉主席。
-# translit = ……wǒmenshìfǒuyīnggāijìxùjìnxínghuìyì並xuǎnjǔzhǔxí.
+# translit = ……wǒmenshìfǒuyīnggāijìxùjìnxínghuìyìbìngxuǎnjǔzhǔxí.
 1	……	……	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=……|LTranslit=……
 2	我們	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 3	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
@@ -9763,7 +9763,7 @@
 6	繼續	繼續	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit=jìxù|LTranslit=jìxù
 7	進行	進行	VERB	_	_	6	xcomp	_	SpaceAfter=No|Translit=jìnxíng|LTranslit=jìnxíng
 8	會議	會議	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
-9	並	並	CCONJ	_	_	10	cc	_	SpaceAfter=No|Translit=並|LTranslit=並
+9	並	並	CCONJ	_	_	10	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 10	選舉	選舉	VERB	_	_	7	conj	_	SpaceAfter=No|Translit=xuǎnjǔ|LTranslit=xuǎnjǔ
 11	主席	主席	NOUN	_	_	10	obj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 12	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -9802,7 +9802,7 @@
 
 # sent_id = 789
 # text = 在這種情況下，要我們選舉主席並不公道。
-# translit = zàizhèzhǒngqíngkuàngxià,yàowǒmenxuǎnjǔzhǔxí並bùgōngdào.
+# translit = zàizhèzhǒngqíngkuàngxià,yàowǒmenxuǎnjǔzhǔxíbìngbùgōngdào.
 1	在	在	ADP	_	_	4	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 2	這	這	DET	_	_	4	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
 3	種	種	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No|Translit=zhǒng|LTranslit=zhǒng
@@ -9813,7 +9813,7 @@
 8	我們	我	PRON	_	_	7	obj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 9	選舉	選舉	VERB	_	_	7	xcomp	_	SpaceAfter=No|Translit=xuǎnjǔ|LTranslit=xuǎnjǔ
 10	主席	主席	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
-11	並	並	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+11	並	並	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 12	不	不	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 13	公道	公道	ADJ	_	_	0	root	_	SpaceAfter=No|Translit=gōngdào|LTranslit=gōngdào
 14	。	。	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -9829,13 +9829,13 @@
 
 # sent_id = 791
 # text = 第二，站在你身後的數位議員，剛才在宣誓時遇到一些障礙。
-# translit = dì'èr,zhànzàinǐshēn後deshùwèiyìyuán,gāngcáizàixuānshìshíyùdàoyīxiēzhàng'ài.
+# translit = dì'èr,zhànzàinǐshēnhòudeshùwèiyìyuán,gāngcáizàixuānshìshíyùdàoyīxiēzhàng'ài.
 1	第二	第二	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=dì'èr|LTranslit=dì'èr
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	站	站	VERB	_	_	10	acl	_	SpaceAfter=No|Translit=zhàn|LTranslit=zhàn
 4	在	在	ADP	_	_	6	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 5	你	你	PRON	_	_	6	nmod	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
-6	身後	身後	NOUN	_	_	10	nmod	_	SpaceAfter=No|Translit=shēn後|LTranslit=shēn後
+6	身後	身後	NOUN	_	_	10	nmod	_	SpaceAfter=No|Translit=shēnhòu|LTranslit=shēnhòu
 7	的	的	PART	_	_	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	數	數	NOUN	_	_	10	clf	_	SpaceAfter=No|Translit=shù|LTranslit=shù
 9	位	位	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
@@ -9852,8 +9852,8 @@
 
 # sent_id = 792
 # text = 由於負責監誓的秘書長沒有處理他們的宣誓。
-# translit = yóu於fùzéjiānshìdemìshūzhǎngméiyǒuchùlǐtāmendexuānshì.
-1	由於	由於	ADP	_	_	7	case	_	SpaceAfter=No|Translit=yóu於|LTranslit=yóu於
+# translit = yóuyúfùzéjiānshìdemìshūzhǎngméiyǒuchùlǐtāmendexuānshì.
+1	由於	由於	ADP	_	_	7	case	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
 2	負責	負責	VERB	_	_	5	acl	_	SpaceAfter=No|Translit=fùzé|LTranslit=fùzé
 3	監誓	監誓	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=jiānshì|LTranslit=jiānshì
 4	的	的	PART	_	_	2	mark	_	SpaceAfter=No|Translit=de|LTranslit=de
@@ -9867,12 +9867,12 @@
 
 # sent_id = 793
 # text = 並表示他們在稍後舉行的主席選舉中不可以投票。
-# translit = 並biǎoshìtāmenzàishāo後jǔxíngdezhǔxíxuǎnjǔzhōngbùkěyǐtóupiào.
-1	並	並	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+# translit = bìngbiǎoshìtāmenzàishāohòujǔxíngdezhǔxíxuǎnjǔzhōngbùkěyǐtóupiào.
+1	並	並	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 2	表示	表示	VERB	_	_	0	root	_	SpaceAfter=No|Translit=biǎoshì|LTranslit=biǎoshì
 3	他們	他	PRON	_	_	13	nsubj	_	SpaceAfter=No|Translit=tāmen|LTranslit=tā
 4	在	在	ADP	_	_	9	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
-5	稍後	稍後	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=shāo後|LTranslit=shāo後
+5	稍後	稍後	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=shāohòu|LTranslit=shāohòu
 6	舉行	舉行	VERB	_	_	9	acl	_	SpaceAfter=No|Translit=jǔxíng|LTranslit=jǔxíng
 7	的	的	PART	_	_	6	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	主席	主席	NOUN	_	_	9	compound	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
@@ -9885,7 +9885,7 @@
 
 # sent_id = 794
 # text = 但是，多位議員認為，他們所採用的宣誓方式，歷屆立法會議員也曾採用類似方式，卻沒有問題。
-# translit = dànshì,duōwèiyìyuánrènwèi,tāmensuǒ採yòngdexuānshìfāngshì,lìjièlìfǎhuìyìyuányěcéng採yònglèishìfāngshì,quèméiyǒuwèntí.
+# translit = dànshì,duōwèiyìyuánrènwèi,tāmensuǒcǎiyòngdexuānshìfāngshì,lìjièlìfǎhuìyìyuányěcéngcǎiyònglèishìfāngshì,quèméiyǒuwèntí.
 1	但是	但是	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=dànshì|LTranslit=dànshì
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	多	多	DET	_	_	5	det	_	SpaceAfter=No|Translit=duō|LTranslit=duō
@@ -9895,7 +9895,7 @@
 7	，	，	PUNCT	_	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 8	他們	他	PRON	_	_	10	nsubj	_	SpaceAfter=No|Translit=tāmen|LTranslit=tā
 9	所	所	SCONJ	_	_	10	mark	_	SpaceAfter=No|Translit=suǒ|LTranslit=suǒ
-10	採用	採用	VERB	_	_	13	acl	_	SpaceAfter=No|Translit=採yòng|LTranslit=採yòng
+10	採用	採用	VERB	_	_	13	acl	_	SpaceAfter=No|Translit=cǎiyòng|LTranslit=cǎiyòng
 11	的	的	PART	_	_	10	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 12	宣誓	宣誓	NOUN	_	_	13	compound	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
 13	方式	方式	NOUN	_	_	21	dislocated	_	SpaceAfter=No|Translit=fāngshì|LTranslit=fāngshì
@@ -9906,7 +9906,7 @@
 18	議員	議員	NOUN	_	_	21	nsubj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 19	也	也	ADV	_	_	21	advmod	_	SpaceAfter=No|Translit=yě|LTranslit=yě
 20	曾	曾	ADV	_	_	21	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
-21	採用	採用	VERB	_	_	6	ccomp	_	SpaceAfter=No|Translit=採yòng|LTranslit=採yòng
+21	採用	採用	VERB	_	_	6	ccomp	_	SpaceAfter=No|Translit=cǎiyòng|LTranslit=cǎiyòng
 22	類似	類似	ADJ	_	_	23	amod	_	SpaceAfter=No|Translit=lèishì|LTranslit=lèishì
 23	方式	方式	NOUN	_	_	21	obj	_	SpaceAfter=No|Translit=fāngshì|LTranslit=fāngshì
 24	，	，	PUNCT	_	_	26	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
@@ -9917,9 +9917,9 @@
 
 # sent_id = 795
 # text = 這證明宣誓過程出現問題。
-# translit = zhè證míngxuānshìguòchéngchūxiànwèntí.
+# translit = zhèzhèngmíngxuānshìguòchéngchūxiànwèntí.
 1	這	這	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
-2	證明	證明	VERB	_	_	0	root	_	SpaceAfter=No|Translit=證míng|LTranslit=證míng
+2	證明	證明	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhèngmíng|LTranslit=zhèngmíng
 3	宣誓	宣誓	VERB	_	_	4	acl	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
 4	過程	過程	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=guòchéng|LTranslit=guòchéng
 5	出現	出現	VERB	_	_	2	ccomp	_	SpaceAfter=No|Translit=chūxiàn|LTranslit=chūxiàn
@@ -9928,12 +9928,12 @@
 
 # sent_id = 796
 # text = 令數位議員稍後無法進行投票，這個選舉便不會是公平及符合程序公義的選舉。
-# translit = lìngshùwèiyìyuánshāo後wúfǎjìnxíngtóupiào,zhègèxuǎnjǔbiànbùhuìshìgōngpíngjífúhéchéngxùgōngyìdexuǎnjǔ.
+# translit = lìngshùwèiyìyuánshāohòuwúfǎjìnxíngtóupiào,zhègèxuǎnjǔbiànbùhuìshìgōngpíngjífúhéchéngxùgōngyìdexuǎnjǔ.
 1	令	令	VERB	_	_	23	advcl	_	SpaceAfter=No|Translit=lìng|LTranslit=lìng
 2	數	數	NOUN	_	_	4	clf	_	SpaceAfter=No|Translit=shù|LTranslit=shù
 3	位	位	NOUN	_	NounType=Clf	2	clf	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 4	議員	議員	NOUN	_	_	1	obj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
-5	稍後	稍後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=shāo後|LTranslit=shāo後
+5	稍後	稍後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=shāohòu|LTranslit=shāohòu
 6	無法	無法	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=wúfǎ|LTranslit=wúfǎ
 7	進行	進行	VERB	_	_	1	xcomp	_	SpaceAfter=No|Translit=jìnxíng|LTranslit=jìnxíng
 8	投票	投票	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=tóupiào|LTranslit=tóupiào
@@ -10078,7 +10078,7 @@
 
 # sent_id = 802
 # text = 有議員沒有合理理由而在你身後及旁邊站着。
-# translit = yǒuyìyuánméiyǒuhélǐlǐyóu'érzàinǐshēn後jípángbiānzhànzhe.
+# translit = yǒuyìyuánméiyǒuhélǐlǐyóu'érzàinǐshēnhòujípángbiānzhànzhe.
 1	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 2	議員	議員	NOUN	_	_	1	obj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 3	沒有	沒有	VERB	_	_	12	advcl	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
@@ -10087,7 +10087,7 @@
 6	而	而	ADV	_	_	12	advmod	_	SpaceAfter=No|Translit='ér|LTranslit='ér
 7	在	在	ADP	_	_	9	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 8	你	你	PRON	_	_	9	nmod	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
-9	身後	身後	NOUN	_	_	12	obl	_	SpaceAfter=No|Translit=shēn後|LTranslit=shēn後
+9	身後	身後	NOUN	_	_	12	obl	_	SpaceAfter=No|Translit=shēnhòu|LTranslit=shēnhòu
 10	及	及	CCONJ	_	_	11	cc	_	SpaceAfter=No|Translit=jí|LTranslit=jí
 11	旁邊	旁邊	NOUN	_	_	9	conj	_	SpaceAfter=No|Translit=pángbiān|LTranslit=pángbiān
 12	站	站	VERB	_	_	2	acl	_	SpaceAfter=No|Translit=zhàn|LTranslit=zhàn
@@ -10164,11 +10164,11 @@
 
 # sent_id = 807
 # text = 第二點是關於議員的投票權。
-# translit = dì'èrdiǎnshìguān於yìyuándetóupiàoquán.
+# translit = dì'èrdiǎnshìguānyúyìyuándetóupiàoquán.
 1	第二	第二	ADJ	_	_	2	amod	_	SpaceAfter=No|Translit=dì'èr|LTranslit=dì'èr
 2	點	點	NOUN	_	NounType=Clf	7	nsubj	_	SpaceAfter=No|Translit=diǎn|LTranslit=diǎn
 3	是	是	AUX	_	_	7	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
-4	關於	關於	ADP	_	_	7	case	_	SpaceAfter=No|Translit=guān於|LTranslit=guān於
+4	關於	關於	ADP	_	_	7	case	_	SpaceAfter=No|Translit=guānyú|LTranslit=guānyú
 5	議員	議員	NOUN	_	_	7	nmod	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 6	的	的	PART	_	_	5	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 7	投票權	投票權	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=tóupiàoquán|LTranslit=tóupiàoquán
@@ -10246,8 +10246,8 @@
 
 # sent_id = 812
 # text = 由於未能完成宣誓，因此不能參與選舉。
-# translit = yóu於wèinéngwánchéngxuānshì,yīncǐbùnéngcānyǔxuǎnjǔ.
-1	由於	由於	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yóu於|LTranslit=yóu於
+# translit = yóuyúwèinéngwánchéngxuānshì,yīncǐbùnéngcānyǔxuǎnjǔ.
+1	由於	由於	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
 2	未	未	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 3	能	能	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=néng|LTranslit=néng
 4	完成	完成	VERB	_	_	10	advcl	_	SpaceAfter=No|Translit=wánchéng|LTranslit=wánchéng
@@ -10302,11 +10302,11 @@
 
 # sent_id = 815
 # text = 第三點，至於大家質疑梁君彥議員的國籍問題，我早已很關心此事，並多次請梁議員澄清，要求他確認。
-# translit = dìsāndiǎn,zhì於dàjiāzhìyíliángjūn彥yìyuándeguójíwèntí,wǒzǎoyǐhěnguānxīncǐshì,並duōcìqǐngliángyìyuán澄qīng,yàoqiútāquèrèn.
+# translit = dìsāndiǎn,zhìyúdàjiāzhìyíliángjūn彥yìyuándeguójíwèntí,wǒzǎoyǐhěnguānxīncǐshì,bìngduōcìqǐngliángyìyuán澄qīng,yàoqiútāquèrèn.
 1	第三	第三	ADJ	_	_	2	amod	_	SpaceAfter=No|Translit=dìsān|LTranslit=dìsān
 2	點	點	NOUN	_	NounType=Clf	17	nsubj	_	SpaceAfter=No|Translit=diǎn|LTranslit=diǎn
 3	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-4	至於	至於	ADP	_	_	6	mark	_	SpaceAfter=No|Translit=zhì於|LTranslit=zhì於
+4	至於	至於	ADP	_	_	6	mark	_	SpaceAfter=No|Translit=zhìyú|LTranslit=zhìyú
 5	大家	大家	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
 6	質疑	質疑	VERB	_	_	17	advcl	_	SpaceAfter=No|Translit=zhìyí|LTranslit=zhìyí
 7	梁君彥	梁君彥	PROPN	_	_	11	nmod	_	SpaceAfter=No|Translit=liángjūn彥|LTranslit=liángjūn彥
@@ -10323,7 +10323,7 @@
 18	此	此	DET	_	_	19	det	_	SpaceAfter=No|Translit=cǐ|LTranslit=cǐ
 19	事	事	NOUN	_	_	17	obj	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 20	，	，	PUNCT	_	_	24	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-21	並	並	CCONJ	_	_	24	cc	_	SpaceAfter=No|Translit=並|LTranslit=並
+21	並	並	CCONJ	_	_	24	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 22	多	多	DET	_	_	23	det	_	SpaceAfter=No|Translit=duō|LTranslit=duō
 23	次	次	NOUN	_	NounType=Clf	24	obl	_	SpaceAfter=No|Translit=cì|LTranslit=cì
 24	請	請	VERB	_	_	17	conj	_	SpaceAfter=No|Translit=qǐng|LTranslit=qǐng
@@ -10354,8 +10354,8 @@
 
 # sent_id = 817
 # text = 及後，亦已提供英國領事館發出的兩封信，供大家參閱。
-# translit = jí後,yìyǐtígōngyīngguólǐngshìguǎnfāchūdeliǎngfēngxìn,gōngdàjiācānyuè.
-1	及後	及後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=jí後|LTranslit=jí後
+# translit = jíhòu,yìyǐtígōngyīngguólǐngshìguǎnfāchūdeliǎngfēngxìn,gōngdàjiācānyuè.
+1	及後	及後	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=jíhòu|LTranslit=jíhòu
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	亦	亦	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=yì|LTranslit=yì
 4	已	已	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
@@ -10375,7 +10375,7 @@
 
 # sent_id = 818
 # text = 當然，議員可以要求梁議員提供一份證書。
-# translit = dāngrán,yìyuánkěyǐyàoqiúliángyìyuántígōngyīfèn證shū.
+# translit = dāngrán,yìyuánkěyǐyàoqiúliángyìyuántígōngyīfènzhèngshū.
 1	當然	當然	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=dāngrán|LTranslit=dāngrán
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	議員	議員	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
@@ -10386,7 +10386,7 @@
 8	提供	提供	VERB	_	_	5	xcomp	_	SpaceAfter=No|Translit=tígōng|LTranslit=tígōng
 9	一	一	NUM	_	_	11	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 10	份	份	NOUN	_	NounType=Clf	9	clf	_	SpaceAfter=No|Translit=fèn|LTranslit=fèn
-11	證書	證書	NOUN	_	_	8	obj	_	SpaceAfter=No|Translit=證shū|LTranslit=證shū
+11	證書	證書	NOUN	_	_	8	obj	_	SpaceAfter=No|Translit=zhèngshū|LTranslit=zhèngshū
 12	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 819
@@ -10402,7 +10402,7 @@
 
 # sent_id = 820
 # text = 但我看過那兩封信後，最低限度認為到此刻，沒有其他新證據指梁議員的英籍問題並未處理。
-# translit = dànwǒkànguònàliǎngfēngxìn後,zuìdīxiàndùrènwèidàocǐkè,méiyǒuqítāxīn證jùzhǐliángyìyuándeyīngjíwèntí並wèichùlǐ.
+# translit = dànwǒkànguònàliǎngfēngxìnhòu,zuìdīxiàndùrènwèidàocǐkè,méiyǒuqítāxīnzhèngjùzhǐliángyìyuándeyīngjíwèntíbìngwèichùlǐ.
 1	但	但	ADV	_	_	12	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
 2	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	看	看	VERB	_	_	12	advcl	_	SpaceAfter=No|Translit=kàn|LTranslit=kàn
@@ -10411,7 +10411,7 @@
 6	兩	兩	NUM	_	_	8	nummod	_	SpaceAfter=No|Translit=liǎng|LTranslit=liǎng
 7	封	封	NOUN	_	NounType=Clf	6	clf	_	SpaceAfter=No|Translit=fēng|LTranslit=fēng
 8	信	信	NOUN	_	_	3	obj	_	SpaceAfter=No|Translit=xìn|LTranslit=xìn
-9	後	後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=後|LTranslit=後
+9	後	後	ADP	_	_	3	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 10	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 11	最低限度	最低限度	ADV	_	_	12	advmod	_	SpaceAfter=No|Translit=zuìdīxiàndù|LTranslit=zuìdīxiàndù
 12	認為	認為	VERB	_	_	0	root	_	SpaceAfter=No|Translit=rènwèi|LTranslit=rènwèi
@@ -10421,14 +10421,14 @@
 16	沒有	沒有	VERB	_	_	12	ccomp	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
 17	其他	其他	DET	_	_	19	det	_	SpaceAfter=No|Translit=qítā|LTranslit=qítā
 18	新	新	ADJ	_	_	19	amod	_	SpaceAfter=No|Translit=xīn|LTranslit=xīn
-19	證據	證據	NOUN	_	_	16	obj	_	SpaceAfter=No|Translit=證jù|LTranslit=證jù
+19	證據	證據	NOUN	_	_	16	obj	_	SpaceAfter=No|Translit=zhèngjù|LTranslit=zhèngjù
 20	指	指	VERB	_	_	19	acl	_	SpaceAfter=No|Translit=zhǐ|LTranslit=zhǐ
 21	梁	梁	PROPN	_	_	25	nmod	_	SpaceAfter=No|Translit=liáng|LTranslit=liáng
 22	議員	議員	NOUN	_	_	21	flat	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 23	的	的	PART	_	_	21	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 24	英籍	英籍	ADJ	_	_	25	compound	_	SpaceAfter=No|Translit=yīngjí|LTranslit=yīngjí
 25	問題	問題	NOUN	_	_	28	nsubj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
-26	並	並	ADV	_	_	28	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+26	並	並	ADV	_	_	28	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 27	未	未	ADV	_	_	28	advmod	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 28	處理	處理	VERB	_	_	20	ccomp	_	SpaceAfter=No|Translit=chùlǐ|LTranslit=chùlǐ
 29	。	。	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -10484,9 +10484,9 @@
 
 # sent_id = 823
 # text = 大家日後可以透過不同方式跟進，包括司法覆核或其他法律程序。
-# translit = dàjiārì後kěyǐtòuguòbùtóngfāngshìgēnjìn,bāokuòsīfǎfùhéhuòqítāfǎlǜchéngxù.
+# translit = dàjiārìhòukěyǐtòuguòbùtóngfāngshìgēnjìn,bāokuòsīfǎfùhéhuòqítāfǎlǜchéngxù.
 1	大家	大家	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
-2	日後	日後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=rì後|LTranslit=rì後
+2	日後	日後	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=rìhòu|LTranslit=rìhòu
 3	可以	可以	AUX	_	_	7	aux	_	SpaceAfter=No|Translit=kěyǐ|LTranslit=kěyǐ
 4	透過	透過	ADP	_	_	6	case	_	SpaceAfter=No|Translit=tòuguò|LTranslit=tòuguò
 5	不同	不同	ADJ	_	_	6	amod	_	SpaceAfter=No|Translit=bùtóng|LTranslit=bùtóng
@@ -10725,7 +10725,7 @@
 
 # sent_id = 833
 # text = 我認為今次選舉主席，後果十分重大，足以帶來憲制危機。
-# translit = wǒrènwèijīncìxuǎnjǔzhǔxí,後guǒshífēnzhòngdà,zúyǐdàiláixiànzhìwēijī.
+# translit = wǒrènwèijīncìxuǎnjǔzhǔxí,hòuguǒshífēnzhòngdà,zúyǐdàiláixiànzhìwēijī.
 1	我	我	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	認為	認為	VERB	_	_	0	root	_	SpaceAfter=No|Translit=rènwèi|LTranslit=rènwèi
 3	今	今	DET	_	_	4	det	_	SpaceAfter=No|Translit=jīn|LTranslit=jīn
@@ -10733,7 +10733,7 @@
 5	選舉	選舉	VERB	_	_	8	advcl	_	SpaceAfter=No|Translit=xuǎnjǔ|LTranslit=xuǎnjǔ
 6	主席	主席	NOUN	_	_	5	obj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 7	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-8	後果	後果	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Translit=後guǒ|LTranslit=後guǒ
+8	後果	後果	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Translit=hòuguǒ|LTranslit=hòuguǒ
 9	十分	十分	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=shífēn|LTranslit=shífēn
 10	重大	重大	ADJ	_	_	2	ccomp	_	SpaceAfter=No|Translit=zhòngdà|LTranslit=zhòngdà
 11	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
@@ -10861,7 +10861,7 @@
 
 # sent_id = 839
 # text = 你說你的責任是主持會議，以及在得出結果後，作出宣佈。
-# translit = nǐshuōnǐdezérènshìzhǔchíhuìyì,yǐjízàidechūjiéguǒ後,zuòchūxuān佈.
+# translit = nǐshuōnǐdezérènshìzhǔchíhuìyì,yǐjízàidechūjiéguǒhòu,zuòchūxuān佈.
 1	你	你	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	說	說	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shuō|LTranslit=shuō
 3	你	你	PRON	_	_	5	nmod	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
@@ -10876,7 +10876,7 @@
 12	得	得	VERB	_	_	17	advcl	_	SpaceAfter=No|Translit=de|LTranslit=de
 13	出	出	VERB	_	_	12	compound:dir	_	SpaceAfter=No|Translit=chū|LTranslit=chū
 14	結果	結果	NOUN	_	_	12	obj	_	SpaceAfter=No|Translit=jiéguǒ|LTranslit=jiéguǒ
-15	後	後	ADP	_	_	12	mark	_	SpaceAfter=No|Translit=後|LTranslit=後
+15	後	後	ADP	_	_	12	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 16	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 17	作	作	VERB	_	_	7	conj	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
 18	出	出	VERB	_	_	17	compound:dir	_	SpaceAfter=No|Translit=chū|LTranslit=chū
@@ -10885,7 +10885,7 @@
 
 # sent_id = 840
 # text = 其實有一件事情是否也屬於你的權力範圍，就是中止整個會議？
-# translit = qíshíyǒuyījiànshìqíngshìfǒuyěshǔ於nǐdequánlì範wéi,jiùshìzhōngzhǐzhěnggèhuìyì?
+# translit = qíshíyǒuyījiànshìqíngshìfǒuyěshǔyúnǐdequánlìfànwéi,jiùshìzhōngzhǐzhěnggèhuìyì?
 1	其實	其實	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=qíshí|LTranslit=qíshí
 2	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 3	一	一	NUM	_	_	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
@@ -10894,11 +10894,11 @@
 6	是	是	VERB	_	_	5	acl	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 7	否	否	ADV	_	_	6	conj	_	SpaceAfter=No|Translit=fǒu|LTranslit=fǒu
 8	也	也	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=yě|LTranslit=yě
-9	屬於	屬於	VERB	_	_	6	ccomp	_	SpaceAfter=No|Translit=shǔ於|LTranslit=shǔ於
+9	屬於	屬於	VERB	_	_	6	ccomp	_	SpaceAfter=No|Translit=shǔyú|LTranslit=shǔyú
 10	你	你	PRON	_	_	13	nmod	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 11	的	的	PART	_	_	10	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 12	權力	權力	NOUN	_	_	13	compound	_	SpaceAfter=No|Translit=quánlì|LTranslit=quánlì
-13	範圍	範圍	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=範wéi|LTranslit=範wéi
+13	範圍	範圍	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=fànwéi|LTranslit=fànwéi
 14	，	，	PUNCT	_	_	16	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 15	就	就	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 16	是	是	VERB	_	_	2	conj	_	SpaceAfter=No|Translit=shì|LTranslit=shì
@@ -11065,7 +11065,7 @@
 
 # sent_id = 851
 # text = 雖然有人指那些信件可證實其事，但都不過是口頭上的確認。
-# translit = suīrányǒurénzhǐnàxiēxìnjiànkě證shíqíshì,dàndōubùguòshìkǒutóushàngdequèrèn.
+# translit = suīrányǒurénzhǐnàxiēxìnjiànkězhèngshíqíshì,dàndōubùguòshìkǒutóushàngdequèrèn.
 1	雖然	雖然	SCONJ	_	_	2	mark	_	SpaceAfter=No|Translit=suīrán|LTranslit=suīrán
 2	有	有	VERB	_	_	18	advcl	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 3	人	人	NOUN	_	_	2	obj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
@@ -11073,7 +11073,7 @@
 5	那些	那些	DET	_	_	6	det	_	SpaceAfter=No|Translit=nàxiē|LTranslit=nàxiē
 6	信件	信件	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Translit=xìnjiàn|LTranslit=xìnjiàn
 7	可	可	AUX	_	_	8	aux	_	SpaceAfter=No|Translit=kě|LTranslit=kě
-8	證實	證實	VERB	_	_	4	ccomp	_	SpaceAfter=No|Translit=證shí|LTranslit=證shí
+8	證實	證實	VERB	_	_	4	ccomp	_	SpaceAfter=No|Translit=zhèngshí|LTranslit=zhèngshí
 9	其	其	DET	_	_	10	det	_	SpaceAfter=No|Translit=qí|LTranslit=qí
 10	事	事	NOUN	_	_	8	obj	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 11	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
@@ -11088,7 +11088,7 @@
 
 # sent_id = 852
 # text = 倘若秘書處和主席對整個選舉負責，或覺得整個立法會要取信於民，重新取得市民的信任，便更要將每個程式做得更嚴謹，而非「按章工作」，即秘書處說不需要查便不查。
-# translit = tǎngruòmìshūchùhézhǔxíduìzhěnggèxuǎnjǔfùzé,huòjuédezhěnggèlìfǎhuìyàoqǔxìn於mín,zhòngxīnqǔdeshìmíndexìnrèn,biàngèngyàojiāngměigèchéngshìzuòdegèngyánjǐn,'érfēi“'ànzhānggōngzuò”,jímìshūchùshuōbùxūyàochábiànbùchá.
+# translit = tǎngruòmìshūchùhézhǔxíduìzhěnggèxuǎnjǔfùzé,huòjuédezhěnggèlìfǎhuìyàoqǔxìnyúmín,zhòngxīnqǔdeshìmíndexìnrèn,biàngèngyàojiāngměigèchéngshìzuòdegèngyánjǐn,'érfēi“'ànzhānggōngzuò”,jímìshūchùshuōbùxūyàochábiànbùchá.
 1	倘若	倘若	SCONJ	_	_	8	mark	_	SpaceAfter=No|Translit=tǎngruò|LTranslit=tǎngruò
 2	秘書處	秘書處	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Translit=mìshūchù|LTranslit=mìshūchù
 3	和	和	CCONJ	_	_	4	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
@@ -11103,7 +11103,7 @@
 12	整個	整個	DET	_	_	13	det	_	SpaceAfter=No|Translit=zhěnggè|LTranslit=zhěnggè
 13	立法會	立法會	NOUN	_	_	15	nsubj	_	SpaceAfter=No|Translit=lìfǎhuì|LTranslit=lìfǎhuì
 14	要	要	AUX	_	_	15	aux	_	SpaceAfter=No|Translit=yào|LTranslit=yào
-15	取信於民	取信於民	VERB	_	_	11	ccomp	_	SpaceAfter=No|Translit=qǔxìn於mín|LTranslit=qǔxìn於mín
+15	取信於民	取信於民	VERB	_	_	11	ccomp	_	SpaceAfter=No|Translit=qǔxìnyúmín|LTranslit=qǔxìnyúmín
 16	，	，	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 17	重新	重新	ADV	_	_	19	advmod	_	SpaceAfter=No|Translit=zhòngxīn|LTranslit=zhòngxīn
 18	取得	取得	VERB	_	_	15	conj	_	SpaceAfter=No|Translit=qǔde|LTranslit=qǔde
@@ -11164,7 +11164,7 @@
 
 # sent_id = 854
 # text = 即使我參加學生會選舉，亦需提供學生證，證明我是大學的學生。
-# translit = jíshǐwǒcānjiāxuéshēnghuìxuǎnjǔ,yìxūtígōngxuéshēng證,證míngwǒshìdàxuédexuéshēng.
+# translit = jíshǐwǒcānjiāxuéshēnghuìxuǎnjǔ,yìxūtígōngxuéshēngzhèng,zhèngmíngwǒshìdàxuédexuéshēng.
 1	即使	即使	SCONJ	_	_	3	mark	_	SpaceAfter=No|Translit=jíshǐ|LTranslit=jíshǐ
 2	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	參加	參加	VERB	_	_	9	advcl	_	SpaceAfter=No|Translit=cānjiā|LTranslit=cānjiā
@@ -11174,9 +11174,9 @@
 7	亦	亦	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=yì|LTranslit=yì
 8	需	需	AUX	_	_	9	aux	_	SpaceAfter=No|Translit=xū|LTranslit=xū
 9	提供	提供	VERB	_	_	0	root	_	SpaceAfter=No|Translit=tígōng|LTranslit=tígōng
-10	學生證	學生證	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=xuéshēng證|LTranslit=xuéshēng證
+10	學生證	學生證	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=xuéshēngzhèng|LTranslit=xuéshēngzhèng
 11	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-12	證明	證明	VERB	_	_	9	advcl	_	SpaceAfter=No|Translit=證míng|LTranslit=證míng
+12	證明	證明	VERB	_	_	9	advcl	_	SpaceAfter=No|Translit=zhèngmíng|LTranslit=zhèngmíng
 13	我	我	PRON	_	_	17	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 14	是	是	AUX	_	_	17	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 15	大學	大學	NOUN	_	_	17	nmod	_	SpaceAfter=No|Translit=dàxué|LTranslit=dàxué
@@ -11186,7 +11186,7 @@
 
 # sent_id = 855
 # text = 主席，如果連如此簡單的程序也不能完成，整個立法會不可能取信於人。
-# translit = zhǔxí,rúguǒliánrúcǐjiǎndāndechéngxùyěbùnéngwánchéng,zhěnggèlìfǎhuìbùkěnéngqǔxìn於rén.
+# translit = zhǔxí,rúguǒliánrúcǐjiǎndāndechéngxùyěbùnéngwánchéng,zhěnggèlìfǎhuìbùkěnéngqǔxìnyúrén.
 1	主席	主席	NOUN	_	_	18	vocative	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	如果	如果	SCONJ	_	_	12	mark	_	SpaceAfter=No|Translit=rúguǒ|LTranslit=rúguǒ
@@ -11204,7 +11204,7 @@
 15	立法會	立法會	NOUN	_	_	18	nsubj	_	SpaceAfter=No|Translit=lìfǎhuì|LTranslit=lìfǎhuì
 16	不	不	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 17	可能	可能	AUX	_	_	18	aux	_	SpaceAfter=No|Translit=kěnéng|LTranslit=kěnéng
-18	取信於人	取信於人	VERB	_	_	0	root	_	SpaceAfter=No|Translit=qǔxìn於rén|LTranslit=qǔxìn於rén
+18	取信於人	取信於人	VERB	_	_	0	root	_	SpaceAfter=No|Translit=qǔxìnyúrén|LTranslit=qǔxìnyúrén
 19	。	。	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 856
@@ -11262,12 +11262,12 @@
 
 # sent_id = 859
 # text = 而秘書長不能基於完全沒有法律理據的無理質疑，憑其個人判斷向其他議員表示他沒有能力主持監誓。
-# translit = 'érmìshūzhǎngbùnéngjī於wánquánméiyǒufǎlǜlǐjùdewúlǐzhìyí,píngqígèrénpànduànxiàngqítāyìyuánbiǎoshìtāméiyǒunénglìzhǔchíjiānshì.
+# translit = 'érmìshūzhǎngbùnéngjīyúwánquánméiyǒufǎlǜlǐjùdewúlǐzhìyí,píngqígèrénpànduànxiàngqítāyìyuánbiǎoshìtāméiyǒunénglìzhǔchíjiānshì.
 1	而	而	CCONJ	_	_	21	advmod	_	SpaceAfter=No|Translit='ér|LTranslit='ér
 2	秘書長	秘書長	NOUN	_	_	21	nsubj	_	SpaceAfter=No|Translit=mìshūzhǎng|LTranslit=mìshūzhǎng
 3	不	不	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 4	能	能	AUX	_	_	21	aux	_	SpaceAfter=No|Translit=néng|LTranslit=néng
-5	基於	基於	ADP	_	_	12	case	_	SpaceAfter=No|Translit=jī於|LTranslit=jī於
+5	基於	基於	ADP	_	_	12	case	_	SpaceAfter=No|Translit=jīyú|LTranslit=jīyú
 6	完全	完全	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=wánquán|LTranslit=wánquán
 7	沒有	沒有	VERB	_	_	12	acl	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
 8	法律	法律	NOUN	_	_	9	compound	_	SpaceAfter=No|Translit=fǎlǜ|LTranslit=fǎlǜ
@@ -11313,7 +11313,7 @@
 
 # sent_id = 861
 # text = 即讓所有議員能夠成功完成宣誓程式，然後才進行立法會主席選舉。
-# translit = jíràngsuǒyǒuyìyuánnénggòuchénggōngwánchéngxuānshìchéngshì,rán後cáijìnxínglìfǎhuìzhǔxíxuǎnjǔ.
+# translit = jíràngsuǒyǒuyìyuánnénggòuchénggōngwánchéngxuānshìchéngshì,ránhòucáijìnxínglìfǎhuìzhǔxíxuǎnjǔ.
 1	即	即	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=jí|LTranslit=jí
 2	讓	讓	VERB	_	_	13	advcl	_	SpaceAfter=No|Translit=ràng|LTranslit=ràng
 3	所有	所有	DET	_	_	4	det	_	SpaceAfter=No|Translit=suǒyǒu|LTranslit=suǒyǒu
@@ -11324,7 +11324,7 @@
 8	宣誓	宣誓	VERB	_	_	9	acl	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
 9	程式	程式	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=chéngshì|LTranslit=chéngshì
 10	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-11	然後	然後	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+11	然後	然後	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 12	才	才	ADV	_	_	13	advmod	_	SpaceAfter=No|Translit=cái|LTranslit=cái
 13	進行	進行	VERB	_	_	0	root	_	SpaceAfter=No|Translit=jìnxíng|LTranslit=jìnxíng
 14	立法會	立法會	NOUN	_	_	15	compound	_	SpaceAfter=No|Translit=lìfǎhuì|LTranslit=lìfǎhuì
@@ -11398,7 +11398,7 @@
 
 # sent_id = 865
 # text = 所以秘書長不能以語氣或其他條件為標準，判斷他無權監誓。
-# translit = suǒyǐmìshūzhǎngbùnéngyǐyǔqìhuòqítātiáojiànwèibiāo準,pànduàntāwúquánjiānshì.
+# translit = suǒyǐmìshūzhǎngbùnéngyǐyǔqìhuòqítātiáojiànwèibiāozhǔn,pànduàntāwúquánjiānshì.
 1	所以	所以	ADV	_	_	11	advmod	_	SpaceAfter=No|Translit=suǒyǐ|LTranslit=suǒyǐ
 2	秘書長	秘書長	NOUN	_	_	11	nsubj	_	SpaceAfter=No|Translit=mìshūzhǎng|LTranslit=mìshūzhǎng
 3	不	不	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
@@ -11409,7 +11409,7 @@
 8	其他	其他	DET	_	_	9	det	_	SpaceAfter=No|Translit=qítā|LTranslit=qítā
 9	條件	條件	NOUN	_	_	6	conj	_	SpaceAfter=No|Translit=tiáojiàn|LTranslit=tiáojiàn
 10	為	為	AUX	_	_	11	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
-11	標準	標準	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=biāo準|LTranslit=biāo準
+11	標準	標準	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=biāozhǔn|LTranslit=biāozhǔn
 12	，	，	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 13	判斷	判斷	VERB	_	_	11	advcl	_	SpaceAfter=No|Translit=pànduàn|LTranslit=pànduàn
 14	他	他	PRON	_	_	13	obj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
@@ -11434,7 +11434,7 @@
 
 # sent_id = 867
 # text = 如果我們不先處理這些問題，然後才進行主席選舉，立法會便難以取信於人。
-# translit = rúguǒwǒmenbùxiānchùlǐzhèxiēwèntí,rán後cáijìnxíngzhǔxíxuǎnjǔ,lìfǎhuìbiànnányǐqǔxìn於rén.
+# translit = rúguǒwǒmenbùxiānchùlǐzhèxiēwèntí,ránhòucáijìnxíngzhǔxíxuǎnjǔ,lìfǎhuìbiànnányǐqǔxìnyúrén.
 1	如果	如果	SCONJ	_	_	5	mark	_	SpaceAfter=No|Translit=rúguǒ|LTranslit=rúguǒ
 2	我們	我	PRON	_	_	5	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 3	不	不	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
@@ -11443,7 +11443,7 @@
 6	這些	這些	DET	_	_	7	det	_	SpaceAfter=No|Translit=zhèxiē|LTranslit=zhèxiē
 7	問題	問題	NOUN	_	_	5	obj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
 8	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-9	然後	然後	ADV	_	_	11	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+9	然後	然後	ADV	_	_	11	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 10	才	才	ADV	_	_	11	advmod	_	SpaceAfter=No|Translit=cái|LTranslit=cái
 11	進行	進行	VERB	_	_	5	conj	_	SpaceAfter=No|Translit=jìnxíng|LTranslit=jìnxíng
 12	主席	主席	NOUN	_	_	13	compound	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
@@ -11452,7 +11452,7 @@
 15	立法會	立法會	NOUN	_	_	18	nsubj	_	SpaceAfter=No|Translit=lìfǎhuì|LTranslit=lìfǎhuì
 16	便	便	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=biàn|LTranslit=biàn
 17	難以	難以	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=nányǐ|LTranslit=nányǐ
-18	取信於人	取信於人	VERB	_	_	0	root	_	SpaceAfter=No|Translit=qǔxìn於rén|LTranslit=qǔxìn於rén
+18	取信於人	取信於人	VERB	_	_	0	root	_	SpaceAfter=No|Translit=qǔxìnyúrén|LTranslit=qǔxìnyúrén
 19	。	。	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 868
@@ -11509,7 +11509,7 @@
 
 # sent_id = 870
 # text = 梁君彥議員連正本都拿不出來證明自己的國籍。
-# translit = liángjūn彥yìyuánliánzhèngběndōunábùchūlái證míngzìjǐdeguójí.
+# translit = liángjūn彥yìyuánliánzhèngběndōunábùchūláizhèngmíngzìjǐdeguójí.
 1	梁君彥	梁君彥	PROPN	_	_	2	compound	_	SpaceAfter=No|Translit=liángjūn彥|LTranslit=liángjūn彥
 2	議員	議員	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 3	連	連	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=lián|LTranslit=lián
@@ -11518,7 +11518,7 @@
 6	拿	拿	VERB	_	_	0	root	_	SpaceAfter=No|Translit=ná|LTranslit=ná
 7	不	不	ADV	_	_	8	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 8	出來	出來	VERB	_	_	6	compound:dir	_	SpaceAfter=No|Translit=chūlái|LTranslit=chūlái
-9	證明	證明	VERB	_	_	6	advcl	_	SpaceAfter=No|Translit=證míng|LTranslit=證míng
+9	證明	證明	VERB	_	_	6	advcl	_	SpaceAfter=No|Translit=zhèngmíng|LTranslit=zhèngmíng
 10	自己	自己	PRON	_	_	12	nmod	_	SpaceAfter=No|Translit=zìjǐ|LTranslit=zìjǐ
 11	的	的	PART	_	_	10	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 12	國籍	國籍	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=guójí|LTranslit=guójí
@@ -11667,7 +11667,7 @@
 
 # sent_id = 878
 # text = 因此，我希望主席你能夠耐心聆聽議員的意見，然後作出裁決。
-# translit = yīncǐ,wǒxīwàngzhǔxínǐnénggòunàixīn聆tīngyìyuándeyìjiàn,rán後zuòchūcáijué.
+# translit = yīncǐ,wǒxīwàngzhǔxínǐnénggòunàixīn聆tīngyìyuándeyìjiàn,ránhòuzuòchūcáijué.
 1	因此	因此	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yīncǐ|LTranslit=yīncǐ
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
@@ -11681,7 +11681,7 @@
 11	的	的	PART	_	_	10	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 12	意見	意見	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=yìjiàn|LTranslit=yìjiàn
 13	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-14	然後	然後	ADV	_	_	15	advmod	_	SpaceAfter=No|Translit=rán後|LTranslit=rán後
+14	然後	然後	ADV	_	_	15	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
 15	作出	作出	VERB	_	_	9	conj	_	SpaceAfter=No|Translit=zuòchū|LTranslit=zuòchū
 16	裁決	裁決	NOUN	_	_	15	obj	_	SpaceAfter=No|Translit=cáijué|LTranslit=cáijué
 17	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
@@ -11723,10 +11723,10 @@
 
 # sent_id = 881
 # text = 主席，對於你剛才所說，「祇有立法會主席才有居留權限制，候選人沒有」，我完全不能接受。
-# translit = zhǔxí,duì於nǐgāngcáisuǒshuō,“祇yǒulìfǎhuìzhǔxícáiyǒujūliúquánxiànzhì,houxuǎnrénméiyǒu”,wǒwánquánbùnéngjiēshòu.
+# translit = zhǔxí,duìyúnǐgāngcáisuǒshuō,“祇yǒulìfǎhuìzhǔxícáiyǒujūliúquánxiànzhì,houxuǎnrénméiyǒu”,wǒwánquánbùnéngjiēshòu.
 1	主席	主席	NOUN	_	_	26	vocative	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-3	對於	對於	ADP	_	_	7	mark	_	SpaceAfter=No|Translit=duì於|LTranslit=duì於
+3	對於	對於	ADP	_	_	7	mark	_	SpaceAfter=No|Translit=duìyú|LTranslit=duìyú
 4	你	你	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 5	剛才	剛才	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=gāngcái|LTranslit=gāngcái
 6	所	所	SCONJ	_	_	7	mark	_	SpaceAfter=No|Translit=suǒ|LTranslit=suǒ
@@ -11775,7 +11775,7 @@
 
 # sent_id = 883
 # text = 因此，我們絕對有義務釐清他已完成所有放棄英國居留權的手續，並且交出正本，以正視聽。
-# translit = yīncǐ,wǒmenjuéduìyǒuyìwu釐qīngtāyǐwánchéngsuǒyǒufàngqìyīngguójūliúquándeshǒuxù,並qiějiāochūzhèngběn,yǐzhèngshìtīng.
+# translit = yīncǐ,wǒmenjuéduìyǒuyìwu釐qīngtāyǐwánchéngsuǒyǒufàngqìyīngguójūliúquándeshǒuxù,bìngqiějiāochūzhèngběn,yǐzhèngshìtīng.
 1	因此	因此	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=yīncǐ|LTranslit=yīncǐ
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	我們	我	PRON	_	_	5	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
@@ -11793,7 +11793,7 @@
 15	的	的	PART	_	_	12	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 16	手續	手續	NOUN	_	_	10	obj	_	SpaceAfter=No|Translit=shǒuxù|LTranslit=shǒuxù
 17	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-18	並且	並且	ADV	_	_	19	advmod	_	SpaceAfter=No|Translit=並qiě|LTranslit=並qiě
+18	並且	並且	ADV	_	_	19	advmod	_	SpaceAfter=No|Translit=bìngqiě|LTranslit=bìngqiě
 19	交	交	VERB	_	_	7	conj	_	SpaceAfter=No|Translit=jiāo|LTranslit=jiāo
 20	出	出	VERB	_	_	19	compound:dir	_	SpaceAfter=No|Translit=chū|LTranslit=chū
 21	正本	正本	NOUN	_	_	19	obj	_	SpaceAfter=No|Translit=zhèngběn|LTranslit=zhèngběn
@@ -11943,7 +11943,7 @@
 
 # sent_id = 890
 # text = 我剛才祇是依書直說，向大家引述《基本法》的內容，並沒有加入個人意見。
-# translit = wǒgāngcái祇shìyīshūzhíshuō,xiàngdàjiāyǐnshù«jīběnfǎ»denèiróng,並méiyǒujiārùgèrényìjiàn.
+# translit = wǒgāngcái祇shìyīshūzhíshuō,xiàngdàjiāyǐnshù«jīběnfǎ»denèiróng,bìngméiyǒujiārùgèrényìjiàn.
 1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	剛才	剛才	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=gāngcái|LTranslit=gāngcái
 3	祇	祇	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=祇|LTranslit=祇
@@ -11959,7 +11959,7 @@
 13	的	的	PART	_	_	11	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 14	內容	內容	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=nèiróng|LTranslit=nèiróng
 15	，	，	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-16	並	並	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+16	並	並	ADV	_	_	18	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 17	沒有	沒有	AUX	_	_	18	aux	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=méiyǒu
 18	加入	加入	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=jiārù|LTranslit=jiārù
 19	個人	個人	ADJ	_	_	20	amod	_	SpaceAfter=No|Translit=gèrén|LTranslit=gèrén
@@ -11968,8 +11968,8 @@
 
 # sent_id = 891
 # text = 由於主席不應加入個人意見，況且當中涉及憲制和法律的問題，我不宜給予任何意見。
-# translit = yóu於zhǔxíbùyīngjiārùgèrényìjiàn,kuàngqiědāngzhōngshèjíxiànzhìhéfǎlǜdewèntí,wǒbùyigěiyǔrènhéyìjiàn.
-1	由於	由於	ADP	_	_	5	mark	_	SpaceAfter=No|Translit=yóu於|LTranslit=yóu於
+# translit = yóuyúzhǔxíbùyīngjiārùgèrényìjiàn,kuàngqiědāngzhōngshèjíxiànzhìhéfǎlǜdewèntí,wǒbùyigěiyǔrènhéyìjiàn.
+1	由於	由於	ADP	_	_	5	mark	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
 2	主席	主席	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 3	不	不	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 4	應	應	AUX	_	_	5	aux	_	SpaceAfter=No|Translit=yīng|LTranslit=yīng
@@ -12210,7 +12210,7 @@
 
 # sent_id = 902
 # text = （二）在所有出席會議的議員……「──包括我──」作宗教式或非宗教式宣誓後，須按照本議事規則第四條《立法會主席的選擧》規定的程序進行立法會主席的選擧。
-# translit = ('èr)zàisuǒyǒuchūxíhuìyìdeyìyuán……“──bāokuòwǒ──”zuòzōngjiàoshìhuòfēizōngjiàoshìxuānshì後,xū'ànzhàoběnyìshìguīzédìsìtiáo«lìfǎhuìzhǔxídexuǎn擧»guīdìngdechéngxùjìnxínglìfǎhuìzhǔxídexuǎn擧.
+# translit = ('èr)zàisuǒyǒuchūxíhuìyìdeyìyuán……“──bāokuòwǒ──”zuòzōngjiàoshìhuòfēizōngjiàoshìxuānshìhòu,xū'ànzhàoběnyìshìguīzédìsìtiáo«lìfǎhuìzhǔxídexuǎn擧»guīdìngdechéngxùjìnxínglìfǎhuìzhǔxídexuǎn擧.
 1	（	（	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 2	二	二	NUM	_	_	42	advcl	_	SpaceAfter=No|Translit='èr|LTranslit='èr
 3	）	）	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
@@ -12234,7 +12234,7 @@
 21	非宗教	非宗教	ADJ	_	_	22	amod	_	SpaceAfter=No|Translit=fēizōngjiào|LTranslit=fēizōngjiào
 22	式	式	NOUN	_	_	19	conj	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 23	宣誓	宣誓	VERB	_	_	17	obj	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
-24	後	後	ADP	_	_	17	mark	_	SpaceAfter=No|Translit=後|LTranslit=後
+24	後	後	ADP	_	_	17	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 25	，	，	PUNCT	_	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 26	須	須	AUX	_	_	42	aux	_	SpaceAfter=No|Translit=xū|LTranslit=xū
 27	按照	按照	ADP	_	_	32	case	_	SpaceAfter=No|Translit='ànzhào|LTranslit='ànzhào
@@ -12261,12 +12261,12 @@
 
 # sent_id = 903
 # text = 主席，這裏涉及先後次序的問題。
-# translit = zhǔxí,zhè裏shèjíxiān後cìxùdewèntí.
+# translit = zhǔxí,zhè裏shèjíxiānhòucìxùdewèntí.
 1	主席	主席	NOUN	_	_	4	vocative	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	這裏	這裏	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=zhè裏|LTranslit=zhè裏
 4	涉及	涉及	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shèjí|LTranslit=shèjí
-5	先後	先後	ADJ	_	_	6	amod	_	SpaceAfter=No|Translit=xiān後|LTranslit=xiān後
+5	先後	先後	ADJ	_	_	6	amod	_	SpaceAfter=No|Translit=xiānhòu|LTranslit=xiānhòu
 6	次序	次序	NOUN	_	_	8	compound	_	SpaceAfter=No|Translit=cìxù|LTranslit=cìxù
 7	的	的	PART	_	_	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	問題	問題	NOUN	_	_	4	obj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
@@ -12487,7 +12487,7 @@
 
 # sent_id = 918
 # text = 但我想知道，你的決定是否建基於你認為有關議員是否應該正式宣誓？
-# translit = dànwǒxiǎngzhīdào,nǐdejuédìngshìfǒujiànjī於nǐrènwèiyǒuguānyìyuánshìfǒuyīnggāizhèngshìxuānshì?
+# translit = dànwǒxiǎngzhīdào,nǐdejuédìngshìfǒujiànjīyúnǐrènwèiyǒuguānyìyuánshìfǒuyīnggāizhèngshìxuānshì?
 1	但	但	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
 2	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	想	想	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=xiǎng|LTranslit=xiǎng
@@ -12497,7 +12497,7 @@
 7	的	的	PART	_	_	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	決定	決定	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Translit=juédìng|LTranslit=juédìng
 9	是否	是否	ADV	_	_	10	advmod	_	SpaceAfter=No|Translit=shìfǒu|LTranslit=shìfǒu
-10	建基於	建基於	ADP	_	_	4	ccomp	_	SpaceAfter=No|Translit=jiànjī於|LTranslit=jiànjī於
+10	建基於	建基於	ADP	_	_	4	ccomp	_	SpaceAfter=No|Translit=jiànjīyú|LTranslit=jiànjīyú
 11	你	你	PRON	_	_	12	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 12	認為	認為	VERB	_	_	10	ccomp	_	SpaceAfter=No|Translit=rènwèi|LTranslit=rènwèi
 13	有關	有關	ADJ	_	_	14	amod	_	SpaceAfter=No|Translit=yǒuguān|LTranslit=yǒuguān
@@ -12565,13 +12565,13 @@
 
 # sent_id = 921
 # text = 即使任何議員未曾作最後宣誓，他仍具議員的資格，這是就其身份而言。
-# translit = jíshǐrènhéyìyuánwèicéngzuòzuì後xuānshì,tāréngjùyìyuándezīgé,zhèshìjiùqíshēnfèn'éryán.
+# translit = jíshǐrènhéyìyuánwèicéngzuòzuìhòuxuānshì,tāréngjùyìyuándezīgé,zhèshìjiùqíshēnfèn'éryán.
 1	即使	即使	SCONJ	_	_	5	mark	_	SpaceAfter=No|Translit=jíshǐ|LTranslit=jíshǐ
 2	任何	任何	DET	_	_	3	det	_	SpaceAfter=No|Translit=rènhé|LTranslit=rènhé
 3	議員	議員	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 4	未曾	未曾	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=wèicéng|LTranslit=wèicéng
 5	作	作	VERB	_	_	11	advcl	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
-6	最後	最後	ADJ	_	_	7	amod	_	SpaceAfter=No|Translit=zuì後|LTranslit=zuì後
+6	最後	最後	ADJ	_	_	7	amod	_	SpaceAfter=No|Translit=zuìhòu|LTranslit=zuìhòu
 7	宣誓	宣誓	NOUN	_	_	5	obj	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
 8	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 9	他	他	PRON	_	_	11	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
@@ -12690,10 +12690,10 @@
 
 # sent_id = 928
 # text = 不過問題在於尚未有人取消他的資格，他是未宣誓。
-# translit = bùguòwèntízài於shàngwèiyǒurénqǔxiāotādezīgé,tāshìwèixuānshì.
+# translit = bùguòwèntízàiyúshàngwèiyǒurénqǔxiāotādezīgé,tāshìwèixuānshì.
 1	不過	不過	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
 2	問題	問題	NOUN	_	_	3	nsubj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
-3	在於	在於	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zài於|LTranslit=zài於
+3	在於	在於	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zàiyú|LTranslit=zàiyú
 4	尚	尚	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
 5	未	未	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 6	有	有	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
@@ -12808,7 +12808,7 @@
 
 # sent_id = 935
 # text = 但我認為按照剛才的程序，你們尚未宣誓已有資格在會議廳就座，我是基於這個理念作出決定。
-# translit = dànwǒrènwèi'ànzhàogāngcáidechéngxù,nǐmenshàngwèixuānshìyǐyǒuzīgézàihuìyìtīngjiùzuò,wǒshìjī於zhègèlǐniànzuòchūjuédìng.
+# translit = dànwǒrènwèi'ànzhàogāngcáidechéngxù,nǐmenshàngwèixuānshìyǐyǒuzīgézàihuìyìtīngjiùzuò,wǒshìjīyúzhègèlǐniànzuòchūjuédìng.
 1	但	但	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
 2	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 3	認為	認為	VERB	_	_	0	root	_	SpaceAfter=No|Translit=rènwèi|LTranslit=rènwèi
@@ -12829,7 +12829,7 @@
 18	，	，	PUNCT	_	_	20	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 19	我	我	PRON	_	_	20	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 20	是	是	VERB	_	_	3	parataxis	_	SpaceAfter=No|Translit=shì|LTranslit=shì
-21	基於	基於	ADP	_	_	23	case	_	SpaceAfter=No|Translit=jī於|LTranslit=jī於
+21	基於	基於	ADP	_	_	23	case	_	SpaceAfter=No|Translit=jīyú|LTranslit=jīyú
 22	這個	這個	DET	_	_	23	det	_	SpaceAfter=No|Translit=zhègè|LTranslit=zhègè
 23	理念	理念	NOUN	_	_	24	obl	_	SpaceAfter=No|Translit=lǐniàn|LTranslit=lǐniàn
 24	作出	作出	VERB	_	_	20	ccomp	_	SpaceAfter=No|Translit=zuòchū|LTranslit=zuòchū
@@ -12876,7 +12876,7 @@
 
 # sent_id = 938
 # text = 如果你仍視我為主席，並稱呼我為主席，你便要接受我的決定。
-# translit = rúguǒnǐréngshìwǒwèizhǔxí,並chēnghūwǒwèizhǔxí,nǐbiànyàojiēshòuwǒdejuédìng.
+# translit = rúguǒnǐréngshìwǒwèizhǔxí,bìngchēnghūwǒwèizhǔxí,nǐbiànyàojiēshòuwǒdejuédìng.
 1	如果	如果	SCONJ	_	_	4	mark	_	SpaceAfter=No|Translit=rúguǒ|LTranslit=rúguǒ
 2	你	你	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 3	仍	仍	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=réng|LTranslit=réng
@@ -12885,7 +12885,7 @@
 6	為	為	AUX	_	_	7	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
 7	主席	主席	NOUN	_	_	4	ccomp	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 8	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-9	並	並	CCONJ	_	_	10	advmod	_	SpaceAfter=No|Translit=並|LTranslit=並
+9	並	並	CCONJ	_	_	10	advmod	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 10	稱呼	稱呼	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=chēnghū|LTranslit=chēnghū
 11	我	我	PRON	_	_	10	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 12	為	為	AUX	_	_	13	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
@@ -13330,21 +13330,21 @@
 
 # sent_id = 967
 # text = 請大家坐下，並保持肅靜。
-# translit = qǐngdàjiāzuòxià,並bǎochísùjìng.
+# translit = qǐngdàjiāzuòxià,bìngbǎochísùjìng.
 1	請	請	VERB	_	_	0	root	_	SpaceAfter=No|Translit=qǐng|LTranslit=qǐng
 2	大家	大家	PRON	_	_	1	obj	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
 3	坐	坐	VERB	_	_	1	xcomp	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
 4	下	下	VERB	_	_	3	compound:dir	_	SpaceAfter=No|Translit=xià|LTranslit=xià
 5	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-6	並	並	CCONJ	_	_	1	cc	_	SpaceAfter=No|Translit=並|LTranslit=並
+6	並	並	CCONJ	_	_	1	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
 7	保持	保持	VERB	_	_	1	conj	_	SpaceAfter=No|Translit=bǎochí|LTranslit=bǎochí
 8	肅靜	肅靜	VERB	_	_	7	xcomp	_	SpaceAfter=No|Translit=sùjìng|LTranslit=sùjìng
 9	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 968
 # text = 梁美芬議員，我還未批准你發言，請坐下。
-# translit = liángměi芬yìyuán,wǒháiwèipīzhǔnnǐfāyán,qǐngzuòxià.
-1	梁美芬	梁美芬	PROPN	_	_	7	vocative	_	SpaceAfter=No|Translit=liángměi芬|LTranslit=liángměi芬
+# translit = liángměifēnyìyuán,wǒháiwèipīzhǔnnǐfāyán,qǐngzuòxià.
+1	梁美芬	梁美芬	PROPN	_	_	7	vocative	_	SpaceAfter=No|Translit=liángměifēn|LTranslit=liángměifēn
 2	議員	議員	NOUN	_	_	1	flat	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 3	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 4	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
@@ -13435,8 +13435,8 @@
 
 # sent_id = 974
 # text = 梁美芬教授……
-# translit = liángměi芬jiàoshòu……
-1	梁美芬	梁美芬	PROPN	_	_	0	root	_	SpaceAfter=No|Translit=liángměi芬|LTranslit=liángměi芬
+# translit = liángměifēnjiàoshòu……
+1	梁美芬	梁美芬	PROPN	_	_	0	root	_	SpaceAfter=No|Translit=liángměifēn|LTranslit=liángměifēn
 2	教授	教授	NOUN	_	_	1	flat	_	SpaceAfter=No|Translit=jiàoshòu|LTranslit=jiàoshòu
 3	……	……	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=……|LTranslit=……
 
@@ -13540,8 +13540,8 @@
 
 # sent_id = 982
 # text = 梁美芬議員，我還未叫喚你發言。
-# translit = liángměi芬yìyuán,wǒháiwèijiàohuànnǐfāyán.
-1	梁美芬	梁美芬	PROPN	_	_	7	vocative	_	SpaceAfter=No|Translit=liángměi芬|LTranslit=liángměi芬
+# translit = liángměifēnyìyuán,wǒháiwèijiàohuànnǐfāyán.
+1	梁美芬	梁美芬	PROPN	_	_	7	vocative	_	SpaceAfter=No|Translit=liángměifēn|LTranslit=liángměifēn
 2	議員	議員	NOUN	_	_	1	flat	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
 3	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 4	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
@@ -13745,12 +13745,12 @@
 
 # sent_id = 999
 # text = 第二個問題是關於投票人的資格，《議事規則》訂明的上一項程序根本未完成。
-# translit = dì'èrgèwèntíshìguān於tóupiàoréndezīgé,«yìshìguīzé»dìngmíngdeshàngyīxiàngchéngxùgēnběnwèiwánchéng.
+# translit = dì'èrgèwèntíshìguānyútóupiàoréndezīgé,«yìshìguīzé»dìngmíngdeshàngyīxiàngchéngxùgēnběnwèiwánchéng.
 1	第二	第二	ADJ	_	_	3	amod	_	SpaceAfter=No|Translit=dì'èr|LTranslit=dì'èr
 2	個	個	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
 3	問題	問題	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
 4	是	是	AUX	_	_	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
-5	關於	關於	ADP	_	_	8	case	_	SpaceAfter=No|Translit=guān於|LTranslit=guān於
+5	關於	關於	ADP	_	_	8	case	_	SpaceAfter=No|Translit=guānyú|LTranslit=guānyú
 6	投票人	投票人	NOUN	_	_	8	nmod	_	SpaceAfter=No|Translit=tóupiàorén|LTranslit=tóupiàorén
 7	的	的	PART	_	_	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
 8	資格	資格	NOUN	_	_	4	obl	_	SpaceAfter=No|Translit=zīgé|LTranslit=zīgé
@@ -13829,7 +13829,7 @@
 
 # sent_id = 1003
 # text = 所以，主席，請你先看看《議事規則》，以決定各事項的先後次序。
-# translit = suǒyǐ,zhǔxí,qǐngnǐxiānkànkàn«yìshìguīzé»,yǐjuédìnggèshìxiàngdexiān後cìxù.
+# translit = suǒyǐ,zhǔxí,qǐngnǐxiānkànkàn«yìshìguīzé»,yǐjuédìnggèshìxiàngdexiānhòucìxù.
 1	所以	所以	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=suǒyǐ|LTranslit=suǒyǐ
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	主席	主席	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
@@ -13848,13 +13848,13 @@
 16	各	各	DET	_	_	17	det	_	SpaceAfter=No|Translit=gè|LTranslit=gè
 17	事項	事項	NOUN	_	_	20	nmod	_	SpaceAfter=No|Translit=shìxiàng|LTranslit=shìxiàng
 18	的	的	PART	_	_	17	case	_	SpaceAfter=No|Translit=de|LTranslit=de
-19	先後	先後	ADJ	_	_	20	amod	_	SpaceAfter=No|Translit=xiān後|LTranslit=xiān後
+19	先後	先後	ADJ	_	_	20	amod	_	SpaceAfter=No|Translit=xiānhòu|LTranslit=xiānhòu
 20	次序	次序	NOUN	_	_	15	obj	_	SpaceAfter=No|Translit=cìxù|LTranslit=cìxù
 21	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 1004
 # text = 應該讓每位出席會議的議員作出宗教式或非宗教式宣誓後，再按照《議事規則》第四條進行選舉主席的程序。
-# translit = yīnggāiràngměiwèichūxíhuìyìdeyìyuánzuòchūzōngjiàoshìhuòfēizōngjiàoshìxuānshì後,zài'ànzhào«yìshìguīzé»dìsìtiáojìnxíngxuǎnjǔzhǔxídechéngxù.
+# translit = yīnggāiràngměiwèichūxíhuìyìdeyìyuánzuòchūzōngjiàoshìhuòfēizōngjiàoshìxuānshìhòu,zài'ànzhào«yìshìguīzé»dìsìtiáojìnxíngxuǎnjǔzhǔxídechéngxù.
 1	應該	應該	AUX	_	_	2	aux	_	SpaceAfter=No|Translit=yīnggāi|LTranslit=yīnggāi
 2	讓	讓	VERB	_	_	0	root	_	SpaceAfter=No|Translit=ràng|LTranslit=ràng
 3	每	每	DET	_	_	8	det	_	SpaceAfter=No|Translit=měi|LTranslit=měi
@@ -13871,7 +13871,7 @@
 14	非宗教	非宗教	ADJ	_	_	15	amod	_	SpaceAfter=No|Translit=fēizōngjiào|LTranslit=fēizōngjiào
 15	式	式	NOUN	_	_	12	conj	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 16	宣誓	宣誓	VERB	_	_	9	obj	_	SpaceAfter=No|Translit=xuānshì|LTranslit=xuānshì
-17	後	後	ADP	_	_	9	mark	_	SpaceAfter=No|Translit=後|LTranslit=後
+17	後	後	ADP	_	_	9	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
 18	，	，	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 19	再	再	ADV	_	_	27	advmod	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 20	按照	按照	ADP	_	_	26	case	_	SpaceAfter=No|Translit='ànzhào|LTranslit='ànzhào
