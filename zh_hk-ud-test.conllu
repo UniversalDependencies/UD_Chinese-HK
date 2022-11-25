@@ -976,7 +976,7 @@
 6	多	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	看	_	VERB	_	_	4	xcomp	_	SpaceAfter=No
 8	十	_	NUM	_	_	9	nummod	_	SpaceAfter=No
-9	分鐘	_	NOUN	_	NounType=Clf	7	advmod:df	_	SpaceAfter=No
+9	分鐘	_	NOUN	_	NounType=Clf	7	obl	_	SpaceAfter=No
 10	吧	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 11	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
@@ -2859,7 +2859,7 @@
 1	打	_	VERB	_	_	0	root	_	SpaceAfter=No
 2	你	_	PRON	_	_	1	obj	_	SpaceAfter=No
 3	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No
-4	身	_	NOUN	_	NounType=Clf	1	advmod:df	_	SpaceAfter=No
+4	身	_	NOUN	_	NounType=Clf	1	obl	_	SpaceAfter=No
 5	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 318
@@ -3868,7 +3868,7 @@
 2	別人	_	PRON	_	_	1	obj	_	SpaceAfter=No
 3	打工	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
 4	幾	_	DET	_	_	5	det	_	SpaceAfter=No
-5	年	_	NOUN	_	NounType=Clf	1	advmod:df	_	SpaceAfter=No
+5	年	_	NOUN	_	NounType=Clf	1	obl	_	SpaceAfter=No
 6	了	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 7	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
@@ -3947,7 +3947,7 @@
 18	做	_	VERB	_	_	8	conj	_	SpaceAfter=No
 19	了	_	AUX	_	_	18	aux	_	SpaceAfter=No
 20	一	_	NUM	_	_	21	nummod	_	SpaceAfter=No
-21	年	_	NOUN	_	NounType=Clf	18	advmod:df	_	SpaceAfter=No
+21	年	_	NOUN	_	NounType=Clf	18	obl	_	SpaceAfter=No
 22	半	_	NUM	_	_	21	conj	_	SpaceAfter=No
 23	呢	_	PART	_	_	18	discourse:sp	_	SpaceAfter=No
 24	。	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -6760,7 +6760,7 @@
 4	過	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	了	_	AUX	_	_	4	aux	_	SpaceAfter=No
 6	五	_	NUM	_	_	7	nummod	_	SpaceAfter=No
-7	分鐘	_	NOUN	_	NounType=Clf	4	advmod:df	_	SpaceAfter=No
+7	分鐘	_	NOUN	_	NounType=Clf	4	obl	_	SpaceAfter=No
 8	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 653
@@ -9510,7 +9510,7 @@
 20	，	_	PUNCT	_	_	24	punct	_	SpaceAfter=No
 21	並	_	CCONJ	_	_	24	cc	_	SpaceAfter=No
 22	多	_	DET	_	_	23	det	_	SpaceAfter=No
-23	次	_	NOUN	_	NounType=Clf	24	advmod	_	SpaceAfter=No
+23	次	_	NOUN	_	NounType=Clf	24	obl	_	SpaceAfter=No
 24	請	_	VERB	_	_	17	conj	_	SpaceAfter=No
 25	梁	_	PROPN	_	_	24	obj	_	SpaceAfter=No
 26	議員	_	NOUN	_	_	25	flat	_	SpaceAfter=No
@@ -9792,7 +9792,7 @@
 10	浪費	_	VERB	_	_	8	ccomp	_	SpaceAfter=No
 11	了	_	AUX	_	_	10	aux	_	SpaceAfter=No
 12	兩	_	NUM	_	_	13	nummod	_	SpaceAfter=No
-13	小時	_	NOUN	_	NounType=Clf	10	advmod:df	_	SpaceAfter=No
+13	小時	_	NOUN	_	NounType=Clf	10	obl	_	SpaceAfter=No
 14	。	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = 829
@@ -9896,7 +9896,7 @@
 1	我	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
 2	認為	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	今	_	DET	_	_	4	det	_	SpaceAfter=No
-4	次	_	NOUN	_	NounType=Clf	5	advmod	_	SpaceAfter=No
+4	次	_	NOUN	_	NounType=Clf	5	obl	_	SpaceAfter=No
 5	選舉	_	VERB	_	_	8	advcl	_	SpaceAfter=No
 6	主席	_	NOUN	_	_	5	obj	_	SpaceAfter=No
 7	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No

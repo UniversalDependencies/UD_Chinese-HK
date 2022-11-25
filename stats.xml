@@ -37,11 +37,10 @@
     <feat name="NounType" value="Clf" upos="NOUN">270</feat><!-- 個, 位, 元, 條, 塊, 次, 天, 點, 分鐘, 張 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
+  <deps unique="45">
     <dep name="acl">178</dep>
     <dep name="advcl">233</dep>
-    <dep name="advmod">1161</dep>
-    <dep name="advmod:df">6</dep>
+    <dep name="advmod">1159</dep>
     <dep name="amod">128</dep>
     <dep name="appos">21</dep>
     <dep name="aux">374</dep>
@@ -74,7 +73,7 @@
     <dep name="nummod">162</dep>
     <dep name="obj">792</dep>
     <dep name="obj:periph">27</dep>
-    <dep name="obl">221</dep>
+    <dep name="obl">229</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:patient">8</dep>
     <dep name="obl:tmod">100</dep>
