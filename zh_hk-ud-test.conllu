@@ -1664,7 +1664,7 @@
 6	你們	你們	PRON	_	_	9	dislocated	_	SpaceAfter=No|Translit=nǐmen|LTranslit=nǐmen
 7	一	一	NUM	_	_	8	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 8	個	個	NOUN	_	NounType=Clf	9	nsubj	_	SpaceAfter=No|Translit=gè|LTranslit=gè
-9	喜歡	喜歡	AUX	_	_	1	parataxis	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+9	喜歡	喜歡	VERB	_	_	1	parataxis	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
 10	陳奕迅	陳奕迅	PROPN	_	_	9	obj	_	SpaceAfter=No|Translit=chén奕xùn|LTranslit=chén奕xùn
 11	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 12	一	一	NUM	_	_	13	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
@@ -1677,7 +1677,7 @@
 # text = 誰喜歡哪個我都忘了。
 # translit = shuíxǐhuannǎgèwǒdōuwàngle.
 1	誰	誰	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=shuí|LTranslit=shuí
-2	喜歡	喜歡	AUX	_	_	6	ccomp	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+2	喜歡	喜歡	VERB	_	_	6	ccomp	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
 3	哪個	哪個	PRON	_	_	2	obj	_	SpaceAfter=No|Translit=nǎgè|LTranslit=nǎgè
 4	我	我	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 5	都	都	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=dōu|LTranslit=dōu
@@ -1691,7 +1691,7 @@
 1	哪	哪	ADV	_	_	2	advmod	_	SpaceAfter=No|Translit=nǎ|LTranslit=nǎ
 2	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
 3	人	人	NOUN	_	_	2	obj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
-4	喜歡	喜歡	AUX	_	_	3	acl	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+4	喜歡	喜歡	VERB	_	_	3	acl	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
 5	黎明	黎明	PROPN	_	_	4	obj	_	SpaceAfter=No|Translit=límíng|LTranslit=límíng
 6	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
 
@@ -1709,7 +1709,7 @@
 # translit = wǒcóngméixǐhuanshénmemíngxīng!
 1	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	從沒	從沒	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=cóngméi|LTranslit=cóngméi
-3	喜歡	喜歡	AUX	_	_	0	root	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+3	喜歡	喜歡	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
 4	什麼	什麼	DET	_	_	5	det	_	SpaceAfter=No|Translit=shénme|LTranslit=shénme
 5	明星	明星	NOUN	_	_	3	obj	_	SpaceAfter=No|Translit=míngxīng|LTranslit=míngxīng
 6	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
@@ -4153,11 +4153,11 @@
 # sent_id = 415
 # text = 我很喜歡唱歌。
 # translit = wǒhěnxǐhuanchànggē.
-1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+1	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	很	很	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=hěn|LTranslit=hěn
-3	喜歡	喜歡	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
-4	唱歌	唱歌	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
-5	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+3	喜歡	喜歡	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+4	唱歌	唱歌	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
+5	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 416
 # text = 起初是來唱歌的，漸漸就變成工作。
@@ -4987,11 +4987,11 @@
 # sent_id = 467
 # text = 從小就喜歡唱歌？
 # translit = cóngxiǎojiùxǐhuanchànggē?
-1	從小	從小	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=cóngxiǎo|LTranslit=cóngxiǎo
-2	就	就	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
-3	喜歡	喜歡	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
-4	唱歌	唱歌	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
-5	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
+1	從小	從小	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=cóngxiǎo|LTranslit=cóngxiǎo
+2	就	就	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
+3	喜歡	喜歡	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+4	唱歌	唱歌	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
+5	？	？	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
 
 # sent_id = 468
 # text = 從小到大都是興趣。
@@ -5875,13 +5875,13 @@
 # sent_id = 521
 # text = 我很喜歡唱歌，起初是來唱歌的，漸漸就變成工作。
 # translit = wǒhěnxǐhuanchànggē,qǐchūshìláichànggēde,jiànjiànjiùbiànchénggōngzuò.
-1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+1	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	很	很	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=hěn|LTranslit=hěn
-3	喜歡	喜歡	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
-4	唱歌	唱歌	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
+3	喜歡	喜歡	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xǐhuan|LTranslit=xǐhuan
+4	唱歌	唱歌	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
 5	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	起初	起初	NOUN	_	_	7	obl:tmod	_	SpaceAfter=No|Translit=qǐchū|LTranslit=qǐchū
-7	是	是	VERB	_	_	4	parataxis	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+7	是	是	VERB	_	_	3	parataxis	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 8	來	來	VERB	_	_	7	ccomp	_	SpaceAfter=No|Translit=lái|LTranslit=lái
 9	唱歌	唱歌	VERB	_	_	8	conj	_	SpaceAfter=No|Translit=chànggē|LTranslit=chànggē
 10	的	的	PART	_	_	7	discourse:sp	_	SpaceAfter=No|Translit=de|LTranslit=de
@@ -5890,7 +5890,7 @@
 13	就	就	ADV	_	_	14	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 14	變成	變成	VERB	_	_	7	conj	_	SpaceAfter=No|Translit=biànchéng|LTranslit=biànchéng
 15	工作	工作	NOUN	_	_	14	obj	_	SpaceAfter=No|Translit=gōngzuò|LTranslit=gōngzuò
-16	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+16	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 522
 # text = 上一手退休便讓給我，我就接手了。
