@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1004</sentences><tokens>9874</tokens><words>9874</words><fused>0</fused></test>
   </size>
-  <lemmas unique="1533" /><!-- 。, ，, 我, 的, ！, 你, 是, 不, ？, 議員, 了, 有, 在, 主席, 他 -->
+  <lemmas unique="1527" /><!-- 。, ，, 我, 的, ！, 你, 是, 不, ？, 有, 議員, 了, 在, 主席, 他 -->
   <forms unique="1535" /><!-- 。, ，, 我, 的, ！, 你, 是, 不, ？, 議員, 了, 有, 在, 主席, 一 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -30,12 +30,12 @@
     <tag name="PUNCT">1738</tag><!-- 。, ，, ！, ？, ……, 《, 》, 、, 「, 」 -->
     <tag name="SCONJ">68</tag><!-- 如果, 即使, 所, 來, 以, 無論, 的話, 雖然, 既然, 一旦 -->
     <tag name="SYM">1</tag><!-- ＋ -->
-    <tag name="VERB">1872</tag><!-- 有, 是, 說, 沒有, 做, 請, 看, 去, 議事, 進行 -->
+    <tag name="VERB">1872</tag><!-- 有, 是, 說, 做, 請, 看, 去, 為, 議事, 進行 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="2">
     <feat name="NounType" value="Clf" upos="NOUN">270</feat><!-- 個, 位, 元, 條, 塊, 次, 天, 點, 分鐘, 張 -->
-    <feat name="Polarity" value="Neg" upos="PART">7</feat><!-- 沒, 無 -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">66</feat><!-- 沒有, 不用, 不要, 沒, 沒空, 沒用, 無 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
