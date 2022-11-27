@@ -7302,7 +7302,7 @@
 # sent_id = 643
 # text = 住在這家酒店，真的很正！
 # translit = zhùzàizhèjiājiǔdiàn,zhēndehěnzhèng!
-1	住	住	AUX	_	_	0	root	_	SpaceAfter=No|Translit=zhù|LTranslit=zhù
+1	住	住	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhù|LTranslit=zhù
 2	在	在	ADP	_	_	5	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 3	這	這	DET	_	_	5	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
 4	家	家	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No|Translit=jiā|LTranslit=jiā
