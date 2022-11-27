@@ -208,13 +208,13 @@
 # sent_id = 19
 # text = 我不愛看這些卡通片。
 # translit = wǒbù'àikànzhèxiēkǎtōngpiàn.
-1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+1	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	不	不	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
-3	愛	愛	AUX	_	_	4	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-4	看	看	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kàn|LTranslit=kàn
+3	愛	愛	VERB	_	_	0	root	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+4	看	看	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=kàn|LTranslit=kàn
 5	這些	這些	DET	_	_	6	det	_	SpaceAfter=No|Translit=zhèxiē|LTranslit=zhèxiē
-6	卡通片	卡通片	NOUN	_	_	4	obj	_	SpaceAfter=No|Translit=kǎtōngpiàn|LTranslit=kǎtōngpiàn
-7	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+6	卡通片	卡通片	NOUN	_	_	3	obj	_	SpaceAfter=No|Translit=kǎtōngpiàn|LTranslit=kǎtōngpiàn
+7	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 20
 # text = 爺爺真沒品味！
@@ -1030,19 +1030,19 @@
 # sent_id = 109
 # text = 我和哥哥小時候也愛晚上偷偷出廳看金田一。
 # translit = wǒhégēgēxiǎoshíhouyě'àiwǎnshàngtōutōuchūtīngkànjīntiányī.
-1	我	我	PRON	_	_	9	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+1	我	我	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 2	和	和	CCONJ	_	_	3	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
 3	哥哥	哥哥	NOUN	_	_	1	conj	_	SpaceAfter=No|Translit=gēgē|LTranslit=gēgē
-4	小時候	小時候	NOUN	_	_	9	obl:tmod	_	SpaceAfter=No|Translit=xiǎoshíhou|LTranslit=xiǎoshíhou
-5	也	也	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=yě|LTranslit=yě
-6	愛	愛	AUX	_	_	9	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-7	晚上	晚上	NOUN	_	_	9	obl:tmod	_	SpaceAfter=No|Translit=wǎnshàng|LTranslit=wǎnshàng
-8	偷偷	偷偷	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=tōutōu|LTranslit=tōutōu
-9	出	出	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chū|LTranslit=chū
-10	廳	廳	NOUN	_	_	9	obj	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
+4	小時候	小時候	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No|Translit=xiǎoshíhou|LTranslit=xiǎoshíhou
+5	也	也	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+6	愛	愛	VERB	_	_	0	root	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+7	晚上	晚上	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No|Translit=wǎnshàng|LTranslit=wǎnshàng
+8	偷偷	偷偷	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=tōutōu|LTranslit=tōutōu
+9	出	出	VERB	_	_	6	xcomp	_	SpaceAfter=No|Translit=chū|LTranslit=chū
+10	廳	廳	NOUN	_	_	6	obj	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
 11	看	看	VERB	_	_	9	conj	_	SpaceAfter=No|Translit=kàn|LTranslit=kàn
 12	金田一	金田一	PROPN	_	_	11	obj	_	SpaceAfter=No|Translit=jīntiányī|LTranslit=jīntiányī
-13	。	。	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+13	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 110
 # text = 半夜不能開燈看真的很恐怖！
@@ -1734,10 +1734,10 @@
 1	你	你	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	也	也	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=yě|LTranslit=yě
 3	知	知	VERB	_	_	0	root	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
-4	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-5	不	不	ADV	_	_	7	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
-6	愛	愛	AUX	_	_	7	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-7	上課	上課	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit=shàngkè|LTranslit=shàngkè
+4	我	我	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+5	不	不	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+6	愛	愛	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+7	上課	上課	VERB	_	_	6	xcomp	_	SpaceAfter=No|Translit=shàngkè|LTranslit=shàngkè
 8	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
 # sent_id = 179
@@ -2155,11 +2155,11 @@
 # sent_id = 222
 # text = 阿哥愛聽陳奕迅，我就一起聽陳奕迅。
 # translit = 'āgē'àitīngchén奕xùn,wǒjiùyīqǐtīngchén奕xùn.
-1	阿哥	阿哥	NOUN	_	_	3	nsubj	_	SpaceAfter=No|Translit='āgē|LTranslit='āgē
-2	愛	愛	AUX	_	_	3	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-3	聽	聽	VERB	_	_	9	advcl	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
-4	陳奕迅	陳奕迅	PROPN	_	_	3	obj	_	SpaceAfter=No|Translit=chén奕xùn|LTranslit=chén奕xùn
-5	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+1	阿哥	阿哥	NOUN	_	_	2	nsubj	_	SpaceAfter=No|Translit='āgē|LTranslit='āgē
+2	愛	愛	VERB	_	_	9	advcl	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+3	聽	聽	VERB	_	_	2	xcomp	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
+4	陳奕迅	陳奕迅	PROPN	_	_	2	obj	_	SpaceAfter=No|Translit=chén奕xùn|LTranslit=chén奕xùn
+5	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	我	我	PRON	_	_	9	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 7	就	就	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 8	一起	一起	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
@@ -4143,10 +4143,10 @@
 9	我	我	PRON	_	_	16	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 10	就	就	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 11	是	是	AUX	_	_	16	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
-12	愛	愛	AUX	_	_	13	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-13	出去	出去	VERB	_	_	16	acl	_	SpaceAfter=No|Translit=chūqù|LTranslit=chūqù
+12	愛	愛	VERB	_	_	16	acl	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+13	出去	出去	VERB	_	_	12	xcomp	_	SpaceAfter=No|Translit=chūqù|LTranslit=chūqù
 14	玩	玩	VERB	_	_	13	conj	_	SpaceAfter=No|Translit=wán|LTranslit=wán
-15	的	的	PART	_	_	13	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+15	的	的	PART	_	_	12	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 16	性格	性格	NOUN	_	_	7	parataxis	_	SpaceAfter=No|Translit=xìnggé|LTranslit=xìnggé
 17	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
@@ -4820,16 +4820,16 @@
 9	我	我	PRON	_	_	16	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 10	就	就	ADV	_	_	16	advmod	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
 11	是	是	AUX	_	_	16	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
-12	愛	愛	AUX	_	_	13	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-13	出去	出去	VERB	_	_	16	acl	_	SpaceAfter=No|Translit=chūqù|LTranslit=chūqù
+12	愛	愛	VERB	_	_	16	acl	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+13	出去	出去	VERB	_	_	12	xcomp	_	SpaceAfter=No|Translit=chūqù|LTranslit=chūqù
 14	玩	玩	VERB	_	_	13	conj	_	SpaceAfter=No|Translit=wán|LTranslit=wán
-15	的	的	PART	_	_	13	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+15	的	的	PART	_	_	12	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
 16	性格	性格	NOUN	_	_	7	conj	_	SpaceAfter=No|Translit=xìnggé|LTranslit=xìnggé
-17	，	，	PUNCT	_	_	20	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 18	不	不	ADV	_	_	19	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
-19	愛	愛	AUX	_	_	20	aux	_	SpaceAfter=No|Translit='ài|LTranslit='ài
-20	做	做	VERB	_	_	16	parataxis	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
-21	家務	家務	NOUN	_	_	20	obj	_	SpaceAfter=No|Translit=jiāwu|LTranslit=jiāwu
+19	愛	愛	VERB	_	_	16	parataxis	_	SpaceAfter=No|Translit='ài|LTranslit='ài
+20	做	做	VERB	_	_	19	xcomp	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+21	家務	家務	NOUN	_	_	19	obj	_	SpaceAfter=No|Translit=jiāwu|LTranslit=jiāwu
 22	、	、	PUNCT	_	_	23	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 23	帶	帶	VERB	_	_	20	conj	_	SpaceAfter=No|Translit=dài|LTranslit=dài
 24	小孩	小孩	NOUN	_	_	23	obj	_	SpaceAfter=No|Translit=xiǎohái|LTranslit=xiǎohái
