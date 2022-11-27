@@ -7348,7 +7348,7 @@
 # text = 有無想念我呢？
 # translit = yǒuwúxiǎngniànwǒne?
 1	有	有	AUX	_	_	3	aux	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
-2	無	無	AUX	_	_	1	conj	_	SpaceAfter=No|Translit=wú|LTranslit=wú
+2	無	無	PART	_	Polarity=Neg	3	advmod	_	SpaceAfter=No|Translit=wú|LTranslit=wú
 3	想念	想念	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xiǎngniàn|LTranslit=xiǎngniàn
 4	我	我	PRON	_	_	3	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 5	呢	呢	PART	_	_	3	discourse:sp	_	SpaceAfter=No|Translit=ne|LTranslit=ne
