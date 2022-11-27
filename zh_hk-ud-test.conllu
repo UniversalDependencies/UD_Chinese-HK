@@ -2680,12 +2680,12 @@
 # text = 這些流行曲我不懂欣賞。
 # translit = zhèxiēliúxíngqūwǒbùdǒngxīnshǎng.
 1	這些	這些	DET	_	_	2	det	_	SpaceAfter=No|Translit=zhèxiē|LTranslit=zhèxiē
-2	流行曲	流行曲	NOUN	_	_	6	obj:periph	_	SpaceAfter=No|Translit=liúxíngqū|LTranslit=liúxíngqū
-3	我	我	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-4	不	不	ADV	_	_	6	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
-5	懂	懂	AUX	_	_	6	aux	_	SpaceAfter=No|Translit=dǒng|LTranslit=dǒng
-6	欣賞	欣賞	VERB	_	_	0	root	_	SpaceAfter=No|Translit=xīnshǎng|LTranslit=xīnshǎng
-7	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+2	流行曲	流行曲	NOUN	_	_	5	obj:periph	_	SpaceAfter=No|Translit=liúxíngqū|LTranslit=liúxíngqū
+3	我	我	PRON	_	_	5	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+4	不	不	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+5	懂	懂	VERB	_	_	0	root	_	SpaceAfter=No|Translit=dǒng|LTranslit=dǒng
+6	欣賞	欣賞	VERB	_	_	5	xcomp	_	SpaceAfter=No|Translit=xīnshǎng|LTranslit=xīnshǎng
+7	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 265
 # text = 都不知有什麼好聽。
