@@ -18,7 +18,7 @@
     <tag name="ADJ">301</tag><!-- 好, 第一, 新, 第二, 對, 大, 高, 一樣, 不同, 正式 -->
     <tag name="ADP">321</tag><!-- 在, 給, 到, 跟, 向, 按照, 對, 根據, 後, 就 -->
     <tag name="ADV">1158</tag><!-- 不, 就, 都, 也, 很, 已, 便, 未, 剛才, 但 -->
-    <tag name="AUX">472</tag><!-- 是, 要, 了, 能, 可以, 會, 想, 過, 能夠, 應該 -->
+    <tag name="AUX">471</tag><!-- 是, 要, 了, 能, 可以, 會, 想, 過, 能夠, 應該 -->
     <tag name="CCONJ">99</tag><!-- 或, 而, 和, 但, 及, 並, 與, 不過, 以及, 但是 -->
     <tag name="DET">260</tag><!-- 這, 那, 什麼, 其他, 每, 任何, 這些, 所有, 多, 這個 -->
     <tag name="INTJ">34</tag><!-- 喂, 哦, 再見, 哈哈, 唉, 唉呀, 不好意思, 哇, 哎也, 哎吔 -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">1738</tag><!-- 。, ，, ！, ？, ……, 《, 》, 、, 「, 」 -->
     <tag name="SCONJ">68</tag><!-- 如果, 即使, 所, 來, 以, 無論, 的話, 雖然, 既然, 一旦 -->
     <tag name="SYM">1</tag><!-- ＋ -->
-    <tag name="VERB">1871</tag><!-- 有, 是, 說, 沒有, 做, 請, 看, 去, 議事, 進行 -->
+    <tag name="VERB">1872</tag><!-- 有, 是, 說, 沒有, 做, 請, 看, 去, 議事, 進行 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="2">
@@ -44,7 +44,7 @@
     <dep name="advmod">1166</dep>
     <dep name="amod">128</dep>
     <dep name="appos">21</dep>
-    <dep name="aux">350</dep>
+    <dep name="aux">349</dep>
     <dep name="aux:pass">2</dep>
     <dep name="case">375</dep>
     <dep name="case:loc">39</dep>
@@ -83,6 +83,6 @@
     <dep name="reparandum">3</dep>
     <dep name="root">1004</dep>
     <dep name="vocative">48</dep>
-    <dep name="xcomp">151</dep>
+    <dep name="xcomp">152</dep>
   </deps>
 </treebank>

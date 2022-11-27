@@ -8459,10 +8459,10 @@
 1	還	還	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=hái|LTranslit=hái
 2	要	要	AUX	_	_	3	aux	_	SpaceAfter=No|Translit=yào|LTranslit=yào
 3	感謝	感謝	VERB	_	_	0	root	_	SpaceAfter=No|Translit=gǎnxiè|LTranslit=gǎnxiè
-4	你	你	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
-5	試圖	試圖	AUX	_	_	6	aux	_	SpaceAfter=No|Translit=shìtú|LTranslit=shìtú
-6	安排	安排	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit='ānpái|LTranslit='ānpái
-7	我們	我	PRON	_	_	6	obj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
+4	你	你	PRON	_	_	5	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
+5	試圖	試圖	VERB	_	_	3	ccomp	_	SpaceAfter=No|Translit=shìtú|LTranslit=shìtú
+6	安排	安排	VERB	_	_	5	xcomp	_	SpaceAfter=No|Translit='ānpái|LTranslit='ānpái
+7	我們	我	PRON	_	_	5	obj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 8	到	到	ADP	_	_	9	case	_	SpaceAfter=No|Translit=dào|LTranslit=dào
 9	會議廳	會議廳	NOUN	_	_	11	obl	_	SpaceAfter=No|Translit=huìyìtīng|LTranslit=huìyìtīng
 10	外	外	NOUN	_	_	9	case:loc	_	SpaceAfter=No|Translit=wài|LTranslit=wài
