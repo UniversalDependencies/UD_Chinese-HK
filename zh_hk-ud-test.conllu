@@ -1064,11 +1064,11 @@
 # translit = dànyòupàgěinǐmenfāxiàn.
 1	但	但	CCONJ	_	_	2	advmod	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
 2	又	又	ADV	_	_	3	advmod	_	SpaceAfter=No|Translit=yòu|LTranslit=yòu
-3	怕	怕	AUX	_	_	6	aux	_	SpaceAfter=No|Translit=pà|LTranslit=pà
+3	怕	怕	VERB	_	_	0	root	_	SpaceAfter=No|Translit=pà|LTranslit=pà
 4	給	給	ADP	_	_	5	case	_	SpaceAfter=No|Translit=gěi|LTranslit=gěi
-5	你們	你們	PRON	_	_	6	obl	_	SpaceAfter=No|Translit=nǐmen|LTranslit=nǐmen
-6	發現	發現	VERB	_	_	0	root	_	SpaceAfter=No|Translit=fāxiàn|LTranslit=fāxiàn
-7	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+5	你們	你們	PRON	_	_	3	obl	_	SpaceAfter=No|Translit=nǐmen|LTranslit=nǐmen
+6	發現	發現	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=fāxiàn|LTranslit=fāxiàn
+7	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 112
 # text = 兩兄妹都這樣。
