@@ -1231,15 +1231,15 @@
 # translit = nàtiānkāishǐ,wǒmendǒngdewánzhègèyóuxì.
 1	那	那	DET	_	_	2	det	_	SpaceAfter=No|Translit=nà|LTranslit=nà
 2	天	天	NOUN	_	NounType=Clf	3	obl:tmod	_	SpaceAfter=No|Translit=tiān|LTranslit=tiān
-3	開始	開始	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
+3	開始	開始	VERB	_	_	6	advcl	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
 4	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 5	我們	我	PRON	_	_	3	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
-6	懂得	懂得	AUX	_	_	7	aux	_	SpaceAfter=No|Translit=dǒngde|LTranslit=dǒngde
-7	玩	玩	VERB	_	_	0	root	_	SpaceAfter=No|Translit=wán|LTranslit=wán
+6	懂得	懂得	VERB	_	_	0	root	_	SpaceAfter=No|Translit=dǒngde|LTranslit=dǒngde
+7	玩	玩	VERB	_	_	6	xcomp	_	SpaceAfter=No|Translit=wán|LTranslit=wán
 8	這	這	DET	_	_	10	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
 9	個	個	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
-10	遊戲	遊戲	NOUN	_	_	7	obj	_	SpaceAfter=No|Translit=yóuxì|LTranslit=yóuxì
-11	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+10	遊戲	遊戲	NOUN	_	_	6	obj	_	SpaceAfter=No|Translit=yóuxì|LTranslit=yóuxì
+11	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 130
 # text = 一般每二十多張白卡便出一張閃卡。
@@ -1261,8 +1261,8 @@
 # translit = wǒmenkāishǐdǒngdegēnduì.
 1	我們	我	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 2	開始	開始	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
-3	懂得	懂得	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=dǒngde|LTranslit=dǒngde
-4	跟隊	跟隊	VERB	_	_	2	xcomp	_	SpaceAfter=No|Translit=gēnduì|LTranslit=gēnduì
+3	懂得	懂得	VERB	_	_	2	xcomp	_	SpaceAfter=No|Translit=dǒngde|LTranslit=dǒngde
+4	跟隊	跟隊	VERB	_	_	3	xcomp	_	SpaceAfter=No|Translit=gēnduì|LTranslit=gēnduì
 5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 132
