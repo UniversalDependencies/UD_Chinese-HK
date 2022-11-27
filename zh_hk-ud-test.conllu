@@ -4641,7 +4641,7 @@
 3	一	一	NUM	_	_	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 4	個	個	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
 5	女人	女人	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=nǚrén|LTranslit=nǚrén
-6	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 7	體力	體力	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Translit=tǐlì|LTranslit=tǐlì
 8	有限	有限	VERB	_	_	5	conj	_	SpaceAfter=No|Translit=yǒuxiàn|LTranslit=yǒuxiàn
 9	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
