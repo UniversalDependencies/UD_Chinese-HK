@@ -68,6 +68,7 @@ Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LE
   * Fixed: Nominal cannot be advmod.
   * Added pinyin transcription.
   * Added lemmas.
+  * Scaled down the set of copulas and other auxiliaries.
 * 2019-03-10 v1.51
   * Some errors fixed
 * 2019-03-03 v.1.5
