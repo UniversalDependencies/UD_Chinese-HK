@@ -1513,7 +1513,7 @@
 # translit = nǐháiméichūshì!
 1	你	你	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	還	還	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=hái|LTranslit=hái
-3	沒	沒	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+3	沒	沒	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 4	出世	出世	VERB	_	_	0	root	_	SpaceAfter=No|Translit=chūshì|LTranslit=chūshì
 5	！	！	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=!|LTranslit=!
 
@@ -2075,7 +2075,7 @@
 # sent_id = 216
 # text = 沒聽過吧！
 # translit = méitīngguòba!
-1	沒	沒	AUX	_	_	2	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+1	沒	沒	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 2	聽	聽	VERB	_	_	0	root	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
 3	過	過	AUX	_	_	2	aux	_	SpaceAfter=No|Translit=guò|LTranslit=guò
 4	吧	吧	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Translit=ba|LTranslit=ba
@@ -2375,12 +2375,12 @@
 # text = 你沒一起聽嗎？沒一起唱嗎？
 # translit = nǐméiyīqǐtīngma?méiyīqǐchàngma?
 1	你	你	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
-2	沒	沒	AUX	_	_	4	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+2	沒	沒	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 3	一起	一起	ADV	_	_	4	advmod	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
 4	聽	聽	VERB	_	_	0	root	_	SpaceAfter=No|Translit=tīng|LTranslit=tīng
 5	嗎	嗎	PART	_	_	4	discourse:sp	_	SpaceAfter=No|Translit=ma|LTranslit=ma
 6	？	？	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
-7	沒	沒	AUX	_	_	9	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+7	沒	沒	PART	_	Polarity=Neg	9	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 8	一起	一起	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
 9	唱	唱	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=chàng|LTranslit=chàng
 10	嗎	嗎	PART	_	_	9	discourse:sp	_	SpaceAfter=No|Translit=ma|LTranslit=ma
@@ -3282,7 +3282,7 @@
 4	之後	之後	ADP	_	_	2	case:loc	_	SpaceAfter=No|Translit=zhīhòu|LTranslit=zhīhòu
 5	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 6	哥哥	哥哥	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Translit=gēgē|LTranslit=gēgē
-7	沒	沒	AUX	_	_	9	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+7	沒	沒	PART	_	Polarity=Neg	9	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 8	再	再	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=zài|LTranslit=zài
 9	買	買	VERB	_	_	0	root	_	SpaceAfter=No|Translit=mǎi|LTranslit=mǎi
 10	過	過	AUX	_	_	9	aux	_	SpaceAfter=No|Translit=guò|LTranslit=guò
@@ -6650,7 +6650,7 @@
 # sent_id = 579
 # text = 沒試過嘛。
 # translit = méishìguòma.
-1	沒	沒	AUX	_	_	2	aux	_	SpaceAfter=No|Translit=méi|LTranslit=méi
+1	沒	沒	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No|Translit=méi|LTranslit=méi
 2	試	試	VERB	_	_	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 3	過	過	AUX	_	_	2	aux	_	SpaceAfter=No|Translit=guò|LTranslit=guò
 4	嘛	嘛	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Translit=ma|LTranslit=ma

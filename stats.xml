@@ -18,13 +18,13 @@
     <tag name="ADJ">301</tag><!-- 好, 第一, 新, 第二, 對, 大, 高, 一樣, 不同, 正式 -->
     <tag name="ADP">321</tag><!-- 在, 給, 到, 跟, 向, 按照, 對, 根據, 後, 就 -->
     <tag name="ADV">1158</tag><!-- 不, 就, 都, 也, 很, 已, 便, 未, 剛才, 但 -->
-    <tag name="AUX">494</tag><!-- 是, 要, 了, 能, 可以, 會, 想, 過, 能夠, 應該 -->
+    <tag name="AUX">488</tag><!-- 是, 要, 了, 能, 可以, 會, 想, 過, 能夠, 應該 -->
     <tag name="CCONJ">99</tag><!-- 或, 而, 和, 但, 及, 並, 與, 不過, 以及, 但是 -->
     <tag name="DET">260</tag><!-- 這, 那, 什麼, 其他, 每, 任何, 這些, 所有, 多, 這個 -->
     <tag name="INTJ">34</tag><!-- 喂, 哦, 再見, 哈哈, 唉, 唉呀, 不好意思, 哇, 哎也, 哎吔 -->
     <tag name="NOUN">1766</tag><!-- 議員, 主席, 個, 問題, 會議, 人, 規則, 立法會, 程序, 現在 -->
     <tag name="NUM">177</tag><!-- 一, 兩, 三, 三十, 五, 十, 一百, 二, 四, 二十 -->
-    <tag name="PART">560</tag><!-- 的, 了, 嗎, 吧, 呢, 啊, 呀, 啦, 得, 地 -->
+    <tag name="PART">566</tag><!-- 的, 了, 嗎, 吧, 呢, 啊, 呀, 啦, 得, 地 -->
     <tag name="PRON">875</tag><!-- 我, 你, 他, 大家, 這, 自己, 這裡, 什麼, 別人, 你們 -->
     <tag name="PROPN">166</tag><!-- 梁君彥, 香港, 陳奕迅, 廟街, 梁頌恒, 楊千嬅, 毛孟靜, 英國, 梁, 豪仔 -->
     <tag name="PUNCT">1738</tag><!-- 。, ，, ！, ？, ……, 《, 》, 、, 「, 」 -->
@@ -33,17 +33,18 @@
     <tag name="VERB">1856</tag><!-- 有, 是, 說, 沒有, 做, 請, 看, 去, 議事, 進行 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="1">
+  <feats unique="2">
     <feat name="NounType" value="Clf" upos="NOUN">270</feat><!-- 個, 位, 元, 條, 塊, 次, 天, 點, 分鐘, 張 -->
+    <feat name="Polarity" value="Neg" upos="PART">6</feat><!-- 沒 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
     <dep name="acl">178</dep>
     <dep name="advcl">233</dep>
-    <dep name="advmod">1159</dep>
+    <dep name="advmod">1165</dep>
     <dep name="amod">128</dep>
     <dep name="appos">21</dep>
-    <dep name="aux">366</dep>
+    <dep name="aux">360</dep>
     <dep name="aux:pass">2</dep>
     <dep name="case">375</dep>
     <dep name="case:loc">39</dep>
