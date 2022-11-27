@@ -70,6 +70,7 @@ Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LE
   * Added lemmas.
   * Scaled down the set of copulas and other auxiliaries.
   * Fixed: function words must be leaves.
+  * Fixed: at most one subject per clause.
 * 2019-03-10 v1.51
   * Some errors fixed
 * 2019-03-03 v.1.5

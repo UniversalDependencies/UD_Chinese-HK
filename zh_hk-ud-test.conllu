@@ -563,11 +563,11 @@
 # sent_id = 60
 # text = 我默書一百分。
 # translit = wǒmòshūyībǎifēn.
-1	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-2	默書	默書	VERB	_	_	4	nsubj	_	SpaceAfter=No|Translit=mòshū|LTranslit=mòshū
+1	我	我	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+2	默書	默書	VERB	_	_	0	root	_	SpaceAfter=No|Translit=mòshū|LTranslit=mòshū
 3	一百	一百	NUM	_	_	4	nummod	_	SpaceAfter=No|Translit=yībǎi|LTranslit=yībǎi
-4	分	分	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Translit=fēn|LTranslit=fēn
-5	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+4	分	分	NOUN	_	NounType=Clf	2	obl	_	SpaceAfter=No|Translit=fēn|LTranslit=fēn
+5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 61
 # text = 讓我看看。
@@ -4636,23 +4636,23 @@
 # sent_id = 445
 # text = 不過我自己一個女人，體力有限，拉不動，找人幫忙。
 # translit = bùguòwǒzìjǐyīgènǚrén,tǐlìyǒuxiàn,lābùdòng,zhǎorénbāngmáng.
-1	不過	不過	ADV	_	_	8	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
-2	我自己	我自己	PRON	_	_	8	nsubj	_	SpaceAfter=No|Translit=wǒzìjǐ|LTranslit=wǒzìjǐ
+1	不過	不過	ADV	_	_	5	advmod	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
+2	我自己	我自己	PRON	_	_	5	nsubj	_	SpaceAfter=No|Translit=wǒzìjǐ|LTranslit=wǒzìjǐ
 3	一	一	NUM	_	_	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 4	個	個	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
-5	女人	女人	NOUN	_	_	2	appos	_	SpaceAfter=No|Translit=nǚrén|LTranslit=nǚrén
+5	女人	女人	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=nǚrén|LTranslit=nǚrén
 6	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 7	體力	體力	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Translit=tǐlì|LTranslit=tǐlì
-8	有限	有限	VERB	_	_	0	root	_	SpaceAfter=No|Translit=yǒuxiàn|LTranslit=yǒuxiàn
+8	有限	有限	VERB	_	_	5	conj	_	SpaceAfter=No|Translit=yǒuxiàn|LTranslit=yǒuxiàn
 9	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-10	拉	拉	VERB	_	_	8	conj	_	SpaceAfter=No|Translit=lā|LTranslit=lā
+10	拉	拉	VERB	_	_	5	conj	_	SpaceAfter=No|Translit=lā|LTranslit=lā
 11	不	不	ADV	_	_	12	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
 12	動	動	VERB	_	_	10	compound:vv	_	SpaceAfter=No|Translit=dòng|LTranslit=dòng
 13	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-14	找	找	VERB	_	_	8	conj	_	SpaceAfter=No|Translit=zhǎo|LTranslit=zhǎo
+14	找	找	VERB	_	_	5	conj	_	SpaceAfter=No|Translit=zhǎo|LTranslit=zhǎo
 15	人	人	NOUN	_	_	14	obj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
 16	幫忙	幫忙	VERB	_	_	14	acl	_	SpaceAfter=No|Translit=bāngmáng|LTranslit=bāngmáng
-17	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+17	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
 
 # sent_id = 446
 # text = 我做這行業，脾氣都變好了！
@@ -10304,7 +10304,7 @@
 # text = 第三點，至於大家質疑梁君彥議員的國籍問題，我早已很關心此事，並多次請梁議員澄清，要求他確認。
 # translit = dìsāndiǎn,zhìyúdàjiāzhìyíliángjūn彥yìyuándeguójíwèntí,wǒzǎoyǐhěnguānxīncǐshì,bìngduōcìqǐngliángyìyuán澄qīng,yàoqiútāquèrèn.
 1	第三	第三	ADJ	_	_	2	amod	_	SpaceAfter=No|Translit=dìsān|LTranslit=dìsān
-2	點	點	NOUN	_	NounType=Clf	17	nsubj	_	SpaceAfter=No|Translit=diǎn|LTranslit=diǎn
+2	點	點	NOUN	_	NounType=Clf	17	obl	_	SpaceAfter=No|Translit=diǎn|LTranslit=diǎn
 3	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 4	至於	至於	ADP	_	_	6	mark	_	SpaceAfter=No|Translit=zhìyú|LTranslit=zhìyú
 5	大家	大家	PRON	_	_	6	nsubj	_	SpaceAfter=No|Translit=dàjiā|LTranslit=dàjiā
@@ -11222,7 +11222,7 @@
 # translit = dì'èrgèwèntí,wǒmenxiànzàishàngwèinòngqīngchuduōshǎoyìyuánnénggòutóupiào.
 1	第二	第二	ADJ	_	_	3	amod	_	SpaceAfter=No|Translit=dì'èr|LTranslit=dì'èr
 2	個	個	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
-3	問題	問題	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
+3	問題	問題	NOUN	_	_	9	dislocated	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
 4	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 5	我們	我	PRON	_	_	9	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
 6	現在	現在	NOUN	_	_	9	obl:tmod	_	SpaceAfter=No|Translit=xiànzài|LTranslit=xiànzài
@@ -12134,7 +12134,7 @@
 1	主席	主席	NOUN	_	_	9	vocative	_	SpaceAfter=No|Translit=zhǔxí|LTranslit=zhǔxí
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 3	那麼	那麼	ADV	_	_	9	advmod	_	SpaceAfter=No|Translit=nàme|LTranslit=nàme
-4	我	我	PRON	_	_	9	nsubj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
+4	我	我	PRON	_	_	8	nmod	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
 5	下	下	DET	_	_	8	det	_	SpaceAfter=No|Translit=xià|LTranslit=xià
 6	一	一	NUM	_	_	8	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
 7	個	個	NOUN	_	NounType=Clf	6	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
@@ -12842,7 +12842,7 @@
 1	你	你	PRON	_	_	2	nsubj	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
 2	問	問	VERB	_	_	0	root	_	SpaceAfter=No|Translit=wèn|LTranslit=wèn
 3	我	我	PRON	_	_	2	obj	_	SpaceAfter=No|Translit=wǒ|LTranslit=wǒ
-4	理據	理據	NOUN	_	_	12	nsubj	_	SpaceAfter=No|Translit=lǐjù|LTranslit=lǐjù
+4	理據	理據	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Translit=lǐjù|LTranslit=lǐjù
 5	是	是	AUX	_	_	6	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
 6	甚麼	甚麼	PRON	_	_	2	ccomp	_	SpaceAfter=No|Translit=shénme|LTranslit=shénme
 7	，	，	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
