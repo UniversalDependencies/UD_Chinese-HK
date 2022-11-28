@@ -84,7 +84,7 @@ Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: spoken
-Lemmas: not available
+Lemmas: automatic with corrections
 UPOS: manual native
 XPOS: not available
 Features: manual native
