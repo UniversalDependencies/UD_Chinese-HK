@@ -1,52 +1,40 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Chinese-HK:
-commit 62fa1340d14f0228ecfbc14f19010dffd6bd36dc
+commit 74ea21456c5a3008b4b46c28595004d35053a726
+Merge: 54396ba 7764555
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 13:45:29 2022 +0200
 Size: counted 9874 of 9874 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.57981007967334.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Did not find at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
+Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 270 out of 9874 total words have one or more features.
+Features: 336 out of 9874 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3220
-Udapi: found 3220 bugs.
+               TOTAL       3215
+Udapi: found 3215 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 9874 words.
 Genres: found 1 out of 17 known.
-validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
-[Line 6 Sent 1 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 193 Sent 19 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:愛:aux --> 2:不:advmod)
-[Line 509 Sent 60 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 2]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 941 Sent 110 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:能:aux --> 2:不:advmod)
-[Line 955 Sent 111 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:怕:aux --> 2:又:advmod)
-[Line 979 Sent 113 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 1433 Sent 166 Node 8]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
-[Line 1969 Sent 223 Node 20]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 2365 Sent 260 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-...suppressing further errors regarding Syntax
-Syntax errors: 77
-*** FAILED *** with 77 errors
-Exit code: 1
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
+(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
 (weight=0.256410256410256) * (score{size}=0.331497707627837) = 0.084999412212266
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.253807451020305) * (availability=1) * (validity=0.01) = 0.00253807451020305
-STARS = 0
-UD_Chinese-HK	0.00253807451020305	0
+(TOTAL score=0.291499758712613) * (availability=1) * (validity=1) = 0.291499758712613
+STARS = 1.5
+UD_Chinese-HK	0.291499758712613	1.5
