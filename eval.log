@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Chinese-HK:
-commit 59b9ad8c73df5892743321720aba0f0acef557a4
+commit 24504fec28e158783afbe0c1ae4d9ed0febe7117
+Merge: 77e1976 f73de89
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:36:27 2023 +0100
 Size: counted 9874 of 9874 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.57981007967334.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,11 @@ Udapi: found 3215 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 9874 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
+[Line 9841 Sent 791 Node 8]: [L3 Warning leaf-clf] 'clf' not expected to have children (8:數:clf --> 9:位:clf)
+[Line 9934 Sent 796 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:數:clf --> 3:位:clf)
+[Line 10279 Sent 813 Node 16]: [L3 Warning leaf-clf] 'clf' not expected to have children (16:次:clf --> 14:多:amod)
+[Line 10765 Sent 835 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:另:det --> 2:一:nummod)
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
