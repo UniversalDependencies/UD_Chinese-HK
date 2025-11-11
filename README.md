@@ -61,6 +61,10 @@ Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative 
 Herman LEUNG, Rafaël POIRET, Tak-sum WONG, Xinying CHEN, Kim GERDES and John LEE. "Developing Universal Dependencies for Mandarin Chinese" Proceedings of the 12th Workshop on Asian Language Resources, pp. 20−29, Osaka, Japan, December 2016.
 
 # Changelog
+
+* 2025-09-12 v2.16
+  * add parallel corpus information to machine-readable metadata
+  * add parallel data support with parallel_id metadata
 * 2024-11-15 v2.15
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
 
@@ -86,6 +90,7 @@ Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: hk
 Genre: spoken
 Lemmas: automatic with corrections
 UPOS: manual native
