@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Chinese-HK:
-commit 545794705beb7468fab882e893adabfadd77691f
-Merge: 8d8d592 72dbb27
+commit 77ecd3ca188a59e53385f9fffd13219952187d03
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:56:38 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'zh_hk'
 Language code (from CoNLL-U file name) = 'zh'
@@ -25,26 +25,26 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-HK/zh_hk-ud-test.conllu
-[Line 5 Sent 1]: [L3 Warning pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 9 Sent 1]: [L3 Warning pron-det-without-prontype] The word '什麼 shénme' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 24 Sent 2]: [L3 Warning pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 82 Sent 7]: [L3 Warning pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 95 Sent 7]: [L3 Warning pron-det-without-prontype] The word '我們 wǒmen' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 103 Sent 8]: [L3 Warning pron-det-without-prontype] The word '這些 zhèxiē' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 128 Sent 10]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 144 Sent 11]: [L3 Warning pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 150 Sent 11]: [L3 Warning pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 165 Sent 12]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 1691 Sent 159]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('他 tā', '歲 suì') under the predicate '小 xiǎo'.
-[Line 8458 Sent 673]: [L3 Syntax too-many-objects] Multiple direct objects [4, 10] ('同事 tóngshì', '秘書 mìshū') under the predicate '請 qǐng'.
-[Line 10632 Sent 791]: [L3 Syntax leaf-clf] 'clf' not expected to have children (8:數:clf --> 9:位:clf)
-[Line 10730 Sent 796]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:數:clf --> 3:位:clf)
-[Line 11092 Sent 813]: [L3 Syntax leaf-clf] 'clf' not expected to have children (16:次:clf --> 14:多:amod)
-[Line 11600 Sent 835]: [L3 Syntax leaf-det] 'det' not expected to have children (1:另:det --> 2:一:nummod)
-[Line 12162 Sent 860]: [L3 Syntax too-many-objects] Multiple direct objects [10, 15] ('規則 guīzé', '精神 jīngshén') under the predicate '違反 wéifǎn'.
-Syntax errors: 7
+[Line 5 Sent 1]: [L3 WARNING pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 9 Sent 1]: [L3 WARNING pron-det-without-prontype] The word '什麼 shénme' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 24 Sent 2]: [L3 WARNING pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 82 Sent 7]: [L3 WARNING pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 95 Sent 7]: [L3 WARNING pron-det-without-prontype] The word '我們 wǒmen' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 103 Sent 8]: [L3 WARNING pron-det-without-prontype] The word '這些 zhèxiē' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 128 Sent 10]: [L3 WARNING pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 144 Sent 11]: [L3 WARNING pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 150 Sent 11]: [L3 WARNING pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 165 Sent 12]: [L3 WARNING pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1691 Sent 159]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 6] ('他 tā', '歲 suì') under the predicate '小 xiǎo'.
+[Line 8458 Sent 673]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 10] ('同事 tóngshì', '秘書 mìshū') under the predicate '請 qǐng'.
+[Line 10632 Sent 791]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (8:數:clf --> 9:位:clf)
+[Line 10730 Sent 796]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (2:數:clf --> 3:位:clf)
+[Line 11092 Sent 813]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (16:次:clf --> 14:多:amod)
+[Line 11600 Sent 835]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:另:det --> 2:一:nummod)
+[Line 12162 Sent 860]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 15] ('規則 guīzé', '精神 jīngshén') under the predicate '違反 wéifǎn'.
 Warnings: 1135
+SYNTAX errors: 7
 *** FAILED *** with 7 errors
 Exit code: 1
 Validity: 0.01
